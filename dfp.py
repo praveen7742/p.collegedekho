@@ -3,15 +3,18 @@ import unittest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait as W
 from selenium.webdriver.support import expected_conditions as E
+from webdriver_manager.chrome import ChromeDriverManager
 import time
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 class dfp(unittest.TestCase):
     
     def test_dfpnews(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        
+        self.driver = driver
         driver.maximize_window()
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/news?magicflag=1")
+        driver.get("https:www.collegedekho.com/news?magicflag=1")
         print("----------------------------------------------News Listing---------------------------------")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
@@ -34,10 +37,9 @@ class dfp(unittest.TestCase):
         
 
     def test_dfpstream(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/engineering-stream/?magicflag=1")
+        driver.get("https://www.collegedekho.com/engineering-stream/?magicflag=1")
         print("----------------------------------------------Stream ---------------------------------")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
@@ -59,11 +61,10 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpcourses(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------Course Listing---------------------------------")
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/courses/?magicflag=1")
+        driver.get("https://www.collegedekho.com/courses/?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -84,12 +85,11 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpcoursesdetail(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("--------------------------------Course Detail------------------------------------------")
         time.sleep(2)
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/courses/btech/?magicflag=1")
+        driver.get("https://www.collegedekho.com/courses/btech/?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -110,11 +110,10 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpexamlisting(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------Exam Listing---------------------------------")
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/test-preparation/?magicflag=1")
+        driver.get("https://www.collegedekho.com/test-preparation/?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -135,11 +134,10 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpQnalisting(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------Qna Listing---------------------------------")
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/qna/?magicflag=1")
+        driver.get("https://www.collegedekho.com/qna/?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -159,11 +157,10 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpQnadetail(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------Qna Detail---------------------------------")
-        driver.get("https://user:pass@cd-2682-dfp-hz.collegedekho.com/qna/i-want-to-know-about-the-eligibility-requirements-for-pursuing-btech-at-alliance-university")
+        driver.get("https://www.collegedekho.com/qna/i-want-to-know-about-the-eligibility-requirements-for-pursuing-btech-at-alliance-university")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -182,11 +179,10 @@ class dfp(unittest.TestCase):
         driver.switch_to_window(parentwindow)
 
     def test_dfpcollegelisting(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------College Lising---------------------------------")
-        driver.get("https://user:pass@staging-hz.collegedekho.com/colleges-in-india/?magicflag=1")
+        driver.get("https://www.collegedekho.com/colleges-in-india/?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -206,11 +202,10 @@ class dfp(unittest.TestCase):
         driver.quit()
 
     def test_dfpcollegedetail(self):
-        expath = "/home/praveen/Downloads/chromedriver"
-        driver = webdriver.Chrome(executable_path=expath)
+        self.driver = driver
         driver.maximize_window()
         print("----------------------------------------------College Detail---------------------------------")
-        driver.get("https://user:pass@staging-hz.collegedekho.com/colleges/iima?magicflag=1")
+        driver.get("https://www.collegedekho.com/colleges/iima?magicflag=1")
         print("current url = " + driver.current_url)
         print("current title = " + driver.title)
         frames = driver.find_elements_by_tag_name("iframe")
@@ -228,6 +223,9 @@ class dfp(unittest.TestCase):
         parentwindow = driver.window_handles[0]
         driver.switch_to_window(parentwindow)
         driver.quit()
+
+    def tearDown(self):
+        self.driver.quit()
 
 
 if __name__ == '__main__':
