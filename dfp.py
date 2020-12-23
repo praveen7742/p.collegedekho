@@ -4,11 +4,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait as W
 from selenium.webdriver.support import expected_conditions as E
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 import time
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+chrome_options = Options()
+chrome_options.headless = True
+chrome_options.add_argument("--headless") 
+#driver = webdriver.Chrome(options=chrome_options)  
+driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
 
-class dfp(unittest.TestCase):
+
+class dfp(unittest.TestCase):   
     
     def test_dfpnews(self):
         
