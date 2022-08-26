@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
 
-class Login(logs,Baseclass):
+class Login(CTA,logs,Baseclass):
     def test_login(self):
         self.test_log()             #log setup
     
@@ -24,12 +24,7 @@ class Login(logs,Baseclass):
         
         time.sleep(2)
 
-        #Talk to expert 1 cta
-        # driver.execute_script("window.scrollTo(0, 2700)") 
-        # time.sleep(2)
-        #object of Actions class to scroll up and down
-        # action = ActionChains(driver)
-        # action.sendKeys(Keys.PAGE_DOWN).perform()
+
 
 
         Talk_experts = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Talk to our Experts'])[1]"))
@@ -37,13 +32,16 @@ class Login(logs,Baseclass):
         time.sleep(2)
 
         Talk_experts.send_keys(Keys.PAGE_UP)
-        self.logger.info(Talk_experts.text)
+        self.logger.info("CTA : " + Talk_experts.text)
         Talk_experts.click()
         time.sleep(3)
-        self.logger.info(Talk_experts.get_attribute("class"))
+        self.logger.info("CTA Class: " + Talk_experts.get_attribute("class"))
         time.sleep(2)
-        self.cta_detail(self.driver)
+        self.cta_detail()
         time.sleep(3)
+        
+
+        
 
         #Whatsapp Enabled button
 
