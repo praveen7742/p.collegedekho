@@ -37,9 +37,9 @@ def setup(request):
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--ignore-certificate-errors')
         
-        #driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
-        ser = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service = ser , options=chrome_options)
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # ser = Service(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(service = ser)# , options=chrome_options)
 
     elif browser_name == "firefox":
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
