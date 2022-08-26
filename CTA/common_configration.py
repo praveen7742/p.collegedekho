@@ -1,15 +1,12 @@
 import time
-import json
-from database import *
 from selenium.webdriver.common.by import By
 from logs import *
 import random
 import string
 from conftest import *
-from utilities.Baseclass import *
 from selenium.webdriver.support.ui import Select
 
-class CTA(logs):
+class Cta(logs):
     def cta_detail(self):
         time.sleep(2)
         random_name = self.random_name()
@@ -75,19 +72,12 @@ class CTA(logs):
             time.sleep(2)
             pass
         time.sleep(1)
-        self.driver.find_element_by_css_selector("button[type='submit']").click()
-        time.sleep(5)
-        Otp = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}].format(int(index)+1))")
-        Otp.send_keys(otp_query_1)
        
-        return CTA()
+       
+       
 
         
-        cursor = conn.cursor()
-        cursor.execute(query)
-        row = cursor.fetchone()
-        result_dict = list(row)
-        self.logger.info(result_dict)
+    
     
     
     def footer_form(self):

@@ -1,21 +1,17 @@
-from lib2to3.pgen2.driver import Driver
 import time
 from logs import *
 import requests
-from common_configration import *
-from conftest import *
-from selenium.webdriver.common.action_chains import ActionChains
+from setting import *
+from common_configration import Cta
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from utilities.Baseclass import *
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 
 
-class Login(CTA,logs,Baseclass):
+
+class Login(Cta,logs,Baseclass):
     def test_login(self):
-        self.test_log()             #log setup
-    
+        self.test_log()            
         time.sleep(2)       
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)
@@ -23,9 +19,6 @@ class Login(CTA,logs,Baseclass):
         self.logger.info("Response : " + str(response.status_code))
         
         time.sleep(2)
-
-
-
 
         Talk_experts = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Talk to our Experts'])[1]"))
         Talk_experts.location_once_scrolled_into_view
@@ -38,7 +31,8 @@ class Login(CTA,logs,Baseclass):
         self.logger.info("CTA Class: " + Talk_experts.get_attribute("class"))
         time.sleep(2)
         self.cta_detail()
-        time.sleep(3)
+        time.sleep(2)
+
         
 
         
