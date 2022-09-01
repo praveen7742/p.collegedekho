@@ -10,8 +10,7 @@ from utilities.Baseclass import *
 
 
 class Login(Cta,logs,Baseclass):
-    def test_login(self):
-        self.test_log()            
+    def test_login(self):           
         time.sleep(2)       
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)

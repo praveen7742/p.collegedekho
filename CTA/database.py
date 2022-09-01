@@ -1,5 +1,5 @@
-import mysql.connector
-import pytest
+# import mysql.connector
+# import pytest
 from Desktop.test_deskhomepage import Login
 import time
 # # from tabulate import tabulate
@@ -68,4 +68,3 @@ class Database(Login):
         # result_dict_1 = list(row_1)
         # self.logger.info(result_dict_1)
             
-
