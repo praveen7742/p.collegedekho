@@ -37,8 +37,7 @@ class Login(CTA,logs,Baseclass):
         time.sleep(3)
         self.logger.info("CTA Class: " + Talk_experts.get_attribute("class"))
         time.sleep(2)
-        self.cta_detail()
-        time.sleep(3)
+        
         
 
         

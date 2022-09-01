@@ -29,7 +29,8 @@ class Database():
         LEFT JOIN users_userpreferences AS uupp ON uupp.user_id = uup.id
         LEFT JOIN users_activity AS ua ON ua.user_id = uup.id
         left join institute_instituteshortlist as iis on iis.user_id = uup.id
-        order by uup.id limit 5 """).format(cta_id)
+        order by uup.id desc
+        limit 5 """).format(cta_id)
         
         cursor = conn.cursor()
         cursor.execute(query)

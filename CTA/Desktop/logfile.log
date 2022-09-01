@@ -118,3 +118,21 @@
 2022-08-26 12:35:12,188 :INFO : test_login :Pref Level : UG
 2022-08-26 12:35:15,474 :INFO : test_login :State : Andaman and Nicobar
 2022-08-26 12:35:18,673 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-01 11:52:59,494 :INFO : test_homepage :Driver open
+2022-09-01 11:53:01,958 :INFO : test_homepage :current_url :- https://www.collegedekho.com/?magicflag=1
+2022-09-01 11:53:05,468 :INFO : test_homepage :200
+2022-09-01 12:33:38,434 :INFO : test_login :Current_Url : https://user:pass@staging-hz.collegedekho.com/
+2022-09-01 12:33:40,062 :INFO : test_login :Response : 200
+2022-09-01 12:33:44,214 :INFO : test_login :CTA : Talk to our Experts
+2022-09-01 12:33:47,381 :INFO : test_login :CTA Class: btn django-button-config button django-form-submit apply_now_det_cd gtm-lead-click home-btn
+2022-09-01 12:33:51,514 :INFO : test_login :Name : smkbjb
+2022-09-01 12:33:54,654 :INFO : test_login :Email : pzswetu@gmail.com
+2022-09-01 12:33:56,810 :INFO : test_login :Phone No : 7546650765
+2022-09-01 12:33:57,042 :INFO : test_login :Pref Stream : Commerce and Banking
+2022-09-01 12:34:01,258 :INFO : test_login :Pref Level : UG
+2022-09-01 12:34:04,455 :INFO : test_login :State : Andaman and Nicobar
+2022-09-01 12:34:07,653 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-01 12:36:23,521 :INFO : test_login :Current_Url : https://user:pass@staging-hz.collegedekho.com/
+2022-09-01 12:36:25,746 :INFO : test_login :Response : 200
+2022-09-01 12:36:29,894 :INFO : test_login :CTA : Talk to our Experts
+2022-09-01 12:36:33,081 :INFO : test_login :CTA Class: btn django-button-config button django-form-submit apply_now_det_cd gtm-lead-click home-btn
