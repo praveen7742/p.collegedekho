@@ -74,42 +74,124 @@ class Cta(logs):
             self.logger.info("Board field not present")
             time.sleep(2)
             pass
-        time.sleep(1)
+        time.sleep(2)
+       
 
-        self.driver.find_element_by_css_selector("button[type='submit']").click()
-        time.sleep(5)
+        #OTP Functionality
+
+        
+
+      
+
+        # self.driver.find_element_by_css_selector("button[type='submit']").click()
+        # time.sleep(5)
         # Otp = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}].format(int(index)+1))")
         # Otp.send_keys(otp_query_1)
        
-        return Cta()
+        # return Cta()
 
         
-        cursor = conn.cursor()
-        cursor.execute(query)
-        row = cursor.fetchone()
-        result_dict = list(row)
-        self.logger.info(result_dict)
+        # cursor = conn.cursor()
+        # cursor.execute(query)
+        # row = cursor.fetchone()
+        # result_dict = list(row)
+        # self.logger.info(result_dict)
+
+    def whatsapp_enabled(self):
+         #Whatsapp Enabled
+
+        Whatsapp_enabled = self.driver.find_element(By.XPATH,"(//span[@class='slider round'])[1]")
+        if Whatsapp_enabled.is_enabled():
+            Whatsapp_enabled.click()
+            time.sleep(2)
+        else:
+            pass
+        time.sleep(2)
+
+    def ctaclose_button(self):
+        
+        #Close button
+        close_button = self.driver.find_element(By.XPATH,"//div[@class = 'formInputs']/button") 
+        close_button.click()
+        time.sleep(2)
+
+    def otpclose_button(self):
+        
+        #Close button
+        closeotp_button = self.driver.find_element(By.XPATH,"//div[@class = 'column rightCol'][1]") 
+        closeotp_button.click()
+        self.logger.info("Otp screen closed")
+        time.sleep(2)
+
+
+
+    
 
        
       
     
     def footer_form(self):
         time.sleep(2)
-        self.driver.find_element_by_id("id_name").send_keys("praveen")
-        self.driver.find_element_by_id("id_phone").send_keys(8764876467)
+        random_name = self.random_name()
+        self.driver.find_element_by_id("id_name").send_keys(random_name)
+        random_Phone = self.random_phonenumber()
+        self.driver.find_element_by_id("id_phone").send_keys(random_Phone)
         time.sleep(1)
-        self.driver.find_element_by_id("id_email").send_keys("praveen4322@cld.com")
+        random_Email = self.random_email()
+        self.driver.find_element_by_id("id_email").send_keys(random_Email)
         time.sleep(2)
-        self.driver.find_element_by_id("id_stream").send_keys("Law") 
+        
+        try:
+           state = Select(self.driver.find_element(By.ID,"id_pref_state"))
+           state.select_by_index(1)
+           State = state.first_selected_option
+           self.logger.info("Pref State : " + State.text)
+           time.sleep(2)
+        except:
+            self.logger.info("State field not present")
+            time.sleep(2)
+            pass
+        time.sleep(1)
+        try:
+           Preflevel =  Select(self.driver.find_element(By.ID,"id_pref_level"))
+           Preflevel.select_by_index(1)
+           pref_Level = Preflevel.first_selected_option
+           self.logger.info("Pref Level : " + pref_Level.text)
+           time.sleep(2)
+        except:
+            self.logger.info("Preferred level field not present")
+            time.sleep(2)
+            pass
+        time.sleep(1)
+
+        try:
+            stream = Select(self.driver.find_element(By.ID,"id_stream"))
+            stream.select_by_index(1)
+            Stream = stream.first_selected_option
+            self.logger.info("Pref Stream : " + Stream.text)
+            time.sleep(2)
+        except :
+            self.logger.info("Preferred Stream field not present")
+            time.sleep(2)
+            pass 
         time.sleep(2)
-        self.driver.find_element_by_id("id_pref_level").send_keys("UG") 
-        time.sleep(1)
-        self.driver.find_element_by_id("id_pref_state").send_keys("Delhi")
-        time.sleep(1)
-        self.driver.find_element_by_id("id_board").send_keys("State Board")
-        time.sleep(1)
-        self.driver.find_element_by_css_selector('input[id="86"]').click()
-        time.sleep(5)
+
+        try:
+           board =  Select(self.driver.find_element(By.ID,"id_board"))
+           board.select_by_index(1)
+           Board = board.first_selected_option
+           self.logger.info("Pref Board : " + Board.text)
+           time.sleep(2)
+        except:
+            self.logger.info("Pref Board field not present")
+            time.sleep(2)
+            pass
+        time.sleep(2)
+
+        submit_button = self.driverfind_element(By.XPATH,("//input[@id='86'])[1]"))
+        submit_button.click()
+        self.logger.info("Footer Lead form submitted")
+
 
 
     def thankyou_message(self):

@@ -1,5 +1,7 @@
-# import mysql.connector
-# import pytest
+import mysql.connector
+import pytest
+from selenium.webdriver.common.by import By
+from logs import *
 from Desktop.test_deskhomepage import Login
 import time
 # # from tabulate import tabulate
@@ -46,18 +48,16 @@ class Database(Login):
         row = cursor.fetchall()
         result_dict = list(row)
         self.logger.info(result_dict)
-        # try:
-        #     for index, value in enumerate(result_dict):
-                #new
-        #         otp_1 = driver.find_element(By.XPATH,"//li[@class='CollegedekhoNavBar_otpFields__Xb_KM']//input[{}]".format(int(index)+1))
-        #         otp_1.send_keys(value)
-        #         time.sleep(5)
-        # except:
-        #     for index, value in enumerate(result_dict):
-                    #new
-        #         otp_1_new = driver.find_element(By.XPATH,"//input[@name='first'])[{}]".format(int(index)+1))
-        #         otp_1_new.send_keys(value)
-        #         time.sleep(5)
+        try:
+            for index, value in enumerate(result_dict):
+                otp_1_new = self.driver.find_element(By.XPATH,"//li[@class='CollegedekhoNavBar_otpFields__Xb_KM']//input[{}]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(5)
+        except:
+            for index, value in enumerate(result_dict):
+                otp_1_new = self.driver.find_element(By.XPATH,"//input[@name='first'])[{}]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(5)
         
 
         

@@ -1,5 +1,9 @@
+from select import select
 import time
+from configparser import ConfigParser
+from database import *
 from logs import *
+from logging import exception
 import requests
 from setting import *
 from common_configration import Cta
@@ -11,7 +15,8 @@ from utilities.Baseclass import *
 
 class Login(Cta,logs,Baseclass):
     def test_login(self):           
-        time.sleep(2)       
+        time.sleep(2)  
+        self.test_log()     
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)
         response = requests.get(current_url)
@@ -26,30 +31,86 @@ class Login(Cta,logs,Baseclass):
         Talk_experts.send_keys(Keys.PAGE_UP)
         self.logger.info("CTA : " + Talk_experts.text)
         Talk_experts.click()
-        time.sleep(3)
-        self.logger.info("CTA Class: " + Talk_experts.get_attribute("class"))
-        time.sleep(2)
+
         self.cta_detail()
+        self.whatsapp_enabled()
+        time.sleep(2)
+        # cta_click = self.driver.find_element(By.XPATH,"(//button[normalize-space()='Talk to Experts'])[1]")
+        # cta_click.click()
+        self.ctaclose_button()
+
+
+        time.sleep(3)
+
+        #APPLY NOW CTA
+        Apply_now = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Apply Now'])[1]"))
+        Apply_now.location_once_scrolled_into_view
         time.sleep(2)
 
-        
 
-        
+        Apply_now.send_keys(Keys.PAGE_UP)
+       
+        self.logger.info("CTA : " + Apply_now.text)
+        Apply_now.click()
 
-        #Whatsapp Enabled button
+        self.cta_detail()
+        self.ctaclose_button()
 
-        # Whatsapp_enabled = driver.find_element(By.XPATH,("//span[@class="slider round"]")).isEnabled())
+        time.sleep(2)
+
+        #FOOTER FORM
+
+        footerform = self.driver.find_element(By.XPATH,"//div[@class = 'expertGraphic setExpertBlock']/div")
+        footerform.location_once_scrolled_into_view
+        time.sleep(2)
+        self.footer_form()
+        self.thankyou_message()
+
+        self.driver.close()
 
 
-        # APPLY NOW
+     
 
-        # Apply_now1 = driver.find_element(By.XPATH,"//button[normalize-space()='Apply Now'])[1]"
+        # generate_otpbutton = self.driver.find_element(By.ID,"gtm_loginGenerateOtp")
+        # generate_otpbutton.click()
+        # time.sleep(5)
 
-        # Footer form
+        # parser = ConfigParser()
+        # parser.read('Login.ini')
 
-        # Footer_form1 = driver.find_element(By.XPATH,"//div[normalize-space()='Want to learn more about college options and to secure an admission now!'])[1]"
 
 
+        # conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
+        # self.logger.info(conn)
+            
+        # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))
+        # cursor = conn.cursor()
+        # cursor.execute(otp_query_1)
+        # row = cursor.fetchone()
+        # result_dict = list(row)
+        # self.logger.info(result_dict[2])
+        # otp_value = [int(x) for x in str(result_dict[2])]
+        # try:
+        #     for index, value in enumerate(otp_value):
+                    
+        #         otp_1 = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])//input[{}]".format(int(index)+1))
+        #         otp_1.send_keys(value)
+        #         time.sleep(5)
+                    
+        # except Exception as e:
+
+        #     self.logger.info(e)
+        #     for index, value in enumerate(result_dict):
+        #         otp_1_new = self.driver.find_element(By.XPATH,"//input[@name='first'])[{}]".format(int(index)+1))
+        #         otp_1_new.send_keys(value)
+        #         time.sleep(5)
+            
+        #     verify_button = self.driver.find_element(By.ID,"gtm_loginVerify")
+        #     verify_button.click()
+        #     time.sleep()
+
+if  __name__ == "__main__":
+    unittest.main()
 
 
 
