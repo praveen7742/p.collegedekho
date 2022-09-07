@@ -1,12 +1,6 @@
-from select import select
 import time
-from configparser import ConfigParser
-from database import *
-from logs import *
-from logging import exception
 import requests
 import mysql.connector
-from setting import *
 from common_configration import Cta
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -14,10 +8,9 @@ from utilities.Baseclass import *
 
 
 
-class Login(Cta,logs,Baseclass):
+class Login(Cta,Baseclass):
     def test_login(self):           
-        time.sleep(2)  
-        self.test_log()     
+        time.sleep(2)     
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)
         response = requests.get(current_url)
@@ -91,7 +84,7 @@ class Login(Cta,logs,Baseclass):
 
         conn = mysql.connector.connect(host='95.217.156.247',database = 'cld22apr22',user = 'ro', password = 'readonly@5456555')
         self.logger.info(conn)
-
+        time.sleep(5)
         # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))
         # cursor = conn.cursor()
         # cursor.execute(otp_query_1)
