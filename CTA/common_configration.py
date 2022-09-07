@@ -1,6 +1,4 @@
 import time
-import json
-from database import *
 from selenium.webdriver.common.by import By
 from logs import *
 import random
@@ -9,8 +7,9 @@ from conftest import *
 from selenium.webdriver.support.ui import Select
 
 
-class Cta():
+class Cta(logs):
     def cta_detail(self):
+        self.test_log()
         time.sleep(2)
         random_name = self.random_name()
         self.driver.find_element(By.ID,"id_name_cta").send_keys(random_name)

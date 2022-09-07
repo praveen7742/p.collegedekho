@@ -33,7 +33,7 @@ class Login(Cta,Baseclass):
         self.ctaclose_button()
 
 
-        time.sleep(3)
+        time.sleep(2)
 
         #APPLY NOW CTA
         Apply_now = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Apply Now'])[1]"))
