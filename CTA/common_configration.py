@@ -9,7 +9,7 @@ from conftest import *
 from selenium.webdriver.support.ui import Select
 
 
-class Cta(logs):
+class Cta():
     def cta_detail(self):
         time.sleep(2)
         random_name = self.random_name()
@@ -134,11 +134,14 @@ class Cta(logs):
         time.sleep(2)
         random_name = self.random_name()
         self.driver.find_element_by_id("id_name").send_keys(random_name)
+        self.logger.info("Name : " +random_name)
         random_Phone = self.random_phonenumber()
         self.driver.find_element_by_id("id_phone").send_keys(random_Phone)
         time.sleep(1)
+        self.logger.info("Phone : " +random_Phone)
         random_Email = self.random_email()
         self.driver.find_element_by_id("id_email").send_keys(random_Email)
+        self.logger.info("Email : " +random_Email)
         time.sleep(2)
         
         try:
@@ -188,7 +191,7 @@ class Cta(logs):
             pass
         time.sleep(2)
 
-        submit_button = self.driverfind_element(By.XPATH,("//input[@id='86'])[1]"))
+        submit_button = self.driver.find_element(By.XPATH,"//input[@id='86'])[1]")
         submit_button.click()
         self.logger.info("Footer Lead form submitted")
 
