@@ -5,6 +5,7 @@ from database import *
 from logs import *
 from logging import exception
 import requests
+import mysql.connector
 from setting import *
 from common_configration import Cta
 from selenium.webdriver.common.keys import Keys
@@ -35,8 +36,7 @@ class Login(Cta,logs,Baseclass):
         self.cta_detail()
         self.whatsapp_enabled()
         time.sleep(2)
-        # cta_click = self.driver.find_element(By.XPATH,"(//button[normalize-space()='Talk to Experts'])[1]")
-        # cta_click.click()
+       
         self.ctaclose_button()
 
 
@@ -51,8 +51,10 @@ class Login(Cta,logs,Baseclass):
         Apply_now.send_keys(Keys.PAGE_UP)
        
         self.logger.info("CTA : " + Apply_now.text)
+        time.sleep(2)
         Apply_now.click()
-
+        self.logger.info("Clicked on Apply now cta")
+       
         self.cta_detail()
         self.ctaclose_button()
 
@@ -63,8 +65,15 @@ class Login(Cta,logs,Baseclass):
         footerform = self.driver.find_element(By.XPATH,"//div[@class = 'expertGraphic setExpertBlock']/div")
         footerform.location_once_scrolled_into_view
         time.sleep(2)
+        self.logger.info("Scrolled into footer form")
+        time.sleep(4)
+
+       
         self.footer_form()
+        time.sleep(3)
+        
         self.thankyou_message()
+        time.sleep(2)
 
         self.driver.close()
 
@@ -80,9 +89,9 @@ class Login(Cta,logs,Baseclass):
 
 
 
-        # conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
-        # self.logger.info(conn)
-            
+        conn = mysql.connector.connect(host='95.217.156.247',database = 'cld22apr22',user = 'ro', password = 'readonly@5456555')
+        self.logger.info(conn)
+
         # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))
         # cursor = conn.cursor()
         # cursor.execute(otp_query_1)
