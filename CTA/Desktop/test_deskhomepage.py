@@ -1,6 +1,7 @@
 import time
 import requests
-import mysql.connector
+from logs import logs
+import unittest
 from common_configration import Cta
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -8,9 +9,10 @@ from utilities.Baseclass import *
 
 
 
-class Login(Cta,Baseclass):
+class Login(Cta,logs,Baseclass):
     def test_login(self):           
-        time.sleep(2)     
+        time.sleep(2)
+        self.test_log()     
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)
         response = requests.get(current_url)
@@ -70,21 +72,7 @@ class Login(Cta,Baseclass):
 
         self.driver.close()
 
-
-     
-
-        # generate_otpbutton = self.driver.find_element(By.ID,"gtm_loginGenerateOtp")
-        # generate_otpbutton.click()
-        # time.sleep(5)
-
-        # parser = ConfigParser()
-        # parser.read('Login.ini')
-
-
-
-        conn = mysql.connector.connect(host='95.217.156.247',database = 'cld22apr22',user = 'ro', password = 'readonly@5456555')
-        self.logger.info(conn)
-        time.sleep(5)
+        
         # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))
         # cursor = conn.cursor()
         # cursor.execute(otp_query_1)

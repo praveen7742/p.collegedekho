@@ -1,15 +1,17 @@
+import numbers
 import time
 from selenium.webdriver.common.by import By
-from logs import *
+# from logs import *
+import mysql.connector
 import random
 import string
 from conftest import *
 from selenium.webdriver.support.ui import Select
 
 
-class Cta(logs):
+class Cta():
     def cta_detail(self):
-        self.test_log()
+        # self.test_log()
         time.sleep(2)
         random_name = self.random_name()
         self.driver.find_element(By.ID,"id_name_cta").send_keys(random_name)
@@ -74,28 +76,54 @@ class Cta(logs):
             time.sleep(2)
             pass
         time.sleep(2)
-       
+        
+       #submit button 
+        self.driver.find_element_by_css_selector("button[type='submit']").click()
+        time.sleep(2)
 
+        conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+        self.logger.info(conn)
+        time.sleep(2)
+        query = ("""select code from users_otp where phone_no = {} order by id desc""").format(random_number)
+        cursor = conn.cursor()
+        cursor.execute(query)
+        row = cursor.fetchone()
+        result_dict = list(row)
+        self.logger.info(result_dict)
+        
         #OTP Functionality
 
         
+        # Otp = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
+        # Otp.send_keys(query)
+        try:
+            for index, value in enumerate(result_dict):
+                otp_1_new = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(5)
 
-      
-
-        # self.driver.find_element_by_css_selector("button[type='submit']").click()
-        # time.sleep(5)
-        # Otp = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}].format(int(index)+1))")
-        # Otp.send_keys(otp_query_1)
+        except:
+            for index, value in enumerate(result_dict):
+                otp_1_new = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])[1]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(3)
        
-        # return Cta()
+            
+        self.logger.info("Otp added successfully")
+        time.sleep(2)
+        #Clicking on verify button
 
+        verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
+        verify_button.click()
+        time.sleep(2)
         
-        # cursor = conn.cursor()
-        # cursor.execute(query)
-        # row = cursor.fetchone()
-        # result_dict = list(row)
-        # self.logger.info(result_dict)
+        #Closing followup form
 
+        self.driver.find_element(By.XPATH,"//button[contains(@type,'button')])[2]").click()
+        time.sleep(3)
+
+        return Cta()
+  
     def whatsapp_enabled(self):
          #Whatsapp Enabled
 
