@@ -71,8 +71,7 @@ def setup(request):
         driver = driver = webdriver.Chrome(ChromeDriverManager().install(),
         desired_capabilities = chrome_options.to_capabilities())
        
-    driver.maximize_window()
-    driver.get("https://user:pass@staging-hz.collegedekho.com/?magicflag=1")
+    
     request.cls.driver = driver
     yield
     driver.close()

@@ -13,6 +13,8 @@ class Login(Cta,logs,Baseclass):
     def test_login(self):           
         time.sleep(2)
         self.test_log()     
+        self.driver.maximize_window()
+        self.driver.get("https://user:pass@staging-hz.collegedekho.com/?magicflag=1")
         current_url = self.driver.current_url
         self.logger.info("Current_Url : " + current_url)
         response = requests.get(current_url)
@@ -29,13 +31,14 @@ class Login(Cta,logs,Baseclass):
         Talk_experts.click()
 
         self.cta_detail()
-        self.whatsapp_enabled()
+        self.closeform()
         time.sleep(2)
        
-        self.ctaclose_button()
 
 
-        time.sleep(2)
+
+
+
 
         #APPLY NOW CTA
         Apply_now = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Apply Now'])[1]"))
@@ -49,9 +52,16 @@ class Login(Cta,logs,Baseclass):
         time.sleep(2)
         Apply_now.click()
         self.logger.info("Clicked on Apply now cta")
+        time.sleep(2)
+
+        self.driver.find_element(By.ID,"id_name_cta").clear()
+        self.driver.find_element(By.ID,"id_email_cta").clear()
+        self.driver.find_element(By.ID,"id_phone_cta").clear()
+
        
         self.cta_detail()
-        self.ctaclose_button()
+        time.sleep(2)
+        self.closeform()
 
         time.sleep(2)
 
