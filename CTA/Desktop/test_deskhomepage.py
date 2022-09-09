@@ -80,7 +80,8 @@ class Login(Cta,logs,Baseclass):
         self.thankyou_message()
         time.sleep(2)
 
-        self.driver.close()
+
+
 
         
         # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))

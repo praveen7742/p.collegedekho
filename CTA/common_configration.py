@@ -1,4 +1,7 @@
+from fileinput import close
+from logging import exception
 import numbers
+from selenium.common.exceptions import NoSuchElementException
 import time
 from selenium.webdriver.common.by import By
 # from logs import *
@@ -11,7 +14,7 @@ from selenium.webdriver.support.ui import Select
 
 class Cta():
     def cta_detail(self):
-        # self.test_log()
+        
         time.sleep(2)
         random_name = self.random_name()
         self.driver.find_element(By.ID,"id_name_cta").send_keys(random_name)
@@ -28,6 +31,8 @@ class Cta():
         self.logger.info("Email : " +random_email)
 
         random_number = self.random_phonenumber()
+        
+
         self.driver.find_element(By.ID,"id_phone_cta").send_keys(random_number)
         time.sleep(2)
         self.logger.info("Phone No : " +random_number)
@@ -66,6 +71,17 @@ class Cta():
             pass
         time.sleep(1)
         try:
+           budget = Select(self.driver.find_element(By.ID,"id_budget_cta"))
+           budget.select_by_index(1)
+           Budget = budget.first_selected_option
+           self.logger.info("Budget : " + Budget.text)
+           time.sleep(2)
+        except:
+            self.logger.info("Budget field not present")
+            time.sleep(2)
+            pass
+        time.sleep(1)
+        try:
            board =  Select(self.driver.find_element(By.ID,"id_board_cta"))
            board.select_by_index(1)
            Board = board.first_selected_option
@@ -75,65 +91,83 @@ class Cta():
             self.logger.info("Board field not present")
             time.sleep(2)
             pass
-        time.sleep(2)
+        time.sleep(4)
+        
+        try:
+            Whatsapp_enabled = self.driver.find_element(By.XPATH,"(//span[@class='slider round'])[1]")
+            self.logger.info("Whatsapp Enable button is present")
+            assert Whatsapp_enabled.is_enabled()
+
+        except NoSuchElementException :
+            self.logger.info("Whatsapp Enable button not present")
+            pass
+            
+        time.sleep(4)
         
        #submit button 
         self.driver.find_element_by_css_selector("button[type='submit']").click()
         time.sleep(2)
 
-        conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
-        self.logger.info(conn)
-        time.sleep(2)
-        query = ("""select code from users_otp where phone_no = {} order by id desc""").format(random_number)
-        cursor = conn.cursor()
-        cursor.execute(query)
-        row = cursor.fetchone()
-        result_dict = list(row)
-        self.logger.info(result_dict)
-        
-        #OTP Functionality
-
-        
-        # Otp = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
-        # Otp.send_keys(query)
+#STAGING DATABASE CONNECTION
         try:
-            for index, value in enumerate(result_dict):
-                otp_1_new = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
-                otp_1_new.send_keys(value)
-                time.sleep(5)
-
-        except:
-            for index, value in enumerate(result_dict):
-                otp_1_new = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])[1]".format(int(index)+1))
-                otp_1_new.send_keys(value)
-                time.sleep(3)
-       
+            conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+            self.logger.info(conn)
+            time.sleep(2)
+            query = ("""select code,phone_no from users_otp where phone_no = {} order by id desc""").format(random_number)
+            cursor = conn.cursor()
+            cursor.execute(query)
+            row = cursor.fetchone()
+            result_dict = list(row)
+            self.logger.info(result_dict)
             
-        self.logger.info("Otp added successfully")
-        time.sleep(2)
-        #Clicking on verify button
+            #OTP Functionality
 
-        verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
-        verify_button.click()
-        time.sleep(2)
+
+            try:
+                for index, value in enumerate(result_dict):
+                    otp_1_new = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
+                    otp_1_new.send_keys(value)
+                    time.sleep(5)
+
+            except:
+                for index, value in enumerate(result_dict):
+                    time.sleep(2)
+                    otp_1_new = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])[1]".format(int(index)+1))
+                    otp_1_new.send_keys(value)
+                    time.sleep(3)
         
-        #Closing followup form
+            
+            self.logger.info("Otp added successfully")
+            time.sleep(2)
 
-        self.driver.find_element(By.XPATH,"//button[contains(@type,'button')])[2]").click()
+            #Clicking on verify button
+
+            verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
+            verify_button.click()
+            time.sleep(5)
+
+        except :
+            self.logger.info("OTP not required,user already login")
+            pass
+
+
         time.sleep(3)
 
-        return Cta()
-  
-    def whatsapp_enabled(self):
-         #Whatsapp Enabled
 
-        Whatsapp_enabled = self.driver.find_element(By.XPATH,"(//span[@class='slider round'])[1]")
-        if Whatsapp_enabled.is_enabled():
-            Whatsapp_enabled.click()
+
+
+            #Closing followup form
+    def closeform(self):
+        try:
+            close_form = self.driver.find_element(By.CSS_SELECTOR,"div[id='follow_progress'] button[type='button']")
             time.sleep(2)
-        else:
+            close_form.click()
+            time.sleep(3)
+        except:
             pass
-        time.sleep(2)
+
+            return Cta()
+       
 
     def ctaclose_button(self):
         
@@ -216,9 +250,9 @@ class Cta():
             self.logger.info("Pref Board field not present")
             time.sleep(2)
             pass
-        time.sleep(2)
+        time.sleep(4)
 
-        submit_button = self.driver.find_element(By.XPATH,"//input[@id='86'])[1]")
+        submit_button = self.driver.find_element(By.XPATH,"//form[@id = 'new_footer_form']/ul/li[8]")
         submit_button.click()
         self.logger.info("Footer Lead form submitted")
 

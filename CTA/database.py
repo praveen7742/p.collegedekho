@@ -67,4 +67,44 @@ class Database(Login):
         # row_1 = cursor.fetchone()
         # result_dict_1 = list(row_1)
         # self.logger.info(result_dict_1)
+
+    #STAGING DATABASE CONNECTION
+
+    def staging_database(self): 
+        conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+        self.logger.info(conn)
+        time.sleep(2)
+        query = ("""select code,phone_no from users_otp where phone_no = {} order by id desc""").format(random_number)
+        cursor = conn.cursor()
+        cursor.execute(query)
+        row = cursor.fetchone()
+        result_dict = list(row)
+        self.logger.info(result_dict)
+        
+        #OTP Functionality
+
+
+        try:
+            for index, value in enumerate(result_dict):
+                otp_1_new = self.driver.find_element(By.CSS_SELECTOR,"//li[@class='otp_fields otp_fields_register']//input[{}]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(5)
+
+        except:
+            for index, value in enumerate(result_dict):
+                time.sleep(2)
+                otp_1_new = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])[1]".format(int(index)+1))
+                otp_1_new.send_keys(value)
+                time.sleep(3)
+    
+        
+        self.logger.info("Otp added successfully")
+        time.sleep(2)
+
+        #Clicking on verify button
+
+        verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
+        verify_button.click()
+        time.sleep(5)
+
             
