@@ -1,0 +1,398 @@
+2022-09-14 12:29:36,860 :INFO : test_login :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
+2022-09-14 12:29:42,229 :INFO : test_login :Response : 200
+2022-09-14 12:29:46,344 :INFO : test_login :CTA : Talk to our Experts
+2022-09-14 12:29:48,571 :INFO : test_login :Name : ewrvam
+2022-09-14 12:29:51,714 :INFO : test_login :Email : vYQlKCf@gmail.com
+2022-09-14 12:29:53,837 :INFO : test_login :Phone No : 6792885085
+2022-09-14 12:29:54,048 :INFO : test_login :Pref Stream : Commerce and Banking
+2022-09-14 12:29:58,258 :INFO : test_login :Pref Level : UG
+2022-09-14 12:30:01,461 :INFO : test_login :State : Andaman and Nicobar
+2022-09-14 12:30:04,496 :INFO : test_login :Budget field not present
+2022-09-14 12:30:07,675 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-14 12:30:13,717 :INFO : test_login :Whatsapp Enable button is present
+2022-09-14 12:30:21,451 :INFO : test_login :<mysql.connector.connection.MySQLConnection object at 0x7faa90c51f60>
+2022-09-14 12:30:24,259 :INFO : test_login :[227075, '6792885085']
+2022-09-14 12:30:34,551 :INFO : test_login :Otp added successfully
+2022-09-14 12:31:00,052 :INFO : test_login :CTA : Apply Now
+2022-09-14 12:31:02,181 :INFO : test_login :Clicked on Apply now cta
+2022-09-14 12:31:06,525 :INFO : test_login :Name : dvmvfb
+2022-09-14 12:31:09,671 :INFO : test_login :Email : uJiviiS@gmail.com
+2022-09-14 12:31:11,801 :INFO : test_login :Phone No : 7165524574
+2022-09-14 12:31:12,032 :INFO : test_login :Pref Stream : Commerce and Banking
+2022-09-14 12:31:16,260 :INFO : test_login :Pref Level : UG
+2022-09-14 12:31:19,464 :INFO : test_login :State : Andaman and Nicobar
+2022-09-14 12:31:22,494 :INFO : test_login :Budget field not present
+2022-09-14 12:31:25,682 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-14 12:31:31,715 :INFO : test_login :Whatsapp Enable button not present
+2022-09-14 12:31:38,977 :INFO : test_login :<mysql.connector.connection.MySQLConnection object at 0x7faa90c1c668>
+2022-09-14 12:31:41,559 :INFO : test_login :OTP not required,user already login
+2022-09-14 12:31:55,717 :INFO : test_login :Scrolled into footer form
+2022-09-14 12:32:01,832 :INFO : test_login :Name : qdfcod
+2022-09-14 12:32:02,964 :INFO : test_login :Phone : 9122825086
+2022-09-14 12:32:03,124 :INFO : test_login :Email : FpSiVLk@gmail.com
+2022-09-14 12:32:05,343 :INFO : test_login :Pref State : Andaman and Nicobar
+2022-09-14 12:32:08,526 :INFO : test_login :Pref Level : UG
+2022-09-14 12:32:11,713 :INFO : test_login :Pref Stream : Engineering
+2022-09-14 12:32:15,895 :INFO : test_login :Pref Board : ICSE/CBSE/IB
+2022-09-14 12:32:22,047 :INFO : test_login :Footer Lead form submitted
+2022-09-14 12:32:27,113 :INFO : test_login :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-14 12:38:22,863 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 12:38:30,648 :INFO : test_ctaexam :Response : 200
+2022-09-14 12:38:34,746 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 12:38:38,910 :INFO : test_ctaexam :Name : qfckei
+2022-09-14 12:38:42,024 :INFO : test_ctaexam :Email : aCNHruO@gmail.com
+2022-09-14 12:38:44,129 :INFO : test_ctaexam :Phone No : 6805006686
+2022-09-14 12:38:44,190 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 12:38:48,223 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 12:38:51,395 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 12:38:54,589 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 12:38:57,758 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 12:39:03,788 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 12:39:11,316 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5a8ff33cc0>
+2022-09-14 12:39:14,679 :INFO : test_ctaexam :[669586, '6805006686']
+2022-09-14 12:39:24,902 :INFO : test_ctaexam :Otp added successfully
+2022-09-14 12:39:50,539 :INFO : test_ctaexam :CTA : Download
+2022-09-14 12:39:56,890 :INFO : test_ctaexam :Name : dxuzwh
+2022-09-14 12:40:00,054 :INFO : test_ctaexam :Email : UcnpgWv@gmail.com
+2022-09-14 12:40:02,166 :INFO : test_ctaexam :Phone No : 6578496081
+2022-09-14 12:40:02,198 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 12:40:06,234 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 12:40:09,381 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 12:40:12,534 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 12:40:15,678 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 12:40:21,705 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 12:40:28,650 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5a8ff33240>
+2022-09-14 12:40:31,351 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 12:40:43,518 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-14 12:40:49,908 :INFO : test_ctaexam :Name : ukzbra
+2022-09-14 12:40:53,068 :INFO : test_ctaexam :Email : cWNUleM@gmail.com
+2022-09-14 12:40:55,215 :INFO : test_ctaexam :Phone No : 9109488688
+2022-09-14 12:40:55,266 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 12:40:59,316 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 12:41:02,529 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 12:41:05,723 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 12:41:08,873 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 12:41:14,913 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 12:41:22,754 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5a8ff79be0>
+2022-09-14 12:41:25,652 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:00:18,130 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:00:27,614 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:00:32,391 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:00:37,397 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-14 13:00:42,369 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-14 13:00:47,327 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:00:51,435 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 13:00:55,686 :INFO : test_ctaexam :Name : dmxusl
+2022-09-14 13:00:58,829 :INFO : test_ctaexam :Email : pfzovvr@gmail.com
+2022-09-14 13:01:00,968 :INFO : test_ctaexam :Phone No : 9421467889
+2022-09-14 13:01:01,032 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:01:05,099 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:01:08,331 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:01:11,499 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:01:14,709 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:01:20,745 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:01:27,790 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f4f7594b9e8>
+2022-09-14 13:01:30,520 :INFO : test_ctaexam :[820593, '9421467889']
+2022-09-14 13:01:40,841 :INFO : test_ctaexam :Otp added successfully
+2022-09-14 13:04:26,558 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:04:36,325 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:04:41,575 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:04:45,677 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 13:04:49,921 :INFO : test_ctaexam :Name : khvztm
+2022-09-14 13:04:53,049 :INFO : test_ctaexam :Email : QgIYTTI@gmail.com
+2022-09-14 13:04:55,188 :INFO : test_ctaexam :Phone No : 7234010147
+2022-09-14 13:04:55,251 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:04:59,304 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:05:02,528 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:05:05,783 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:05:09,013 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:05:15,066 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:05:22,081 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f2547c48438>
+2022-09-14 13:05:24,603 :INFO : test_ctaexam :[789278, '7234010147']
+2022-09-14 13:05:34,929 :INFO : test_ctaexam :Otp added successfully
+2022-09-14 13:06:00,081 :INFO : test_ctaexam :CTA : Download
+2022-09-14 13:06:06,504 :INFO : test_ctaexam :Name : lshfqt
+2022-09-14 13:06:09,677 :INFO : test_ctaexam :Email : zRPsErL@gmail.com
+2022-09-14 13:06:11,798 :INFO : test_ctaexam :Phone No : 7574541051
+2022-09-14 13:06:11,865 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:06:15,933 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:06:19,202 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:06:22,408 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:06:25,661 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:06:31,709 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:06:39,022 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f2547c48400>
+2022-09-14 13:06:41,572 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:06:53,787 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-14 13:07:00,374 :INFO : test_ctaexam :Name : hdxiom
+2022-09-14 13:07:03,623 :INFO : test_ctaexam :Email : JOoRQHq@gmail.com
+2022-09-14 13:07:05,869 :INFO : test_ctaexam :Phone No : 8461242251
+2022-09-14 13:07:05,932 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:07:09,994 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:07:13,236 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:07:16,472 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:07:19,785 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:07:25,825 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:07:33,187 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f2547c48c18>
+2022-09-14 13:07:35,774 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:07:48,017 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-14 13:07:54,207 :INFO : test_ctaexam :Name : iqlwpb
+2022-09-14 13:07:55,320 :INFO : test_ctaexam :Phone : 9169040895
+2022-09-14 13:07:55,518 :INFO : test_ctaexam :Email : beGXZuO@gmail.com
+2022-09-14 13:07:57,798 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-14 13:08:00,868 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:08:03,938 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:08:08,194 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-14 13:08:14,367 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-14 13:08:19,458 :INFO : test_ctaexam :
+2022-09-14 13:10:02,156 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:10:11,351 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:10:15,937 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:10:20,030 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 13:10:24,202 :INFO : test_ctaexam :Name : vxducd
+2022-09-14 13:10:27,316 :INFO : test_ctaexam :Email : yGvPJbH@gmail.com
+2022-09-14 13:10:29,418 :INFO : test_ctaexam :Phone No : 6333846053
+2022-09-14 13:10:29,448 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:10:33,503 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:10:36,738 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:10:39,946 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:10:43,154 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:10:49,185 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:10:56,300 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7ff5d08234a8>
+2022-09-14 13:10:59,144 :INFO : test_ctaexam :[669912, '6333846053']
+2022-09-14 13:11:09,453 :INFO : test_ctaexam :Otp added successfully
+2022-09-14 13:11:34,212 :INFO : test_ctaexam :CTA : Download
+2022-09-14 13:11:40,584 :INFO : test_ctaexam :Name : blspwe
+2022-09-14 13:11:43,683 :INFO : test_ctaexam :Email : rchctwA@gmail.com
+2022-09-14 13:11:45,765 :INFO : test_ctaexam :Phone No : 8763579377
+2022-09-14 13:11:45,795 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:11:49,853 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:11:53,005 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:11:56,144 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:11:59,279 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:12:05,307 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:12:12,457 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7ff5d0823320>
+2022-09-14 13:12:15,082 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:12:27,223 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-14 13:12:33,664 :INFO : test_ctaexam :Name : ldkzqy
+2022-09-14 13:12:36,791 :INFO : test_ctaexam :Email : wCdiiZl@gmail.com
+2022-09-14 13:12:38,958 :INFO : test_ctaexam :Phone No : 9329462085
+2022-09-14 13:12:39,009 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:12:43,066 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:12:46,268 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:12:49,440 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:12:52,656 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:12:58,690 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:13:05,908 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7ff5d0865b38>
+2022-09-14 13:13:08,672 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:13:20,854 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-14 13:13:27,010 :INFO : test_ctaexam :Name : cobrho
+2022-09-14 13:13:28,113 :INFO : test_ctaexam :Phone : 8445130988
+2022-09-14 13:13:28,265 :INFO : test_ctaexam :Email : MUQWxBv@gmail.com
+2022-09-14 13:13:30,506 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-14 13:13:33,570 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:13:36,630 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:13:40,799 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-14 13:13:46,888 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-14 13:13:56,955 :INFO : test_ctaexam :
+2022-09-14 13:16:25,486 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:16:34,893 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-14 13:16:39,514 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:16:43,590 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 13:16:47,785 :INFO : test_ctaexam :Name : jnyitu
+2022-09-14 13:16:50,951 :INFO : test_ctaexam :Email : wsgYhJw@gmail.com
+2022-09-14 13:16:53,074 :INFO : test_ctaexam :Phone No : 7586861225
+2022-09-14 13:16:53,107 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:16:57,165 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:17:00,402 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:17:03,651 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:17:06,838 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:17:12,865 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:17:19,847 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5dcd63e470>
+2022-09-14 13:17:22,412 :INFO : test_ctaexam :[706070, '7586861225']
+2022-09-14 13:17:32,717 :INFO : test_ctaexam :Otp added successfully
+2022-09-14 13:17:57,471 :INFO : test_ctaexam :CTA : Download
+2022-09-14 13:18:03,840 :INFO : test_ctaexam :Name : lzymgg
+2022-09-14 13:18:06,958 :INFO : test_ctaexam :Email : MNxfSrh@gmail.com
+2022-09-14 13:18:09,043 :INFO : test_ctaexam :Phone No : 7131435504
+2022-09-14 13:18:09,104 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:18:13,165 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:18:16,400 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:18:19,539 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:18:22,700 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:18:28,730 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:18:35,932 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5dcd63eba8>
+2022-09-14 13:18:38,595 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:18:50,811 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-14 13:18:57,232 :INFO : test_ctaexam :Name : dsxcpz
+2022-09-14 13:19:00,384 :INFO : test_ctaexam :Email : ahRwKou@gmail.com
+2022-09-14 13:19:02,533 :INFO : test_ctaexam :Phone No : 6257404631
+2022-09-14 13:19:02,576 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:19:06,632 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:19:09,839 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:19:13,032 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:19:16,208 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:19:22,246 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:19:29,386 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5dcd63ec50>
+2022-09-14 13:19:32,151 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-14 13:19:44,313 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-14 13:19:50,439 :INFO : test_ctaexam :Name : fcmmwt
+2022-09-14 13:19:51,536 :INFO : test_ctaexam :Phone : 6072374575
+2022-09-14 13:19:51,673 :INFO : test_ctaexam :Email : NNCrMqc@gmail.com
+2022-09-14 13:19:53,929 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-14 13:19:56,976 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:20:00,042 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:20:04,231 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-14 13:20:08,384 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-14 13:20:16,443 :INFO : test_ctaexam :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-14 13:20:27,553 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-14 13:20:32,339 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-14 13:20:37,688 :INFO : test_ctaexam :Response : 200
+2022-09-14 13:20:41,782 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-14 13:20:46,007 :INFO : test_ctaexam :Name : tugvra
+2022-09-14 13:20:49,124 :INFO : test_ctaexam :Email : TuYXTdk@gmail.com
+2022-09-14 13:20:51,238 :INFO : test_ctaexam :Phone No : 6762529210
+2022-09-14 13:20:51,270 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-14 13:20:55,321 :INFO : test_ctaexam :Preferred level field not present
+2022-09-14 13:20:58,530 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-14 13:21:01,740 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-14 13:21:04,938 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-14 13:21:10,963 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-14 13:21:18,132 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f5dcd63e668>
+2022-09-14 13:21:20,800 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:30:12,416 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 11:30:13,882 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 11:30:15,434 :INFO : test_ctaexam :Response : 404
+2022-09-15 11:32:46,281 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 11:32:56,312 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 11:33:01,533 :INFO : test_ctaexam :Response : 200
+2022-09-15 11:33:05,591 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-15 11:33:09,764 :INFO : test_ctaexam :Name : ciwaze
+2022-09-15 11:33:12,891 :INFO : test_ctaexam :Email : GZsFjHH@gmail.com
+2022-09-15 11:33:15,001 :INFO : test_ctaexam :Phone No : 7107274433
+2022-09-15 11:33:15,033 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:33:19,090 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:33:22,243 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:33:25,407 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:33:28,574 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:33:34,620 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:33:42,046 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f79b0ef3c88>
+2022-09-15 11:33:44,744 :INFO : test_ctaexam :[391822, '7107274433']
+2022-09-15 11:33:55,007 :INFO : test_ctaexam :Otp added successfully
+2022-09-15 11:34:20,285 :INFO : test_ctaexam :CTA : Download
+2022-09-15 11:34:26,606 :INFO : test_ctaexam :Name : trkazs
+2022-09-15 11:34:29,759 :INFO : test_ctaexam :Email : HALeIoj@gmail.com
+2022-09-15 11:34:31,849 :INFO : test_ctaexam :Phone No : 7775514216
+2022-09-15 11:34:31,885 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:34:35,942 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:34:39,154 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:34:42,311 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:34:45,463 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:34:51,492 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:34:59,288 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f79b0ef3d30>
+2022-09-15 11:35:02,064 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:35:14,225 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-15 11:35:20,651 :INFO : test_ctaexam :Name : ynxmsl
+2022-09-15 11:35:23,782 :INFO : test_ctaexam :Email : WeZPRll@gmail.com
+2022-09-15 11:35:25,926 :INFO : test_ctaexam :Phone No : 8228315512
+2022-09-15 11:35:25,976 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:35:30,029 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:35:33,236 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:35:36,451 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:35:39,649 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:35:45,684 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:35:53,198 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f79b0ef3e80>
+2022-09-15 11:35:56,017 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:36:08,199 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-15 11:36:14,344 :INFO : test_ctaexam :Name : csvhse
+2022-09-15 11:36:15,445 :INFO : test_ctaexam :Phone : 6179812655
+2022-09-15 11:36:15,594 :INFO : test_ctaexam :Email : BSAnINn@gmail.com
+2022-09-15 11:36:17,802 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-15 11:36:20,860 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:36:23,926 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:36:28,133 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-15 11:36:32,315 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-15 11:36:40,380 :INFO : test_ctaexam :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-15 11:36:51,479 :INFO : test_ctaexam :https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-15 11:36:56,976 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main?magicflag=1
+2022-09-15 11:37:01,762 :INFO : test_ctaexam :Response : 200
+2022-09-15 11:37:05,824 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-15 11:37:09,993 :INFO : test_ctaexam :Name : ukixfm
+2022-09-15 11:37:13,124 :INFO : test_ctaexam :Email : JQsTbhy@gmail.com
+2022-09-15 11:37:15,227 :INFO : test_ctaexam :Phone No : 9936907179
+2022-09-15 11:37:15,257 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:37:19,285 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:37:22,441 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:37:25,661 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:37:28,829 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:37:34,862 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:37:42,101 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f79b0ef3710>
+2022-09-15 11:37:44,759 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:44:01,575 :INFO : test_ctaexam :None
+2022-09-15 11:44:01,583 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 11:44:09,380 :INFO : test_ctaexam :Response : 200
+2022-09-15 11:44:13,431 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-15 11:44:17,589 :INFO : test_ctaexam :Name : xdmqkp
+2022-09-15 11:44:20,684 :INFO : test_ctaexam :Email : xNxZgCw@gmail.com
+2022-09-15 11:44:22,790 :INFO : test_ctaexam :Phone No : 8426736269
+2022-09-15 11:44:22,825 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:44:26,856 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:44:30,008 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:44:33,149 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:44:36,317 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:44:42,350 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:44:49,478 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f9a6d179470>
+2022-09-15 11:44:52,180 :INFO : test_ctaexam :[919841, '8426736269']
+2022-09-15 11:45:02,463 :INFO : test_ctaexam :Otp added successfully
+2022-09-15 11:45:28,015 :INFO : test_ctaexam :CTA : Download
+2022-09-15 11:45:34,361 :INFO : test_ctaexam :Name : tdsyvu
+2022-09-15 11:45:37,466 :INFO : test_ctaexam :Email : lKKAehI@gmail.com
+2022-09-15 11:45:39,563 :INFO : test_ctaexam :Phone No : 7081094911
+2022-09-15 11:45:39,603 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:45:43,662 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:45:46,822 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:45:50,015 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:45:53,161 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:45:59,194 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:46:06,516 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f9a6d179ba8>
+2022-09-15 11:46:09,141 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:46:21,249 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-15 11:46:27,715 :INFO : test_ctaexam :Name : dwixnx
+2022-09-15 11:46:30,810 :INFO : test_ctaexam :Email : sIDZlko@gmail.com
+2022-09-15 11:46:32,927 :INFO : test_ctaexam :Phone No : 6391789553
+2022-09-15 11:46:32,973 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:46:37,025 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:46:40,236 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 11:46:43,454 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 11:46:46,619 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 11:46:52,634 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 11:46:59,821 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7f9a6d179c50>
+2022-09-15 11:47:02,424 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-15 11:47:14,581 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-15 11:47:20,779 :INFO : test_ctaexam :Name : ljommk
+2022-09-15 11:47:21,880 :INFO : test_ctaexam :Phone : 7988670519
+2022-09-15 11:47:22,086 :INFO : test_ctaexam :Email : ZTivNfC@gmail.com
+2022-09-15 11:47:24,351 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-15 11:47:27,418 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 11:47:30,445 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 11:47:34,649 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-15 11:47:38,825 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-15 11:47:46,907 :INFO : test_ctaexam :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-15 12:16:07,742 :INFO : test_ctaexam :None
+2022-09-15 12:16:07,753 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 12:16:12,827 :INFO : test_ctaexam :Response : 200
+2022-09-15 12:16:16,925 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-15 12:16:21,123 :INFO : test_ctaexam :Name : vsriti
+2022-09-15 12:16:24,250 :INFO : test_ctaexam :Email : NGxtKDd@gmail.com
+2022-09-15 12:16:26,362 :INFO : test_ctaexam :Phone No : 8918842071
+2022-09-15 12:16:26,408 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-15 12:16:30,472 :INFO : test_ctaexam :Preferred level field not present
+2022-09-15 12:16:33,698 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-15 12:16:36,873 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-15 12:16:40,091 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-15 12:16:46,119 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-15 12:26:55,494 :INFO : test_ctaexam :None
+2022-09-15 12:26:55,503 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-15 12:27:00,779 :INFO : test_ctaexam :Response : 200
+2022-09-15 12:27:04,878 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-15 12:27:09,087 :INFO : test_ctaexam :Name : zbqohx
+2022-09-15 12:27:12,227 :INFO : test_ctaexam :Email : RKEVyZh@gmail.com
