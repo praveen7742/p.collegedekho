@@ -7,8 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from utilities.Baseclass import *
 
-class college_list(Cta,logs,Baseclass):
-    def college_list(self):           
+class College(Cta,logs,Baseclass):
+    def test_college(self):           
         time.sleep(2)
         self.test_log()     
         self.driver.maximize_window()
