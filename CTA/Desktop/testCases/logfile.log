@@ -396,3 +396,620 @@
 2022-09-15 12:27:04,878 :INFO : test_ctaexam :CTA : Set Exam Alert
 2022-09-15 12:27:09,087 :INFO : test_ctaexam :Name : zbqohx
 2022-09-15 12:27:12,227 :INFO : test_ctaexam :Email : RKEVyZh@gmail.com
+2022-09-21 12:17:01,085 :INFO : test_login :Current_Url : https://user:pass@staging-hz.collegedekho.com/login/?next=/%3Fmagicflag%3D1
+2022-09-21 12:17:02,398 :INFO : test_login :Response : 200
+2022-09-21 12:17:12,223 :INFO : test_ctaexam :None
+2022-09-21 12:17:12,228 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-21 12:17:13,039 :INFO : test_ctaexam :Response : 404
+2022-09-21 12:18:52,800 :INFO : test_login :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
+2022-09-21 12:18:57,769 :INFO : test_login :Response : 200
+2022-09-21 12:19:01,905 :INFO : test_login :CTA : Talk to our Experts
+2022-09-21 12:19:04,142 :INFO : test_login :Name : iamqde
+2022-09-21 12:19:07,306 :INFO : test_login :Email : QKgiTWL@gmail.com
+2022-09-21 12:19:09,454 :INFO : test_login :Phone No : 6244015884
+2022-09-21 12:19:09,660 :INFO : test_login :Pref Stream : Commerce and Banking
+2022-09-21 12:19:13,876 :INFO : test_login :Pref Level : UG
+2022-09-21 12:19:17,086 :INFO : test_login :State : Andaman and Nicobar
+2022-09-21 12:19:20,122 :INFO : test_login :Budget field not present
+2022-09-21 12:19:23,339 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-21 12:19:29,365 :INFO : test_login :Whatsapp Enable button is present
+2022-09-21 12:19:36,923 :INFO : test_login :<mysql.connector.connection.MySQLConnection object at 0x7fade649dcf8>
+2022-09-21 12:19:40,332 :INFO : test_login :[648434, '6244015884']
+2022-09-21 12:19:50,595 :INFO : test_login :Otp added successfully
+2022-09-21 12:20:18,771 :INFO : test_login :CTA : Apply Now
+2022-09-21 12:20:20,911 :INFO : test_login :Clicked on Apply now cta
+2022-09-21 12:20:25,244 :INFO : test_login :Name : bbpouq
+2022-09-21 12:20:28,377 :INFO : test_login :Email : eOFxegw@gmail.com
+2022-09-21 12:20:30,496 :INFO : test_login :Phone No : 6756727454
+2022-09-21 12:20:30,727 :INFO : test_login :Pref Stream : Commerce and Banking
+2022-09-21 12:20:34,949 :INFO : test_login :Pref Level : UG
+2022-09-21 12:20:38,150 :INFO : test_login :State : Andaman and Nicobar
+2022-09-21 12:20:41,189 :INFO : test_login :Budget field not present
+2022-09-21 12:20:44,372 :INFO : test_login :Board : ICSE/CBSE/IB
+2022-09-21 12:20:50,421 :INFO : test_login :Whatsapp Enable button not present
+2022-09-21 12:20:57,453 :INFO : test_login :<mysql.connector.connection.MySQLConnection object at 0x7fade6454da0>
+2022-09-21 12:21:00,000 :INFO : test_login :OTP not required,user already login
+2022-09-21 12:21:14,278 :INFO : test_login :Scrolled into footer form
+2022-09-21 12:21:20,388 :INFO : test_login :Name : nbequr
+2022-09-21 12:21:21,507 :INFO : test_login :Phone : 7594421012
+2022-09-21 12:21:21,676 :INFO : test_login :Email : YvhHsCq@gmail.com
+2022-09-21 12:21:23,870 :INFO : test_login :Pref State : Andaman and Nicobar
+2022-09-21 12:21:27,083 :INFO : test_login :Pref Level : UG
+2022-09-21 12:21:30,359 :INFO : test_login :Pref Stream : Engineering
+2022-09-21 12:21:34,558 :INFO : test_login :Pref Board : ICSE/CBSE/IB
+2022-09-21 12:21:38,733 :INFO : test_login :Footer Lead form submitted
+2022-09-21 12:21:46,802 :INFO : test_login :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-21 12:22:08,257 :INFO : test_ctaexam :None
+2022-09-21 12:22:08,263 :INFO : test_ctaexam :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-09-21 12:22:13,299 :INFO : test_ctaexam :Response : 200
+2022-09-21 12:22:17,381 :INFO : test_ctaexam :CTA : Set Exam Alert
+2022-09-21 12:22:21,564 :INFO : test_ctaexam :Name : rkkcox
+2022-09-21 12:22:24,706 :INFO : test_ctaexam :Email : VQvEHOF@gmail.com
+2022-09-21 12:22:26,814 :INFO : test_ctaexam :Phone No : 6319648744
+2022-09-21 12:22:26,848 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-21 12:22:30,885 :INFO : test_ctaexam :Preferred level field not present
+2022-09-21 12:22:34,076 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-21 12:22:37,261 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-21 12:22:40,407 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-21 12:22:46,441 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-21 12:22:53,582 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7fade6454a58>
+2022-09-21 12:22:56,358 :INFO : test_ctaexam :[733769, '6319648744']
+2022-09-21 12:23:06,651 :INFO : test_ctaexam :Otp added successfully
+2022-09-21 12:23:32,112 :INFO : test_ctaexam :CTA : Download
+2022-09-21 12:23:38,463 :INFO : test_ctaexam :Name : upkvdu
+2022-09-21 12:23:41,535 :INFO : test_ctaexam :Email : yZbsIOP@gmail.com
+2022-09-21 12:23:43,651 :INFO : test_ctaexam :Phone No : 7722686178
+2022-09-21 12:23:43,706 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-21 12:23:47,772 :INFO : test_ctaexam :Preferred level field not present
+2022-09-21 12:23:50,973 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-21 12:23:54,227 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-21 12:23:57,362 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-21 12:24:03,401 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-21 12:24:10,416 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7fade645e438>
+2022-09-21 12:24:13,114 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-21 12:24:25,275 :INFO : test_ctaexam :CTA : Subscribe Now
+2022-09-21 12:24:31,690 :INFO : test_ctaexam :Name : yzpcdc
+2022-09-21 12:24:34,847 :INFO : test_ctaexam :Email : jJJcBCg@gmail.com
+2022-09-21 12:24:36,934 :INFO : test_ctaexam :Phone No : 8523006363
+2022-09-21 12:24:36,997 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-21 12:24:41,022 :INFO : test_ctaexam :Preferred level field not present
+2022-09-21 12:24:44,186 :INFO : test_ctaexam :State : Andaman and Nicobar
+2022-09-21 12:24:47,420 :INFO : test_ctaexam :Budget : < INR 50K per annum
+2022-09-21 12:24:50,655 :INFO : test_ctaexam :Board : ICSE/CBSE/IB
+2022-09-21 12:24:56,689 :INFO : test_ctaexam :Whatsapp Enable button is present
+2022-09-21 12:25:04,010 :INFO : test_ctaexam :<mysql.connector.connection.MySQLConnection object at 0x7fade6454b38>
+2022-09-21 12:25:06,626 :INFO : test_ctaexam :OTP not required,user already login
+2022-09-21 12:25:18,819 :INFO : test_ctaexam :Scrolled into footer form
+2022-09-21 12:25:24,953 :INFO : test_ctaexam :Name : hjzhki
+2022-09-21 12:25:26,063 :INFO : test_ctaexam :Phone : 9191071559
+2022-09-21 12:25:26,211 :INFO : test_ctaexam :Email : cRcZKOL@gmail.com
+2022-09-21 12:25:28,464 :INFO : test_ctaexam :Pref State : Andaman and Nicobar
+2022-09-21 12:25:31,530 :INFO : test_ctaexam :Preferred level field not present
+2022-09-21 12:25:34,595 :INFO : test_ctaexam :Preferred Stream field not present
+2022-09-21 12:25:38,782 :INFO : test_ctaexam :Pref Board : ICSE/CBSE/IB
+2022-09-21 12:25:42,937 :INFO : test_ctaexam :Footer Lead form submitted
+2022-09-21 12:25:51,019 :INFO : test_ctaexam :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-09-21 12:27:39,898 :INFO : test_career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/police-officer?magicflag=1
+2022-09-21 12:27:49,275 :INFO : test_career :Response : 200
+2022-09-21 12:27:53,334 :INFO : test_career :CTA : Follow
+2022-09-21 12:27:55,506 :INFO : test_career :Name : yqsytb
+2022-09-21 12:27:58,634 :INFO : test_career :Email : BBjsmXy@gmail.com
+2022-09-21 12:28:00,730 :INFO : test_career :Phone No : 8777799238
+2022-09-21 12:28:00,960 :INFO : test_career :Pref Stream : Commerce and Banking
+2022-09-21 12:28:05,144 :INFO : test_career :Pref Level : UG
+2022-09-21 12:28:08,295 :INFO : test_career :State : Andaman and Nicobar
+2022-09-21 12:28:11,319 :INFO : test_career :Budget field not present
+2022-09-21 12:28:14,474 :INFO : test_career :Board : ICSE/CBSE/IB
+2022-09-21 12:28:20,506 :INFO : test_career :Whatsapp Enable button is present
+2022-09-21 12:28:27,495 :INFO : test_career :<mysql.connector.connection.MySQLConnection object at 0x7f3a3bcefc88>
+2022-09-21 12:28:29,996 :INFO : test_career :OTP not required,user already login
+2022-09-21 12:28:43,135 :INFO : test_career :CTA : Get Expert Help
+2022-09-21 12:29:31,982 :INFO : test_career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/police-officer/?magicflag=1
+2022-09-21 12:29:33,099 :INFO : test_career :Response : 403
+2022-09-21 12:29:44,826 :INFO : test_career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/police-officer/?magicflag=1
+2022-09-21 12:29:45,715 :INFO : test_career :Response : 403
+2022-09-21 12:29:57,579 :INFO : test_career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/police-officer/?magicflag=1
+2022-09-21 12:30:00,151 :INFO : test_career :Response : 403
+2022-09-21 15:30:59,858 :INFO : test_ctacoldetail :None
+2022-09-21 15:30:59,864 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:31:04,349 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:31:08,448 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:31:36,418 :INFO : test_ctacoldetail :None
+2022-09-21 15:31:36,426 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:31:40,863 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:31:44,953 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:35:08,717 :INFO : test_ctacoldetail :None
+2022-09-21 15:35:08,726 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:35:12,829 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:35:16,916 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:35:21,180 :INFO : test_ctacoldetail :Name : ilrrrw
+2022-09-21 15:35:24,329 :INFO : test_ctacoldetail :Email : FxYOvtB@gmail.com
+2022-09-21 15:35:26,483 :INFO : test_ctacoldetail :Phone No : 7062195378
+2022-09-21 15:35:26,703 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 15:35:30,961 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 15:35:34,012 :INFO : test_ctacoldetail :State field not present
+2022-09-21 15:35:37,056 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 15:35:40,245 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 15:35:46,291 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 15:35:53,741 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f521e1e29e8>
+2022-09-21 15:35:56,674 :INFO : test_ctacoldetail :[342830, '7062195378']
+2022-09-21 15:36:06,987 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 15:36:09,024 :INFO : test_ctacoldetail :OTP not required,user already login
+2022-09-21 15:40:43,742 :INFO : test_ctacoldetail :None
+2022-09-21 15:40:43,748 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:40:47,493 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:40:51,594 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:40:55,910 :INFO : test_ctacoldetail :Name : nvfcru
+2022-09-21 15:40:59,063 :INFO : test_ctacoldetail :Email : DtAhdLF@gmail.com
+2022-09-21 15:41:01,203 :INFO : test_ctacoldetail :Phone No : 6761091810
+2022-09-21 15:41:01,409 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 15:41:05,617 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 15:41:08,642 :INFO : test_ctacoldetail :State field not present
+2022-09-21 15:41:11,688 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 15:41:14,839 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 15:41:20,882 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 15:41:28,255 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f2662f209e8>
+2022-09-21 15:41:30,775 :INFO : test_ctacoldetail :[988833, '6761091810']
+2022-09-21 15:41:41,081 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 15:44:23,790 :INFO : test_ctacoldetail :None
+2022-09-21 15:44:23,810 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:44:27,733 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:44:31,811 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:44:36,114 :INFO : test_ctacoldetail :Name : kfjldn
+2022-09-21 15:44:39,293 :INFO : test_ctacoldetail :Email : icwqpQW@gmail.com
+2022-09-21 15:44:41,429 :INFO : test_ctacoldetail :Phone No : 8074536173
+2022-09-21 15:44:41,648 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 15:44:45,830 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 15:44:48,879 :INFO : test_ctacoldetail :State field not present
+2022-09-21 15:44:51,900 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 15:44:55,107 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 15:45:01,155 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 15:45:08,210 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7fdaa86e2a20>
+2022-09-21 15:45:10,736 :INFO : test_ctacoldetail :[754572, '8074536173']
+2022-09-21 15:45:21,079 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 15:45:23,130 :INFO : test_ctacoldetail :OTP not required,user already login
+2022-09-21 15:49:32,865 :INFO : test_ctacoldetail :None
+2022-09-21 15:49:32,872 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:49:36,830 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:49:40,921 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:49:45,184 :INFO : test_ctacoldetail :Name : gzagqy
+2022-09-21 15:49:48,361 :INFO : test_ctacoldetail :Email : owcGLVg@gmail.com
+2022-09-21 15:49:50,515 :INFO : test_ctacoldetail :Phone No : 9015633099
+2022-09-21 15:49:50,768 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 15:49:54,953 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 15:49:57,995 :INFO : test_ctacoldetail :State field not present
+2022-09-21 15:50:01,037 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 15:50:04,290 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 15:50:10,340 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 15:50:17,339 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7faa2a974e48>
+2022-09-21 15:50:19,879 :INFO : test_ctacoldetail :[386682, '9015633099']
+2022-09-21 15:50:30,155 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 15:53:44,579 :INFO : test_ctacoldetail :None
+2022-09-21 15:53:44,587 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:53:48,742 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:53:52,811 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:53:57,073 :INFO : test_ctacoldetail :Name : lfmamp
+2022-09-21 15:54:00,257 :INFO : test_ctacoldetail :Email : KpiESTV@gmail.com
+2022-09-21 15:54:02,399 :INFO : test_ctacoldetail :Phone No : 7934458199
+2022-09-21 15:54:02,615 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 15:54:06,931 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 15:54:09,975 :INFO : test_ctacoldetail :State field not present
+2022-09-21 15:54:13,018 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 15:54:16,212 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 15:54:22,255 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 15:54:29,259 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f407881fcc0>
+2022-09-21 15:54:31,766 :INFO : test_ctacoldetail :[137881, '7934458199']
+2022-09-21 15:54:42,126 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 15:55:58,084 :INFO : test_ctacoldetail :None
+2022-09-21 15:55:58,090 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 15:56:02,546 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 15:56:06,634 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 15:59:57,746 :INFO : test_ctacoldetail :None
+2022-09-21 15:59:57,752 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:00:01,617 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:00:05,713 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:22:16,074 :INFO : test_ctacoldetail :None
+2022-09-21 16:22:16,079 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:22:24,430 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:22:28,498 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:22:32,777 :INFO : test_ctacoldetail :Name : reaole
+2022-09-21 16:22:35,963 :INFO : test_ctacoldetail :Email : hMyAyzC@gmail.com
+2022-09-21 16:22:38,115 :INFO : test_ctacoldetail :Phone No : 9114444664
+2022-09-21 16:22:38,296 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 16:22:42,588 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 16:22:45,636 :INFO : test_ctacoldetail :State field not present
+2022-09-21 16:22:48,684 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 16:22:51,893 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:22:57,941 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:23:04,930 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7fbe7bb589b0>
+2022-09-21 16:23:07,475 :INFO : test_ctacoldetail :[127364, '9114444664']
+2022-09-21 16:23:17,815 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:24:49,538 :INFO : test_ctacoldetail :None
+2022-09-21 16:24:49,544 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:24:53,380 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:24:57,470 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:25:01,736 :INFO : test_ctacoldetail :Name : pjvrcq
+2022-09-21 16:25:04,935 :INFO : test_ctacoldetail :Email : yPhrLzf@gmail.com
+2022-09-21 16:25:07,087 :INFO : test_ctacoldetail :Phone No : 9591705214
+2022-09-21 16:25:07,307 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 16:25:11,533 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 16:25:14,583 :INFO : test_ctacoldetail :State field not present
+2022-09-21 16:25:17,630 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 16:25:20,836 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:25:26,880 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:25:34,703 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f18a03b19b0>
+2022-09-21 16:25:37,303 :INFO : test_ctacoldetail :[511505, '9591705214']
+2022-09-21 16:25:47,579 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:26:55,522 :INFO : test_ctacoldetail :None
+2022-09-21 16:26:55,528 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:26:59,446 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:27:03,512 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:27:07,830 :INFO : test_ctacoldetail :Name : hfhogn
+2022-09-21 16:27:11,000 :INFO : test_ctacoldetail :Email : PKIEVKj@gmail.com
+2022-09-21 16:27:13,138 :INFO : test_ctacoldetail :Phone No : 8594776568
+2022-09-21 16:27:13,434 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 16:27:17,643 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 16:27:20,679 :INFO : test_ctacoldetail :State field not present
+2022-09-21 16:27:23,709 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 16:27:26,863 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:27:32,910 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:27:39,898 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f0716d129b0>
+2022-09-21 16:27:42,557 :INFO : test_ctacoldetail :[851397, '8594776568']
+2022-09-21 16:27:52,875 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:30:43,997 :INFO : test_ctacoldetail :None
+2022-09-21 16:30:44,003 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:30:48,125 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:30:52,234 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:30:56,529 :INFO : test_ctacoldetail :Name : cupeqb
+2022-09-21 16:30:59,728 :INFO : test_ctacoldetail :Email : kWWFGwJ@gmail.com
+2022-09-21 16:31:01,878 :INFO : test_ctacoldetail :Phone No : 8820889636
+2022-09-21 16:31:02,094 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 16:31:06,298 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 16:31:09,342 :INFO : test_ctacoldetail :State field not present
+2022-09-21 16:31:12,385 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 16:31:15,563 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:31:21,611 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:31:28,596 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f360d96de10>
+2022-09-21 16:31:31,100 :INFO : test_ctacoldetail :[743950, '8820889636']
+2022-09-21 16:31:41,427 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:33:10,627 :INFO : test_ctacoldetail :None
+2022-09-21 16:33:10,639 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-09-21 16:33:14,986 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:33:19,071 :INFO : test_ctacoldetail :CTA : Download Brochure
+2022-09-21 16:33:23,375 :INFO : test_ctacoldetail :Name : bgiupm
+2022-09-21 16:33:26,551 :INFO : test_ctacoldetail :Email : udCWMLr@gmail.com
+2022-09-21 16:33:28,686 :INFO : test_ctacoldetail :Phone No : 9571798509
+2022-09-21 16:33:28,896 :INFO : test_ctacoldetail :Pref Stream : Commerce and Banking
+2022-09-21 16:33:33,128 :INFO : test_ctacoldetail :Pref Level : UG
+2022-09-21 16:33:36,176 :INFO : test_ctacoldetail :State field not present
+2022-09-21 16:33:39,227 :INFO : test_ctacoldetail :Budget field not present
+2022-09-21 16:33:42,473 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:33:48,498 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:33:55,550 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7fbc66e8a9e8>
+2022-09-21 16:33:58,145 :INFO : test_ctacoldetail :[846914, '9571798509']
+2022-09-21 16:34:08,503 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:48:36,685 :INFO : test_ctacoldetail :None
+2022-09-21 16:48:36,691 :INFO : test_ctacoldetail :Current_Url : https://staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:48:37,571 :INFO : test_ctacoldetail :Response : 401
+2022-09-21 16:48:51,662 :INFO : test_ctacoldetail :None
+2022-09-21 16:48:51,669 :INFO : test_ctacoldetail :Current_Url : https://staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:48:52,438 :INFO : test_ctacoldetail :Response : 401
+2022-09-21 16:49:31,949 :INFO : test_ctacoldetail :None
+2022-09-21 16:49:31,957 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:49:38,257 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:51:10,630 :INFO : test_ctacoldetail :None
+2022-09-21 16:51:10,641 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:51:22,036 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:52:51,838 :INFO : test_ctacoldetail :None
+2022-09-21 16:52:51,846 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:52:58,246 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:53:02,346 :INFO : test_ctacoldetail :CTA : Set Exam Alert
+2022-09-21 16:53:06,624 :INFO : test_ctacoldetail :Name : vqzhxx
+2022-09-21 16:53:09,829 :INFO : test_ctacoldetail :Email : BWaxIIr@gmail.com
+2022-09-21 16:53:11,971 :INFO : test_ctacoldetail :Phone No : 6135624936
+2022-09-21 16:53:12,027 :INFO : test_ctacoldetail :Preferred Stream field not present
+2022-09-21 16:53:16,097 :INFO : test_ctacoldetail :Preferred level field not present
+2022-09-21 16:53:19,345 :INFO : test_ctacoldetail :State : Andaman and Nicobar
+2022-09-21 16:53:22,525 :INFO : test_ctacoldetail :Budget : < INR 50K per annum
+2022-09-21 16:53:25,737 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 16:53:31,787 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 16:53:38,962 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f5cab527cc0>
+2022-09-21 16:53:41,490 :INFO : test_ctacoldetail :[537584, '6135624936']
+2022-09-21 16:53:51,827 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 16:59:25,103 :INFO : test_ctacoldetail :None
+2022-09-21 16:59:25,115 :INFO : test_ctacoldetail :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 16:59:36,258 :INFO : test_ctacoldetail :Response : 200
+2022-09-21 16:59:40,351 :INFO : test_ctacoldetail :CTA : Set Exam Alert
+2022-09-21 16:59:44,625 :INFO : test_ctacoldetail :Name : dyjbhc
+2022-09-21 16:59:47,781 :INFO : test_ctacoldetail :Email : cpmPvEI@gmail.com
+2022-09-21 16:59:49,919 :INFO : test_ctacoldetail :Phone No : 9292046144
+2022-09-21 16:59:49,973 :INFO : test_ctacoldetail :Preferred Stream field not present
+2022-09-21 16:59:54,029 :INFO : test_ctacoldetail :Preferred level field not present
+2022-09-21 16:59:57,261 :INFO : test_ctacoldetail :State : Andaman and Nicobar
+2022-09-21 17:00:00,460 :INFO : test_ctacoldetail :Budget : < INR 50K per annum
+2022-09-21 17:00:03,670 :INFO : test_ctacoldetail :Board : ICSE/CBSE/IB
+2022-09-21 17:00:09,719 :INFO : test_ctacoldetail :Whatsapp Enable button is present
+2022-09-21 17:00:16,749 :INFO : test_ctacoldetail :<mysql.connector.connection.MySQLConnection object at 0x7f1b0efcdc88>
+2022-09-21 17:00:19,358 :INFO : test_ctacoldetail :[108661, '9292046144']
+2022-09-21 17:00:29,675 :INFO : test_ctacoldetail :Otp added successfully
+2022-09-21 17:01:55,495 :INFO : test_ctaexamlist :None
+2022-09-21 17:01:55,503 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:02:01,961 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:02:06,059 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:02:59,717 :INFO : test_ctaexamlist :None
+2022-09-21 17:02:59,739 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:03:06,076 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:03:10,169 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:03:14,436 :INFO : test_ctaexamlist :Name : bkrycc
+2022-09-21 17:03:17,599 :INFO : test_ctaexamlist :Email : pugTICk@gmail.com
+2022-09-21 17:03:19,728 :INFO : test_ctaexamlist :Phone No : 8949847897
+2022-09-21 17:03:19,759 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:03:23,808 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:03:27,011 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:03:30,162 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:03:33,330 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:03:39,381 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:03:46,412 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7fdedf056c88>
+2022-09-21 17:03:48,973 :INFO : test_ctaexamlist :[914364, '8949847897']
+2022-09-21 17:03:59,279 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-21 17:05:24,750 :INFO : test_ctaexamlist :None
+2022-09-21 17:05:24,757 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:05:30,954 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:05:35,047 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:05:39,306 :INFO : test_ctaexamlist :Name : ccmtex
+2022-09-21 17:05:42,483 :INFO : test_ctaexamlist :Email : jcGeQis@gmail.com
+2022-09-21 17:05:44,590 :INFO : test_ctaexamlist :Phone No : 8254458104
+2022-09-21 17:05:44,638 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:05:48,693 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:05:51,906 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:05:55,083 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:05:58,284 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:06:04,331 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:06:11,614 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f677a181cf8>
+2022-09-21 17:06:14,391 :INFO : test_ctaexamlist :[566442, '8254458104']
+2022-09-21 17:06:24,735 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-21 17:10:41,915 :INFO : test_ctaexamlist :None
+2022-09-21 17:10:41,923 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:10:50,614 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:10:54,711 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:10:58,971 :INFO : test_ctaexamlist :Name : kylaoy
+2022-09-21 17:11:02,157 :INFO : test_ctaexamlist :Email : NVoKOxn@gmail.com
+2022-09-21 17:11:04,284 :INFO : test_ctaexamlist :Phone No : 9757271554
+2022-09-21 17:11:04,351 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:11:08,406 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:11:11,582 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:11:14,741 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:11:17,945 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:11:23,976 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:11:30,968 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f385e525898>
+2022-09-21 17:11:33,509 :INFO : test_ctaexamlist :[344822, '9757271554']
+2022-09-21 17:11:43,835 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-21 17:12:47,270 :INFO : test_ctaexamlist :None
+2022-09-21 17:12:47,278 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:12:53,669 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:12:57,727 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:13:01,949 :INFO : test_ctaexamlist :Name : fdmydr
+2022-09-21 17:13:05,063 :INFO : test_ctaexamlist :Email : dZpxiZH@gmail.com
+2022-09-21 17:13:07,188 :INFO : test_ctaexamlist :Phone No : 6922861137
+2022-09-21 17:13:07,226 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:13:11,262 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:13:14,493 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:13:17,694 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:13:20,889 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:13:26,935 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:13:33,961 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7fe0be4ae898>
+2022-09-21 17:13:36,476 :INFO : test_ctaexamlist :[724013, '6922861137']
+2022-09-21 17:13:46,847 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-21 17:14:39,112 :INFO : test_ctaexamlist :None
+2022-09-21 17:14:39,118 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:14:45,690 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:14:49,790 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:14:54,104 :INFO : test_ctaexamlist :Name : zgslzp
+2022-09-21 17:14:57,263 :INFO : test_ctaexamlist :Email : OPUVJtt@gmail.com
+2022-09-21 17:14:59,379 :INFO : test_ctaexamlist :Phone No : 7267035524
+2022-09-21 17:14:59,445 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:15:03,478 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:15:06,633 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:15:09,785 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:15:12,934 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:15:18,966 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:15:26,670 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f2299d55d30>
+2022-09-21 17:15:29,212 :INFO : test_ctaexamlist :[843114, '7267035524']
+2022-09-21 17:15:39,503 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-21 17:16:38,802 :INFO : test_ctaexamlist :None
+2022-09-21 17:16:38,808 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-21 17:16:46,721 :INFO : test_ctaexamlist :Response : 200
+2022-09-21 17:16:50,798 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-21 17:16:55,012 :INFO : test_ctaexamlist :Name : kpipen
+2022-09-21 17:16:58,184 :INFO : test_ctaexamlist :Email : AyDXAGJ@gmail.com
+2022-09-21 17:17:00,297 :INFO : test_ctaexamlist :Phone No : 8546071849
+2022-09-21 17:17:00,329 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-21 17:17:04,397 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-21 17:17:07,569 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-21 17:17:10,742 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-21 17:17:13,941 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-21 17:17:19,977 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-21 17:17:26,961 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f14e66987f0>
+2022-09-21 17:17:30,374 :INFO : test_ctaexamlist :[670596, '8546071849']
+2022-09-21 17:17:40,644 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-22 12:32:46,995 :INFO : test_ctaexamlist :None
+2022-09-22 12:32:47,016 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-09-22 12:32:54,668 :INFO : test_ctaexamlist :Response : 200
+2022-09-22 12:32:58,756 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-09-22 12:33:03,030 :INFO : test_ctaexamlist :Name : bhhhib
+2022-09-22 12:33:06,183 :INFO : test_ctaexamlist :Email : RMTMyxT@gmail.com
+2022-09-22 12:33:08,317 :INFO : test_ctaexamlist :Phone No : 9553583183
+2022-09-22 12:33:08,363 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-09-22 12:33:12,418 :INFO : test_ctaexamlist :Preferred level field not present
+2022-09-22 12:33:15,602 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-09-22 12:33:18,754 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-09-22 12:33:21,960 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-09-22 12:33:28,018 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-09-22 12:33:36,524 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f2c45d11e10>
+2022-09-22 12:33:39,202 :INFO : test_ctaexamlist :[763072, '9553583183']
+2022-09-22 12:33:49,473 :INFO : test_ctaexamlist :Otp added successfully
+2022-09-23 10:30:55,294 :INFO : test_career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/police-officer?magicflag=1
+2022-09-23 10:31:05,710 :INFO : test_career :Response : 200
+2022-10-03 11:09:13,107 :INFO : test_ctacoldetail :None
+2022-10-03 11:09:13,112 :INFO : test_ctacoldetail :Current_Url : http://49.12.243.187:3000/colleges/amity-university-punjab?magicflag=1
+2022-10-03 11:09:17,266 :INFO : test_ctacoldetail :Response : 500
+2022-10-03 11:10:57,292 :INFO : test_ctaexamlist :None
+2022-10-03 11:10:57,304 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:11:03,773 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:11:07,829 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:11:58,809 :INFO : test_ctaexamlist :None
+2022-10-03 11:11:58,817 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:12:08,190 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:12:12,263 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:12:16,483 :INFO : test_ctaexamlist :Name : mcvxpx
+2022-10-03 11:12:19,637 :INFO : test_ctaexamlist :Email : ijTuynB@gmail.com
+2022-10-03 11:12:21,747 :INFO : test_ctaexamlist :Phone No : 7698906232
+2022-10-03 11:12:21,777 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:12:25,818 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:12:28,992 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:12:32,129 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:12:35,293 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:12:41,310 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:12:48,274 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f0cf9006d68>
+2022-10-03 11:12:50,804 :INFO : test_ctaexamlist :[515269, '7698906232']
+2022-10-03 11:13:01,064 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 11:16:00,013 :INFO : test_ctaexamlist :None
+2022-10-03 11:16:00,022 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:16:06,099 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:16:10,155 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:16:14,366 :INFO : test_ctaexamlist :Name : sjqcuo
+2022-10-03 11:16:17,515 :INFO : test_ctaexamlist :Email : iZUAIUq@gmail.com
+2022-10-03 11:16:19,624 :INFO : test_ctaexamlist :Phone No : 8440595380
+2022-10-03 11:16:19,655 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:16:23,689 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:16:26,863 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:16:30,030 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:16:33,164 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:16:39,192 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:16:46,176 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f84cffb7d68>
+2022-10-03 11:16:48,728 :INFO : test_ctaexamlist :[473779, '8440595380']
+2022-10-03 11:16:59,017 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 11:28:37,539 :INFO : test_ctaexamlist :None
+2022-10-03 11:28:37,556 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:28:38,380 :INFO : test_ctaexamlist :Response : 403
+2022-10-03 11:29:09,884 :INFO : test_ctaexamlist :None
+2022-10-03 11:29:09,898 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:29:10,728 :INFO : test_ctaexamlist :Response : 403
+2022-10-03 11:31:05,167 :INFO : test_ctaexamlist :None
+2022-10-03 11:31:05,176 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:31:15,631 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:31:19,682 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:31:23,938 :INFO : test_ctaexamlist :Name : yzafgk
+2022-10-03 11:31:27,084 :INFO : test_ctaexamlist :Email : LCZiQlN@gmail.com
+2022-10-03 11:31:49,410 :INFO : test_ctaexamlist :None
+2022-10-03 11:31:49,419 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:31:55,220 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:31:59,281 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:32:22,516 :INFO : test_ctaexamlist :None
+2022-10-03 11:32:22,524 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:32:28,583 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:32:32,664 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:32:36,908 :INFO : test_ctaexamlist :Name : dbzdeq
+2022-10-03 11:32:40,048 :INFO : test_ctaexamlist :Email : ospKkcZ@gmail.com
+2022-10-03 11:32:42,155 :INFO : test_ctaexamlist :Phone No : 6222669444
+2022-10-03 11:32:42,215 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:32:46,252 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:32:49,494 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:32:52,640 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:32:55,810 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:33:01,860 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:33:08,881 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f2e7e4ecfd0>
+2022-10-03 11:33:11,436 :INFO : test_ctaexamlist :[365492, '6222669444']
+2022-10-03 11:33:21,752 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 11:33:35,888 :INFO : test_ctaexamlist :Page refreshed successfully
+2022-10-03 11:39:58,537 :INFO : test_ctaexamlist :None
+2022-10-03 11:39:58,546 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:40:04,719 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:40:08,802 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:40:13,081 :INFO : test_ctaexamlist :Name : upohjm
+2022-10-03 11:40:16,214 :INFO : test_ctaexamlist :Email : ujDWEdK@gmail.com
+2022-10-03 11:40:18,355 :INFO : test_ctaexamlist :Phone No : 7615613625
+2022-10-03 11:40:18,406 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:40:22,460 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:40:25,664 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:40:28,857 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:40:32,070 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:40:38,095 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:40:45,119 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f52ecec90b8>
+2022-10-03 11:40:47,674 :INFO : test_ctaexamlist :[808568, '7615613625']
+2022-10-03 11:40:57,943 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 11:41:12,108 :INFO : test_ctaexamlist :Page refreshed successfully
+2022-10-03 11:57:55,420 :INFO : test_ctaexamlist :None
+2022-10-03 11:57:55,429 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 11:58:02,331 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 11:58:06,417 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 11:58:10,635 :INFO : test_ctaexamlist :Name : bqlvkw
+2022-10-03 11:58:13,768 :INFO : test_ctaexamlist :Email : MOShKcl@gmail.com
+2022-10-03 11:58:15,892 :INFO : test_ctaexamlist :Phone No : 6706328175
+2022-10-03 11:58:15,924 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:58:19,968 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:58:23,142 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:58:26,356 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:58:29,549 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:58:35,583 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:58:42,562 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f693e224b70>
+2022-10-03 11:58:45,107 :INFO : test_ctaexamlist :[406694, '6706328175']
+2022-10-03 11:58:55,348 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 11:59:09,510 :INFO : test_ctaexamlist :Page refreshed successfully
+2022-10-03 11:59:21,079 :INFO : test_ctaexamlist :Name : qlpkil
+2022-10-03 11:59:24,228 :INFO : test_ctaexamlist :Email : Fwevptk@gmail.com
+2022-10-03 11:59:26,347 :INFO : test_ctaexamlist :Phone No : 8386070329
+2022-10-03 11:59:26,414 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 11:59:30,480 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 11:59:33,694 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 11:59:36,856 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 11:59:40,149 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 11:59:46,170 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 11:59:53,325 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f693e25bf60>
+2022-10-03 12:22:49,506 :INFO : test_ctaexamlist :None
+2022-10-03 12:22:49,515 :INFO : test_ctaexamlist :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-10-03 12:22:58,009 :INFO : test_ctaexamlist :Response : 200
+2022-10-03 12:23:02,055 :INFO : test_ctaexamlist :CTA : Set Exam Alert
+2022-10-03 12:23:06,237 :INFO : test_ctaexamlist :Name : dxfyyx
+2022-10-03 12:23:09,362 :INFO : test_ctaexamlist :Email : KyIYicc@gmail.com
+2022-10-03 12:23:11,480 :INFO : test_ctaexamlist :Phone No : 9483800663
+2022-10-03 12:23:11,511 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 12:23:15,541 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 12:23:18,689 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 12:23:21,816 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 12:23:25,031 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 12:23:31,058 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 12:23:38,045 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f5d51980fd0>
+2022-10-03 12:23:40,585 :INFO : test_ctaexamlist :[766195, '9483800663']
+2022-10-03 12:23:50,919 :INFO : test_ctaexamlist :Otp added successfully
+2022-10-03 12:24:05,107 :INFO : test_ctaexamlist :Page refreshed successfully
+2022-10-03 12:24:23,293 :INFO : test_ctaexamlist :Name : spabht
+2022-10-03 12:24:26,434 :INFO : test_ctaexamlist :Email : IapKNxm@gmail.com
+2022-10-03 12:24:28,540 :INFO : test_ctaexamlist :Phone No : 6773078729
+2022-10-03 12:24:28,563 :INFO : test_ctaexamlist :Preferred Stream field not present
+2022-10-03 12:24:32,632 :INFO : test_ctaexamlist :Preferred level field not present
+2022-10-03 12:24:35,833 :INFO : test_ctaexamlist :State : Andaman and Nicobar
+2022-10-03 12:24:39,032 :INFO : test_ctaexamlist :Budget : < INR 50K per annum
+2022-10-03 12:24:42,210 :INFO : test_ctaexamlist :Board : ICSE/CBSE/IB
+2022-10-03 12:24:48,266 :INFO : test_ctaexamlist :Whatsapp Enable button is present
+2022-10-03 12:24:55,864 :INFO : test_ctaexamlist :<mysql.connector.connection.MySQLConnection object at 0x7f5d5198fb38>
+2022-10-03 12:26:06,156 :INFO : test_ctacoldetail :None
+2022-10-03 12:26:06,162 :INFO : test_ctacoldetail :Current_Url : https://user:pass@cd-staging-rhz.collegedekho.com/colleges/lpu?magicflag=1
+2022-10-03 12:26:12,527 :INFO : test_ctacoldetail :Response : 200
+2022-10-03 12:26:16,617 :INFO : test_ctacoldetail :CTA : Get Free Counselling
+2022-10-03 12:27:10,207 :INFO : test_ctacoldetail :None
+2022-10-03 12:27:10,213 :INFO : test_ctacoldetail :Current_Url : https://user:pass@cd-staging-rhz.collegedekho.com/colleges/lpu?magicflag=1
+2022-10-03 12:27:15,148 :INFO : test_ctacoldetail :Response : 200
+2022-10-03 12:27:19,239 :INFO : test_ctacoldetail :CTA : Get Free Counselling
+2022-10-03 12:28:39,453 :INFO : test_ctacoldetail :None
+2022-10-03 12:28:39,459 :INFO : test_ctacoldetail :Current_Url : https://user:pass@cd-staging-rhz.collegedekho.com/colleges/lpu?magicflag=1
+2022-10-03 12:28:48,437 :INFO : test_ctacoldetail :Response : 200
+2022-10-03 12:28:52,507 :INFO : test_ctacoldetail :CTA : Get Free Counselling
+2022-10-03 12:29:40,732 :INFO : test_ctacoldetail :None
+2022-10-03 12:29:40,766 :INFO : test_ctacoldetail :Current_Url : https://user:pass@cd-staging-rhz.collegedekho.com/colleges/lpu?magicflag=1
+2022-10-03 12:29:45,761 :INFO : test_ctacoldetail :Response : 200
+2022-10-03 12:29:49,854 :INFO : test_ctacoldetail :CTA : Get Free Counselling
+2022-10-04 11:43:42,763 :INFO : test_ctacoldetail :None
+2022-10-04 11:43:42,783 :INFO : test_ctacoldetail :Current_Url : https://user:pass@cd-staging-rhz.collegedekho.com/colleges/lpu
+2022-10-04 11:43:49,523 :INFO : test_ctacoldetail :Response : 200
+2022-10-04 11:43:53,611 :INFO : test_ctacoldetail :CTA : Get Free Counselling

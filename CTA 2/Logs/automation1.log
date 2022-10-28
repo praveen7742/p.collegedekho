@@ -1,0 +1,19 @@
+2022-10-20 13:44:25,622 :INFO :Test_001 :Information log 
+2022-10-20 13:44:25,622 :WARNING :Test_001 :Warning log
+2022-10-20 13:44:25,623 :ERROR :Test_001 :Error log
+2022-10-20 13:44:25,623 :CRITICAL :Test_001 :Critical log
+2022-10-20 13:44:31,399 :INFO :Test_001 :******* Starting CTA TEST HOMEPAGE**********
+2022-10-21 10:29:00,908 :INFO :Test_001 :Information log 
+2022-10-21 10:29:00,908 :WARNING :Test_001 :Warning log
+2022-10-21 10:29:00,908 :ERROR :Test_001 :Error log
+2022-10-21 10:29:00,908 :CRITICAL :Test_001 :Critical log
+2022-10-21 10:29:04,944 :INFO :Test_001 :******* Starting CTA TEST HOMEPAGE**********
+2022-10-21 10:29:08,584 :INFO :Test_001 :-------------------------
+2022-10-21 10:29:08,590 :INFO :Test_001 :CollegeDekho.com - Study Abroad LMS
+2022-10-27 11:41:43,705 :INFO :Test_001 :Information log 
+2022-10-27 11:41:43,705 :WARNING :Test_001 :Warning log
+2022-10-27 11:41:43,705 :ERROR :Test_001 :Error log
+2022-10-27 11:41:43,705 :CRITICAL :Test_001 :Critical log
+2022-10-27 11:41:47,830 :INFO :Test_001 :******* Starting CTA TEST HOMEPAGE**********
+2022-10-27 11:41:49,411 :INFO :Test_001 :-------------------------
+2022-10-27 11:41:49,416 :INFO :Test_001 :Privacy error

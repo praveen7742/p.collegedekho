@@ -147,11 +147,10 @@ class Cta():
             time.sleep(5)
 
         except :
-            self.logger.info("OTP not required,user already login")
             pass
 
 
-        time.sleep(3)
+        time.sleep(5)
 
 
 
@@ -250,11 +249,12 @@ class Cta():
             self.logger.info("Pref Board field not present")
             time.sleep(2)
             pass
-        time.sleep(4)
+        time.sleep(2)
 
-        submit_button = self.driver.find_element(By.XPATH,"//form[@id = 'new_footer_form']/ul/li[8]")
+        submit_button = self.driver.find_element(By.XPATH,"//input[@id='86']")
         submit_button.click()
         self.logger.info("Footer Lead form submitted")
+        time.sleep(3)
 
 
 
@@ -265,7 +265,7 @@ class Cta():
         time.sleep(2)
         closebutton = self.driver.find_element_by_xpath("//button[@type='button']")
         closebutton.click()
-        time.sleep(2)
+        time.sleep(4)
 
     def random_phonenumber(self):
         

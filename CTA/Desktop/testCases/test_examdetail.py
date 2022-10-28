@@ -40,6 +40,7 @@ class Exam(Cta,logs,Baseclass):
         time.sleep(2)
         self.logger.info("CTA : " + download.text)
         time.sleep(2)
+        
         download.click()
         time.sleep(2)
         self.driver.find_element(By.ID,"id_name_cta").clear()
@@ -47,6 +48,7 @@ class Exam(Cta,logs,Baseclass):
         self.driver.find_element(By.ID,"id_phone_cta").clear()
 
         self.cta_detail()
+
         self.closeform()
         time.sleep(2)
 
