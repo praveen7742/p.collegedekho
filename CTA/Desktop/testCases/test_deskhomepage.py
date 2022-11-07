@@ -31,38 +31,8 @@ class Login(Cta,logs,Baseclass):
         Talk_experts.click()
 
         self.cta_detail()
-        self.closeform()
-        time.sleep(2)
-       
-
-
-
-
-
-
-        #APPLY NOW CTA
-        Apply_now = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Apply Now'])[1]"))
-        Apply_now.location_once_scrolled_into_view
-        time.sleep(2)
-
-
-        Apply_now.send_keys(Keys.PAGE_UP)
-       
-        self.logger.info("CTA : " + Apply_now.text)
-        time.sleep(2)
-        Apply_now.click()
-        self.logger.info("Clicked on Apply now cta")
-        time.sleep(2)
-
-        self.driver.find_element(By.ID,"id_name_cta").clear()
-        self.driver.find_element(By.ID,"id_email_cta").clear()
-        self.driver.find_element(By.ID,"id_phone_cta").clear()
-
-       
-        self.cta_detail()
-        time.sleep(2)
-        self.closeform()
-
+        self.driver.back()
+        self.driver.refresh()
         time.sleep(2)
 
         #FOOTER FORM

@@ -150,9 +150,6 @@ class Cta():
 
         time.sleep(3)
 
-
-
-
             #Closing followup form
     def closeform(self):
         try:
@@ -160,6 +157,9 @@ class Cta():
             time.sleep(2)
             close_form.click()
             time.sleep(3)
+            self.driver.back()
+            self.driver.refresh()
+            
         except:
             pass
 
@@ -183,9 +183,6 @@ class Cta():
 
 
 
-    
-
-       
       
     
     def footer_form(self):
@@ -247,11 +244,13 @@ class Cta():
             self.logger.info("Pref Board field not present")
             time.sleep(2)
             pass
-        time.sleep(4)
+        time.sleep(2)
 
-        submit_button = self.driver.find_element(By.XPATH,"//form[@id = 'new_footer_form']/ul/li[8]")
+        submit_button = self.driver.find_element(By.XPATH,"//input[@id='86']")
+        time.sleep(2)
         submit_button.click()
         self.logger.info("Footer Lead form submitted")
+        time.sleep(3)
 
 
 

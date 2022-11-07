@@ -5,9 +5,16 @@ config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
 
 class ReadConfig:
     @staticmethod
-    def getApplicationURL():
-        url=config.get('common info','baseURL')
-        return url
+    def getHomepageURL():
+        desktop_url=config.get('common info','HomePageUrl')
+
+        return desktop_url
+        
+    @staticmethod
+    def getExamURL():
+        ExamDetail_Url=config.get('common info','ExmDtlUrl')
+    
+        return ExamDetail_Url
 
     # @staticmethod
     # def getUseremail():

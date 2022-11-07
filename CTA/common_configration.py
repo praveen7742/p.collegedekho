@@ -252,6 +252,7 @@ class Cta():
         time.sleep(2)
 
         submit_button = self.driver.find_element(By.XPATH,"//input[@id='86']")
+        time.sleep(2)
         submit_button.click()
         self.logger.info("Footer Lead form submitted")
         time.sleep(3)

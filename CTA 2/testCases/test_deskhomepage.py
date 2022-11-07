@@ -11,12 +11,12 @@ from testCases.conftest import *
 
 
 
-class Test_001(Cta):
+class Test_deskhomepage(Cta):
     
-    baseURL = ReadConfig.getApplicationURL()
+    baseURL = ReadConfig.getHomepageURL()
     logger = LogGen.loggen()  # Logger
 
-
+    @pytest.mark.test_cta_homepage
     def test_cta_homepage(self,setup):
         self.logger.info("******* Starting CTA TEST HOMEPAGE**********")
         self.driver = setup
@@ -46,32 +46,8 @@ class Test_001(Cta):
         Talk_experts.click()
 
         self.cta_detail()
-        self.closeform()
-        time.sleep(2)
-
-        #APPLY NOW CTA
-        Apply_now = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Apply Now'])[1]"))
-        Apply_now.location_once_scrolled_into_view
-        time.sleep(2)
-
-
-        Apply_now.send_keys(Keys.PAGE_UP)
-       
-        self.logger.info("CTA : " + Apply_now.text)
-        time.sleep(2)
-        Apply_now.click()
-        self.logger.info("Clicked on Apply now cta")
-        time.sleep(2)
-
-        self.driver.find_element(By.ID,"id_name_cta").clear()
-        self.driver.find_element(By.ID,"id_email_cta").clear()
-        self.driver.find_element(By.ID,"id_phone_cta").clear()
-
-       
-        self.cta_detail()
-        time.sleep(2)
-        self.closeform()
-
+        self.driver.back()
+        self.driver.refresh()
         time.sleep(2)
 
         #FOOTER FORM
@@ -88,36 +64,7 @@ class Test_001(Cta):
         
         self.thankyou_message()
         time.sleep(2)
-
-
-
-
         
-        # otp_query_1 = ("""select * from users_otp where phone_no = {} order by id desc""".format(parser.get('otplogin', 'Number_range_5')))
-        # cursor = conn.cursor()
-        # cursor.execute(otp_query_1)
-        # row = cursor.fetchone()
-        # result_dict = list(row)
-        # self.logger.info(result_dict[2])
-        # otp_value = [int(x) for x in str(result_dict[2])]
-        # try:
-        #     for index, value in enumerate(otp_value):
-                    
-        #         otp_1 = self.driver.find_element(By.XPATH,"(//input[@placeholder='-'])//input[{}]".format(int(index)+1))
-        #         otp_1.send_keys(value)
-        #         time.sleep(5)
-                    
-        # except Exception as e:
-
-        #     self.logger.info(e)
-        #     for index, value in enumerate(result_dict):
-        #         otp_1_new = self.driver.find_element(By.XPATH,"//input[@name='first'])[{}]".format(int(index)+1))
-        #         otp_1_new.send_keys(value)
-        #         time.sleep(5)
-            
-        #     verify_button = self.driver.find_element(By.ID,"gtm_loginVerify")
-        #     verify_button.click()
-        #     time.sleep()
 
 if  __name__ == "__main__":
     unittest.main()
