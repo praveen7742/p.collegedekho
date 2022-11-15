@@ -14,7 +14,7 @@ class Test_ExamDetail2(Cta):
     baseURL1 = ReadConfig.getExamURL()
     logger = LogGen.loggen()  # Logger
    
-    @pytest.mark.test_ctaexamdetail
+  
     def test_ctaexamdetail(self,setup):           
         self.logger.info("******* Starting CTA Exam Detail*********")
         self.driver = setup

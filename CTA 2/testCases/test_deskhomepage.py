@@ -16,7 +16,7 @@ class Test_deskhomepage(Cta):
     baseURL = ReadConfig.getHomepageURL()
     logger = LogGen.loggen()  # Logger
 
-    @pytest.mark.test_cta_homepage
+  
     def test_cta_homepage(self,setup):
         self.logger.info("******* Starting CTA TEST HOMEPAGE**********")
         self.driver = setup

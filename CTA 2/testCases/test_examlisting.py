@@ -1,14 +1,17 @@
-from lib2to3.pgen2 import driver
 import time
 import requests
-from logs import logs
 import unittest
-from common_configration import Cta
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from utilities.Baseclass import *
+from pageObjects.common_configuration import Cta
+from utilities.readProperties import ReadConfig
+from utilities.customLogger import LogGen
+from testCases.conftest import *
 
-class examlisting(Cta,logs,Baseclass):
+class Test_examlisting(Cta):
+    baseURL = ReadConfig.getHomepageURL()
+    logger = LogGen.loggen()  # Logger
+
     def test_ctaexamlist(self):           
         time.sleep(2)
         self.test_log()  

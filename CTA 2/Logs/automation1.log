@@ -478,3 +478,11 @@
 2022-11-04 17:40:13,506 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
 2022-11-04 17:40:20,615 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fbb226ecfd0>
 2022-11-04 17:40:23,153 :INFO :Test_ExamDetail2 :OTP not required,user already login
+2022-11-11 17:34:48,665 :INFO :Test_deskhomepage :Information log 
+2022-11-11 17:34:48,665 :WARNING :Test_deskhomepage :Warning log
+2022-11-11 17:34:48,665 :ERROR :Test_deskhomepage :Error log
+2022-11-11 17:34:48,665 :CRITICAL :Test_deskhomepage :Critical log
+2022-11-11 17:34:48,676 :INFO :Test_ExamDetail2 :Information log 
+2022-11-11 17:34:48,676 :WARNING :Test_ExamDetail2 :Warning log
+2022-11-11 17:34:48,676 :ERROR :Test_ExamDetail2 :Error log
+2022-11-11 17:34:48,676 :CRITICAL :Test_ExamDetail2 :Critical log
