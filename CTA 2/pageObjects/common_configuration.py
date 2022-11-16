@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import Select
 
 
 class Cta():
+    random_generated_number = None
     def cta_detail(self):
         
         time.sleep(2)
@@ -28,6 +29,8 @@ class Cta():
         self.logger.info("Email : " +random_email)
 
         random_number = self.random_phonenumber()
+
+        self.random_generated_number = random_number
         
 
         self.driver.find_element(By.ID,"id_phone_cta").send_keys(random_number)
@@ -102,12 +105,14 @@ class Cta():
         time.sleep(4)
         
        #submit button 
-        self.driver.find_element_by_css_selector("button[type='submit']").click()
+        self.driver.find_element(By.CSS_SELECTOR,"button[type='submit']").click()
         time.sleep(2)
 
 #STAGING DATABASE CONNECTION
         try:
-            conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+            # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+            conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
+        
             self.logger.info(conn)
             time.sleep(2)
             query = ("""select code,phone_no from users_otp where phone_no = {} order by id desc""").format(random_number)
@@ -188,14 +193,16 @@ class Cta():
     def footer_form(self):
         time.sleep(2)
         random_name = self.random_name()
-        self.driver.find_element_by_id("id_name").send_keys(random_name)
+        self.driver.find_element(By.ID,"id_name").send_keys(random_name)
         self.logger.info("Name : " +random_name)
+        
         random_Phone = self.random_phonenumber()
-        self.driver.find_element_by_id("id_phone").send_keys(random_Phone)
+        self.random_generated_number = random_Phone
+        self.driver.find_element(By.ID,"id_phone").send_keys(random_Phone)
         time.sleep(1)
         self.logger.info("Phone : " +random_Phone)
         random_Email = self.random_email()
-        self.driver.find_element_by_id("id_email").send_keys(random_Email)
+        self.driver.find_element(By.ID,"id_email").send_keys(random_Email)
         self.logger.info("Email : " +random_Email)
         time.sleep(2)
         
@@ -256,10 +263,10 @@ class Cta():
 
     def thankyou_message(self):
         time.sleep(2)
-        thankyou = self.driver.find_element_by_id("common_moda_success_message")
+        thankyou = self.driver.find_element(By.ID,"common_moda_success_message")
         self.logger.info(thankyou.text)
         time.sleep(2)
-        closebutton = self.driver.find_element_by_xpath("//button[@type='button']")
+        closebutton = self.driver.find_element(By.XPATH,"//button[@type='button']")
         closebutton.click()
         time.sleep(2)
 
@@ -281,11 +288,23 @@ class Cta():
         return number
 
     def random_name(self):
-        return "".join(random.choices(string.ascii_lowercase, k=6))
+        return 'Test' + "".join(random.choices(string.ascii_lowercase, k=6))
 
     def random_email(self):
-        random_str =  "".join(random.choice(string.ascii_letters) for _ in range(7))
+        random_str =  'Test -' + "".join(random.choice(string.ascii_letters) for _ in range(7))
         return random_str+"@gmail.com"
 
     
-    
+    def database(self):
+        
+        conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
+        # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+        self.logger.info(conn)
+        time.sleep(2)
+        query = ("""select *from users_userprofile where phone_no = {} order by id desc""").format(self.random_generated_number)
+        cursor = conn.cursor()
+        cursor.execute(query)
+        row_1 = cursor.fetchone()
+        print(row_1)
+        result_dict_1 = list(row_1)
+        self.logger.info(result_dict_1)
