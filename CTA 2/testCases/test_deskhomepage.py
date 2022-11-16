@@ -46,7 +46,11 @@ class Test_deskhomepage(Cta):
         Talk_experts.click()
 
         self.cta_detail()
+        time.sleep(2)
+        self.driver.refresh()
+        time.sleep(2)
         self.driver.back()
+        time.sleep(2)
         self.driver.refresh()
         time.sleep(2)
 
@@ -65,6 +69,8 @@ class Test_deskhomepage(Cta):
         self.thankyou_message()
         time.sleep(2)
         
+        self.database()
+        time.sleep(2)
 
 if  __name__ == "__main__":
     unittest.main()
