@@ -11,12 +11,12 @@ from testCases.conftest import *
 
 
 
-class Test_deskhomepage(Cta):
+class Test_deskhomepage(unittest.TestCase,Cta):
     
     baseURL = ReadConfig.getHomepageURL()
     logger = LogGen.loggen()  # Logger
 
-  
+    
     def test_cta_homepage(self,setup):
         self.logger.info("******* Starting CTA TEST HOMEPAGE**********")
         self.driver = setup
@@ -46,12 +46,15 @@ class Test_deskhomepage(Cta):
         Talk_experts.click()
 
         self.cta_detail()
-        time.sleep(2)
-        self.driver.refresh()
-        time.sleep(2)
-        self.driver.back()
-        time.sleep(2)
-        self.driver.refresh()
+        time.sleep(5)
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+            self.driver.back()
+            time.sleep(2)
+        else:
+            self.driver.refresh()
+            time.sleep(2)
+        
+        self.database()
         time.sleep(2)
 
         #FOOTER FORM
@@ -68,9 +71,11 @@ class Test_deskhomepage(Cta):
         
         self.thankyou_message()
         time.sleep(2)
-        
+
         self.database()
         time.sleep(2)
+        
+        
 
 if  __name__ == "__main__":
     unittest.main()
