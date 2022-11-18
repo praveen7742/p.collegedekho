@@ -1,13 +1,15 @@
 import time
 import requests
+import pytest
 import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 #sys.path.append("/home/collegedekho/p.collegedekho/CTA 2")
 from pageObjects.common_configuration import Cta
+from pageObjects.Xpaths import Xpath
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
-from testCases.conftest import *
+
 
 
 
@@ -16,7 +18,8 @@ class Test_deskhomepage(unittest.TestCase,Cta):
     baseURL = ReadConfig.getHomepageURL()
     logger = LogGen.loggen()  # Logger
 
-    
+    @pytest.mark.sanity
+    @pytest.mark.regression  
     def test_cta_homepage(self,setup):
         self.logger.info("******* Starting CTA TEST HOMEPAGE**********")
         self.driver = setup
@@ -77,8 +80,6 @@ class Test_deskhomepage(unittest.TestCase,Cta):
         
         
 
-if  __name__ == "__main__":
-    unittest.main()
 
     
     

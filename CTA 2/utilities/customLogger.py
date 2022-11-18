@@ -20,10 +20,10 @@ class LogGen:
         logger.setLevel(logging.INFO)
 
         # setting the logger level
-        logger.debug("Debug log")
-        logger.info("Information log ")
-        logger.warning("Warning log")
-        logger.error("Error log")
-        logger.critical("Critical log")
+        # logger.debug("Debug log")
+        # logger.info("Information log ")
+        # logger.warning("Warning log")
+        # logger.error("Error log")
+        # logger.critical("Critical log")
         return logger
 

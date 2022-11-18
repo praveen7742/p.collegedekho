@@ -1,20 +1,20 @@
 import time
 import requests
-import unittest
+import pytest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 #sys.path.append("/home/collegedekho/p.collegedekho/CTA 2")
 from pageObjects.common_configuration import Cta
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
-from testCases.conftest import *
 
 class Test_ExamDetail2(Cta):
 
     baseURL1 = ReadConfig.getExamURL()
     logger = LogGen.loggen()  # Logger
    
-  
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_ctaexamdetail(self,setup):           
         self.logger.info("******* Starting CTA Exam Detail*********")
         self.driver = setup
@@ -43,7 +43,7 @@ class Test_ExamDetail2(Cta):
         self.closeform()
 
 #Download button
-        download = self.driver.find_element(By.XPATH,"//div[@class='ctaBox']/button")
+        download = self.driver.find_element(By.XPATH,"//div[@class='ctaBox']//button[@class='button change-alert-text gtm-lead-click alert-button apply_now_det_cd gtm-lead-click django-button-config']")
         time.sleep(2)
         self.logger.info("CTA : " + download.text)
         time.sleep(2)
@@ -84,10 +84,6 @@ class Test_ExamDetail2(Cta):
         
         self.thankyou_message()
         time.sleep(2)
-
-if  __name__ == "__main__":
-    unittest.main()
-
 
 
 

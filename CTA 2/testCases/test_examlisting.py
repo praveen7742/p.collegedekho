@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from pageObjects.common_configuration import Cta
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
-from testCases.conftest import *
 
 class Test_examlisting(Cta):
     baseURL = ReadConfig.getHomepageURL()

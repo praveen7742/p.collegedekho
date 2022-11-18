@@ -6,9 +6,17 @@ config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
 class ReadConfig:
     @staticmethod
     def getHomepageURL():
-        desktop_url=config.get('common info','HomePageUrl')
+        homepage_url=config.get('common info','HomePageUrl')
+        
+        return homepage_url
 
-        return desktop_url
+    # def getHomepageXpath():
+    #     homepage_xpath = config.get('HomePageXpath','Talk-to-experts')
+    #     homepage_xpath = config.get('HomePageXpath','Footer-Form')
+        
+    #     return homepage_xpath
+
+
         
     @staticmethod
     def getExamURL():

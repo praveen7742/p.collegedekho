@@ -1,488 +1,147 @@
-2022-10-30 20:41:49,681 :INFO :test_ExamDetail :Information log 
-2022-10-30 20:41:49,681 :WARNING :test_ExamDetail :Warning log
-2022-10-30 20:41:49,681 :ERROR :test_ExamDetail :Error log
-2022-10-30 20:41:49,681 :CRITICAL :test_ExamDetail :Critical log
-2022-11-03 17:29:22,196 :INFO :test_ExamDetail :Information log 
-2022-11-03 17:29:22,196 :WARNING :test_ExamDetail :Warning log
-2022-11-03 17:29:22,196 :ERROR :test_ExamDetail :Error log
-2022-11-03 17:29:22,196 :CRITICAL :test_ExamDetail :Critical log
-2022-11-03 17:30:25,232 :INFO :test_ExamDetail2 :Information log 
-2022-11-03 17:30:25,232 :WARNING :test_ExamDetail2 :Warning log
-2022-11-03 17:30:25,232 :ERROR :test_ExamDetail2 :Error log
-2022-11-03 17:30:25,232 :CRITICAL :test_ExamDetail2 :Critical log
-2022-11-03 17:31:18,002 :INFO :test_ExamDetail2 :Information log 
-2022-11-03 17:31:18,002 :WARNING :test_ExamDetail2 :Warning log
-2022-11-03 17:31:18,002 :ERROR :test_ExamDetail2 :Error log
-2022-11-03 17:31:18,002 :CRITICAL :test_ExamDetail2 :Critical log
-2022-11-03 17:32:48,269 :INFO :test_ExamDetail2 :Information log 
-2022-11-03 17:32:48,269 :WARNING :test_ExamDetail2 :Warning log
-2022-11-03 17:32:48,269 :ERROR :test_ExamDetail2 :Error log
-2022-11-03 17:32:48,269 :CRITICAL :test_ExamDetail2 :Critical log
-2022-11-03 17:34:40,280 :INFO :Test_ExamDetail2 :Information log 
-2022-11-03 17:34:40,281 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-03 17:34:40,281 :ERROR :Test_ExamDetail2 :Error log
-2022-11-03 17:34:40,281 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-03 17:34:42,511 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-03 17:34:43,415 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-03 17:34:43,422 :INFO :Test_ExamDetail2 :Page not found at /exam/jee-main/registration-eligibility
-2022-11-03 17:38:46,561 :INFO :Test_ExamDetail2 :Information log 
-2022-11-03 17:38:46,561 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-03 17:38:46,561 :ERROR :Test_ExamDetail2 :Error log
-2022-11-03 17:38:46,561 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-03 17:38:48,384 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-03 17:39:04,446 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-03 17:39:04,452 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-03 17:39:06,473 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-03 17:55:01,489 :INFO :Test_ExamDetail2 :Information log 
-2022-11-03 17:55:01,489 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-03 17:55:01,489 :ERROR :Test_ExamDetail2 :Error log
-2022-11-03 17:55:01,490 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-03 17:55:03,428 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-03 17:55:19,824 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-03 17:55:19,834 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-03 17:55:21,856 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-03 17:55:26,616 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-03 17:55:30,677 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-03 17:55:34,865 :INFO :Test_ExamDetail2 :Name : ywkclb
-2022-11-03 17:55:38,004 :INFO :Test_ExamDetail2 :Email : BVCxkTe@gmail.com
-2022-11-03 17:55:40,121 :INFO :Test_ExamDetail2 :Phone No : 7248928691
-2022-11-03 17:55:40,151 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-03 17:55:44,187 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-03 17:55:47,344 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-03 17:55:50,507 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-03 17:55:53,760 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-03 17:55:59,790 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-03 17:56:06,849 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fc7b4c06ba8>
-2022-11-03 17:56:09,405 :INFO :Test_ExamDetail2 :[720002, '7248928691']
-2022-11-03 17:56:19,609 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 10:45:05,534 :INFO :Test_deskhomepage :Information log 
-2022-11-04 10:45:05,534 :WARNING :Test_deskhomepage :Warning log
-2022-11-04 10:45:05,534 :ERROR :Test_deskhomepage :Error log
-2022-11-04 10:45:05,534 :CRITICAL :Test_deskhomepage :Critical log
-2022-11-04 10:45:14,061 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
-2022-11-04 10:45:44,088 :INFO :Test_deskhomepage :-------------------------
-2022-11-04 10:45:44,102 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
-2022-11-04 10:45:46,114 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
-2022-11-04 10:45:54,385 :INFO :Test_deskhomepage :Response : 200
-2022-11-04 10:45:58,564 :INFO :Test_deskhomepage :CTA : Talk to our Experts
-2022-11-04 10:53:47,423 :INFO :Test_deskhomepage :Information log 
-2022-11-04 10:53:47,423 :WARNING :Test_deskhomepage :Warning log
-2022-11-04 10:53:47,423 :ERROR :Test_deskhomepage :Error log
-2022-11-04 10:53:47,423 :CRITICAL :Test_deskhomepage :Critical log
-2022-11-04 10:53:49,519 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
-2022-11-04 10:53:58,739 :INFO :Test_deskhomepage :-------------------------
-2022-11-04 10:53:58,817 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
-2022-11-04 10:54:00,834 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
-2022-11-04 10:54:05,849 :INFO :Test_deskhomepage :Response : 200
-2022-11-04 10:54:10,095 :INFO :Test_deskhomepage :CTA : Talk to our Experts
-2022-11-04 10:54:12,444 :INFO :Test_deskhomepage :Name : ektnqh
-2022-11-04 10:54:15,689 :INFO :Test_deskhomepage :Email : cyANSCj@gmail.com
-2022-11-04 10:54:17,886 :INFO :Test_deskhomepage :Phone No : 8098979190
-2022-11-04 10:54:18,354 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
-2022-11-04 10:54:22,770 :INFO :Test_deskhomepage :Pref Level : UG
-2022-11-04 10:54:26,242 :INFO :Test_deskhomepage :State : Andaman and Nicobar
-2022-11-04 10:54:29,307 :INFO :Test_deskhomepage :Budget field not present
-2022-11-04 10:54:32,575 :INFO :Test_deskhomepage :Board : ICSE/CBSE/IB
-2022-11-04 10:54:38,646 :INFO :Test_deskhomepage :Whatsapp Enable button is present
-2022-11-04 10:54:45,759 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7fc7f7dca710>
-2022-11-04 10:54:48,347 :INFO :Test_deskhomepage :[676635, '8098979190']
-2022-11-04 10:54:58,776 :INFO :Test_deskhomepage :Otp added successfully
-2022-11-04 16:01:29,713 :INFO :Test_deskhomepage :Information log 
-2022-11-04 16:01:29,713 :WARNING :Test_deskhomepage :Warning log
-2022-11-04 16:01:29,713 :ERROR :Test_deskhomepage :Error log
-2022-11-04 16:01:29,713 :CRITICAL :Test_deskhomepage :Critical log
-2022-11-04 16:01:37,684 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
-2022-11-04 16:02:14,755 :INFO :Test_deskhomepage :-------------------------
-2022-11-04 16:02:14,810 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
-2022-11-04 16:02:16,826 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
-2022-11-04 16:02:22,914 :INFO :Test_deskhomepage :Response : 200
-2022-11-04 16:02:27,205 :INFO :Test_deskhomepage :CTA : Talk to our Experts
-2022-11-04 16:02:29,672 :INFO :Test_deskhomepage :Name : kgtaby
-2022-11-04 16:02:32,918 :INFO :Test_deskhomepage :Email : nLeXKfc@gmail.com
-2022-11-04 16:02:35,138 :INFO :Test_deskhomepage :Phone No : 7533977854
-2022-11-04 16:02:35,447 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
-2022-11-04 16:02:39,827 :INFO :Test_deskhomepage :Pref Level : UG
-2022-11-04 16:02:43,273 :INFO :Test_deskhomepage :State : Andaman and Nicobar
-2022-11-04 16:02:46,329 :INFO :Test_deskhomepage :Budget field not present
-2022-11-04 16:02:49,719 :INFO :Test_deskhomepage :Board : ICSE/CBSE/IB
-2022-11-04 16:02:55,768 :INFO :Test_deskhomepage :Whatsapp Enable button is present
-2022-11-04 16:03:02,864 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7fecc7617f98>
-2022-11-04 16:03:05,535 :INFO :Test_deskhomepage :[332033, '7533977854']
-2022-11-04 16:03:16,107 :INFO :Test_deskhomepage :Otp added successfully
-2022-11-04 16:03:37,308 :INFO :Test_deskhomepage :Scrolled into footer form
-2022-11-04 16:03:43,518 :INFO :Test_deskhomepage :Name : bygjal
-2022-11-04 16:03:44,673 :INFO :Test_deskhomepage :Phone : 7591582611
-2022-11-04 16:03:44,908 :INFO :Test_deskhomepage :Email : FHlxJpv@gmail.com
-2022-11-04 16:03:47,328 :INFO :Test_deskhomepage :Pref State : Andaman and Nicobar
-2022-11-04 16:03:50,665 :INFO :Test_deskhomepage :Pref Level : UG
-2022-11-04 16:03:54,167 :INFO :Test_deskhomepage :Pref Stream : Engineering
-2022-11-04 16:03:58,605 :INFO :Test_deskhomepage :Pref Board : ICSE/CBSE/IB
-2022-11-04 16:04:04,798 :INFO :Test_deskhomepage :Footer Lead form submitted
-2022-11-04 16:04:09,889 :INFO :Test_deskhomepage :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
-2022-11-04 16:40:04,275 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 16:40:04,276 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 16:40:04,276 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 16:40:04,277 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 16:40:07,343 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 16:40:23,227 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 16:40:23,236 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 16:40:25,263 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 16:40:30,004 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 16:40:34,153 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 16:40:38,456 :INFO :Test_ExamDetail2 :Name : oypzsc
-2022-11-04 16:40:41,640 :INFO :Test_ExamDetail2 :Email : CCSqiBO@gmail.com
-2022-11-04 16:40:43,858 :INFO :Test_ExamDetail2 :Phone No : 8602993041
-2022-11-04 16:40:43,908 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:40:47,945 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:40:51,311 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 16:40:54,579 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 16:40:57,777 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 16:41:03,847 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 16:41:11,326 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f18701dbc18>
-2022-11-04 16:41:13,858 :INFO :Test_ExamDetail2 :[208605, '8602993041']
-2022-11-04 16:41:24,438 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 16:44:02,581 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 16:44:02,581 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 16:44:02,582 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 16:44:02,582 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 16:44:05,159 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 16:44:15,344 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 16:44:15,358 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 16:44:17,375 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 16:44:22,419 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 16:44:26,571 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 16:44:30,846 :INFO :Test_ExamDetail2 :Name : yltkie
-2022-11-04 16:44:34,041 :INFO :Test_ExamDetail2 :Email : ZLnehxq@gmail.com
-2022-11-04 16:44:36,257 :INFO :Test_ExamDetail2 :Phone No : 8969553917
-2022-11-04 16:44:36,311 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:44:40,352 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:44:43,630 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 16:44:46,786 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 16:44:49,950 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 16:44:55,989 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 16:45:02,992 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f3c07eb3e10>
-2022-11-04 16:45:05,521 :INFO :Test_ExamDetail2 :[593137, '8969553917']
-2022-11-04 16:45:15,904 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 16:53:55,863 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 16:53:55,864 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 16:53:55,864 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 16:53:55,864 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 16:53:57,822 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 16:54:07,753 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 16:54:07,759 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 16:54:09,781 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 16:54:14,453 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 16:54:18,513 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 16:54:22,685 :INFO :Test_ExamDetail2 :Name : bchotv
-2022-11-04 16:54:25,829 :INFO :Test_ExamDetail2 :Email : UKkNaVq@gmail.com
-2022-11-04 16:54:27,951 :INFO :Test_ExamDetail2 :Phone No : 7595851483
-2022-11-04 16:54:27,987 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:54:32,045 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:54:35,317 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 16:54:38,467 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 16:54:41,641 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 16:54:47,677 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 16:54:54,861 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7ff627049e48>
-2022-11-04 16:54:57,470 :INFO :Test_ExamDetail2 :[992617, '7595851483']
-2022-11-04 16:55:07,775 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 16:55:19,899 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 16:55:24,369 :INFO :Test_ExamDetail2 :CTA : Download
-2022-11-04 16:55:30,702 :INFO :Test_ExamDetail2 :Name : kwulpo
-2022-11-04 16:55:33,868 :INFO :Test_ExamDetail2 :Email : GSjtDYj@gmail.com
-2022-11-04 16:55:35,983 :INFO :Test_ExamDetail2 :Phone No : 8000578867
-2022-11-04 16:55:36,046 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:55:40,107 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:55:43,264 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 16:55:46,448 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 16:55:49,631 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 16:55:55,652 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 16:56:02,809 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7ff627049a58>
-2022-11-04 16:56:05,579 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 16:56:10,603 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 16:56:15,188 :INFO :Test_ExamDetail2 :CTA : Subscribe Now
-2022-11-04 16:56:21,624 :INFO :Test_ExamDetail2 :Name : ivdsut
-2022-11-04 16:56:24,760 :INFO :Test_ExamDetail2 :Email : ZgarOSR@gmail.com
-2022-11-04 16:56:26,878 :INFO :Test_ExamDetail2 :Phone No : 6015338493
-2022-11-04 16:56:26,928 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:56:30,984 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:56:34,170 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 16:56:37,406 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 16:56:40,640 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 16:56:46,678 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 16:56:54,006 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7ff626fae710>
-2022-11-04 16:56:56,608 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 16:57:01,634 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 16:57:06,134 :INFO :Test_ExamDetail2 :Scrolled into footer form
-2022-11-04 16:57:12,278 :INFO :Test_ExamDetail2 :Name : lvvttw
-2022-11-04 16:57:13,381 :INFO :Test_ExamDetail2 :Phone : 6655944629
-2022-11-04 16:57:13,536 :INFO :Test_ExamDetail2 :Email : xBWGSPq@gmail.com
-2022-11-04 16:57:15,761 :INFO :Test_ExamDetail2 :Pref State : Andaman and Nicobar
-2022-11-04 16:57:18,787 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 16:57:21,843 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 16:57:26,024 :INFO :Test_ExamDetail2 :Pref Board : ICSE/CBSE/IB
-2022-11-04 16:57:32,119 :INFO :Test_ExamDetail2 :Footer Lead form submitted
-2022-11-04 16:57:37,187 :INFO :Test_ExamDetail2 :
-2022-11-04 17:01:25,687 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:01:25,687 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:01:25,687 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:01:25,687 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:01:27,709 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:01:38,919 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:01:38,925 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:01:40,946 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:01:52,128 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:01:56,226 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:04:28,708 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:04:28,708 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:04:28,708 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:04:28,708 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:04:30,914 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:04:45,804 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:04:45,804 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:04:45,804 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:04:45,804 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:04:47,812 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:05:14,018 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:05:14,024 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:05:16,040 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:05:23,900 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:05:28,014 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:05:32,208 :INFO :Test_ExamDetail2 :Name : drsvai
-2022-11-04 17:05:35,350 :INFO :Test_ExamDetail2 :Email : UsdmWGp@gmail.com
-2022-11-04 17:05:37,459 :INFO :Test_ExamDetail2 :Phone No : 6957140522
-2022-11-04 17:05:37,506 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:05:41,566 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:05:44,757 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:05:47,932 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:05:51,109 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:05:57,133 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:06:04,120 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fadf1111198>
-2022-11-04 17:06:06,642 :INFO :Test_ExamDetail2 :[904055, '6957140522']
-2022-11-04 17:06:16,918 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:06:29,613 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 17:08:52,687 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:08:52,687 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:08:52,687 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:08:52,687 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:08:54,544 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:09:03,613 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:09:03,621 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:09:05,628 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:09:15,207 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:09:19,285 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:09:23,471 :INFO :Test_ExamDetail2 :Name : urzhnm
-2022-11-04 17:09:26,585 :INFO :Test_ExamDetail2 :Email : eIswYUF@gmail.com
-2022-11-04 17:09:28,682 :INFO :Test_ExamDetail2 :Phone No : 6958445673
-2022-11-04 17:09:28,746 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:09:32,809 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:09:35,984 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:09:39,123 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:09:42,269 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:09:48,316 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:09:55,463 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fc9877160f0>
-2022-11-04 17:09:58,287 :INFO :Test_ExamDetail2 :[755007, '6958445673']
-2022-11-04 17:10:08,539 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:10:20,717 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 17:11:23,446 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:11:23,446 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:11:23,446 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:11:23,446 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:11:25,286 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:11:36,031 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:11:36,038 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:11:38,048 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:11:43,076 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:11:47,175 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:11:51,407 :INFO :Test_ExamDetail2 :Name : atnrwb
-2022-11-04 17:11:54,560 :INFO :Test_ExamDetail2 :Email : meSunSb@gmail.com
-2022-11-04 17:11:56,676 :INFO :Test_ExamDetail2 :Phone No : 7837989076
-2022-11-04 17:11:56,740 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:12:00,797 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:12:04,007 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:12:07,185 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:12:10,421 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:12:16,471 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:12:24,966 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f9d8be9ec18>
-2022-11-04 17:12:27,599 :INFO :Test_ExamDetail2 :[853357, '7837989076']
-2022-11-04 17:12:37,891 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:12:52,569 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 17:12:56,644 :INFO :Test_ExamDetail2 :CTA : Download
-2022-11-04 17:13:02,986 :INFO :Test_ExamDetail2 :Name : cyfckw
-2022-11-04 17:13:06,168 :INFO :Test_ExamDetail2 :Email : fdPKYqX@gmail.com
-2022-11-04 17:13:08,271 :INFO :Test_ExamDetail2 :Phone No : 7461206773
-2022-11-04 17:13:08,318 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:13:12,351 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:13:15,612 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:13:18,764 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:13:21,952 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:13:27,977 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:13:35,063 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f9d8be68ba8>
-2022-11-04 17:13:37,662 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 17:13:42,731 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 17:14:01,464 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:14:01,465 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:14:01,465 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:14:01,465 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:14:03,392 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:14:13,112 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:14:13,116 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:14:15,136 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:14:19,775 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:14:23,832 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:14:28,017 :INFO :Test_ExamDetail2 :Name : exlsua
-2022-11-04 17:14:31,177 :INFO :Test_ExamDetail2 :Email : hDJHwEu@gmail.com
-2022-11-04 17:14:33,279 :INFO :Test_ExamDetail2 :Phone No : 8618451049
-2022-11-04 17:14:33,337 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:14:37,397 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:14:40,577 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:14:43,739 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:14:46,933 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:14:52,981 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:15:00,049 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f77916520f0>
-2022-11-04 17:15:02,548 :INFO :Test_ExamDetail2 :[799800, '8618451049']
-2022-11-04 17:15:12,822 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:15:23,008 :INFO :Test_ExamDetail2 :Page refreshed successfully
-2022-11-04 17:17:25,946 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:17:25,946 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:17:25,946 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:17:25,946 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:17:27,730 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:17:43,308 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:17:43,321 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:17:45,342 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:17:53,300 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:17:57,355 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:18:01,551 :INFO :Test_ExamDetail2 :Name : lmjyqd
-2022-11-04 17:18:04,672 :INFO :Test_ExamDetail2 :Email : HDpcxVw@gmail.com
-2022-11-04 17:18:06,787 :INFO :Test_ExamDetail2 :Phone No : 8234854589
-2022-11-04 17:18:06,845 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:18:10,877 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:18:14,131 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:18:17,304 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:18:20,450 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:18:26,478 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:18:33,501 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fc36a4f99e8>
-2022-11-04 17:18:36,126 :INFO :Test_ExamDetail2 :[701969, '8234854589']
-2022-11-04 17:18:46,429 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:19:09,620 :INFO :Test_ExamDetail2 :CTA : Download
-2022-11-04 17:19:15,972 :INFO :Test_ExamDetail2 :Name : pptifq
-2022-11-04 17:19:19,134 :INFO :Test_ExamDetail2 :Email : DKQMXST@gmail.com
-2022-11-04 17:19:21,221 :INFO :Test_ExamDetail2 :Phone No : 7295710145
-2022-11-04 17:19:21,254 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:19:25,314 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:19:28,466 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:19:31,629 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:19:34,768 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:19:40,798 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:19:47,933 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fc36a4581d0>
-2022-11-04 17:19:51,003 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 17:25:39,754 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:25:39,755 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:25:39,755 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:25:39,755 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:25:41,787 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:25:54,566 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:25:54,572 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:25:56,592 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:26:02,136 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:26:06,213 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:26:10,387 :INFO :Test_ExamDetail2 :Name : mqszqn
-2022-11-04 17:26:13,567 :INFO :Test_ExamDetail2 :Email : XFgBgJK@gmail.com
-2022-11-04 17:26:15,677 :INFO :Test_ExamDetail2 :Phone No : 8511849786
-2022-11-04 17:26:15,710 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:26:19,764 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:26:22,967 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:26:26,178 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:26:29,361 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:26:35,390 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:26:42,395 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f3a080a7e10>
-2022-11-04 17:26:45,420 :INFO :Test_ExamDetail2 :[931301, '8511849786']
-2022-11-04 17:26:55,675 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:27:19,064 :INFO :Test_ExamDetail2 :CTA : Download
-2022-11-04 17:27:25,487 :INFO :Test_ExamDetail2 :Name : gbfriy
-2022-11-04 17:27:28,651 :INFO :Test_ExamDetail2 :Email : BmhadDt@gmail.com
-2022-11-04 17:27:30,768 :INFO :Test_ExamDetail2 :Phone No : 6280873458
-2022-11-04 17:27:30,794 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:27:34,845 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:27:38,003 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:27:41,225 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:27:44,390 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:27:50,415 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:27:57,410 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f3a080a7fd0>
-2022-11-04 17:28:00,034 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 17:28:16,382 :INFO :Test_ExamDetail2 :CTA : Subscribe Now
-2022-11-04 17:28:22,810 :INFO :Test_ExamDetail2 :Name : dbndjz
-2022-11-04 17:28:26,014 :INFO :Test_ExamDetail2 :Email : rsxeLsJ@gmail.com
-2022-11-04 17:28:28,134 :INFO :Test_ExamDetail2 :Phone No : 9627595495
-2022-11-04 17:28:28,197 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:28:32,221 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:28:35,389 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:28:38,607 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:28:41,854 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:28:47,888 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:28:54,997 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f3a08003cf8>
-2022-11-04 17:28:57,722 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-04 17:31:52,524 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:31:52,524 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:31:52,524 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:31:52,524 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:31:54,608 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:32:04,203 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:32:04,209 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:32:06,230 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:32:10,963 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:32:15,066 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:32:19,282 :INFO :Test_ExamDetail2 :Name : wokjru
-2022-11-04 17:32:22,495 :INFO :Test_ExamDetail2 :Email : wTAjQeN@gmail.com
-2022-11-04 17:32:24,591 :INFO :Test_ExamDetail2 :Phone No : 9272580046
-2022-11-04 17:32:24,643 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:32:28,671 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:32:31,820 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:32:35,051 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:32:38,271 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:32:44,324 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:32:51,448 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f7f4bafea58>
-2022-11-04 17:32:53,986 :INFO :Test_ExamDetail2 :[780914, '9272580046']
-2022-11-04 17:33:04,243 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:38:06,721 :INFO :Test_ExamDetail2 :Information log 
-2022-11-04 17:38:06,721 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-04 17:38:06,721 :ERROR :Test_ExamDetail2 :Error log
-2022-11-04 17:38:06,721 :CRITICAL :Test_ExamDetail2 :Critical log
-2022-11-04 17:38:09,049 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-04 17:38:18,749 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-04 17:38:18,756 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-04 17:38:20,782 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-04 17:38:25,726 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-04 17:38:29,826 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
-2022-11-04 17:38:34,015 :INFO :Test_ExamDetail2 :Name : htshtl
-2022-11-04 17:38:37,166 :INFO :Test_ExamDetail2 :Email : pCoIGqX@gmail.com
-2022-11-04 17:38:39,266 :INFO :Test_ExamDetail2 :Phone No : 6801858188
-2022-11-04 17:38:39,306 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:38:43,350 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:38:46,557 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:38:49,757 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:38:52,934 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:38:58,978 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:39:06,167 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fbb226ece10>
-2022-11-04 17:39:08,769 :INFO :Test_ExamDetail2 :[434103, '6801858188']
-2022-11-04 17:39:19,000 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-04 17:39:42,053 :INFO :Test_ExamDetail2 :CTA : Download
-2022-11-04 17:39:48,466 :INFO :Test_ExamDetail2 :Name : atpkwc
-2022-11-04 17:39:51,638 :INFO :Test_ExamDetail2 :Email : hrmJjhK@gmail.com
-2022-11-04 17:39:53,738 :INFO :Test_ExamDetail2 :Phone No : 8651709176
-2022-11-04 17:39:53,797 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-04 17:39:57,840 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-04 17:40:01,049 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-04 17:40:04,295 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-04 17:40:07,469 :INFO :Test_ExamDetail2 :Board : ICSE/CBSE/IB
-2022-11-04 17:40:13,506 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-04 17:40:20,615 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7fbb226ecfd0>
-2022-11-04 17:40:23,153 :INFO :Test_ExamDetail2 :OTP not required,user already login
-2022-11-11 17:34:48,665 :INFO :Test_deskhomepage :Information log 
-2022-11-11 17:34:48,665 :WARNING :Test_deskhomepage :Warning log
-2022-11-11 17:34:48,665 :ERROR :Test_deskhomepage :Error log
-2022-11-11 17:34:48,665 :CRITICAL :Test_deskhomepage :Critical log
-2022-11-11 17:34:48,676 :INFO :Test_ExamDetail2 :Information log 
-2022-11-11 17:34:48,676 :WARNING :Test_ExamDetail2 :Warning log
-2022-11-11 17:34:48,676 :ERROR :Test_ExamDetail2 :Error log
-2022-11-11 17:34:48,676 :CRITICAL :Test_ExamDetail2 :Critical log
+2022-11-17 12:55:52,902 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 12:56:01,339 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 12:56:01,344 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-17 12:56:03,364 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
+2022-11-17 12:56:09,109 :INFO :Test_deskhomepage :Response : 200
+2022-11-17 12:56:13,248 :INFO :Test_deskhomepage :CTA : Talk to our Experts
+2022-11-17 12:56:15,517 :INFO :Test_deskhomepage :Name : zgthpx
+2022-11-17 12:56:18,682 :INFO :Test_deskhomepage :Email : xvZExhM@gmail.com
+2022-11-17 12:56:20,861 :INFO :Test_deskhomepage :Phone No : 8357455319
+2022-11-17 12:56:21,110 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-11-17 12:56:25,334 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-17 12:56:28,552 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-11-17 12:56:31,581 :INFO :Test_deskhomepage :Budget field not present
+2022-11-17 12:56:34,617 :INFO :Test_deskhomepage :Board field not present
+2022-11-17 12:56:40,658 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-11-17 12:56:48,435 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f5139757e10>
+2022-11-17 12:56:51,304 :INFO :Test_deskhomepage :[984837, '8357455319']
+2022-11-17 12:57:01,610 :INFO :Test_deskhomepage :Otp added successfully
+2022-11-17 12:57:19,065 :INFO :Test_deskhomepage :Scrolled into footer form
+2022-11-17 12:57:25,174 :INFO :Test_deskhomepage :Name : wiotzu
+2022-11-17 12:57:26,323 :INFO :Test_deskhomepage :Phone : 8574176887
+2022-11-17 12:57:26,460 :INFO :Test_deskhomepage :Email : qFGyPFo@gmail.com
+2022-11-17 12:57:28,662 :INFO :Test_deskhomepage :Pref State : Andaman and Nicobar
+2022-11-17 12:57:31,845 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-17 12:57:35,041 :INFO :Test_deskhomepage :Pref Stream : Engineering
+2022-11-17 12:57:39,085 :INFO :Test_deskhomepage :Pref Board field not present
+2022-11-17 12:57:45,286 :INFO :Test_deskhomepage :Footer Lead form submitted
+2022-11-17 12:57:53,353 :INFO :Test_deskhomepage :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-11-17 12:58:01,432 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-17 12:58:09,761 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-17 12:58:09,768 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-11-17 12:58:11,784 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-17 12:58:17,030 :INFO :Test_ExamDetail2 :Response : 200
+2022-11-17 12:58:21,134 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
+2022-11-17 12:58:25,336 :INFO :Test_ExamDetail2 :Name : pnaqtg
+2022-11-17 12:58:28,469 :INFO :Test_ExamDetail2 :Email : WEwTzIg@gmail.com
+2022-11-17 12:58:30,626 :INFO :Test_ExamDetail2 :Phone No : 9157173068
+2022-11-17 12:58:30,676 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-17 12:58:34,729 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-17 12:58:37,922 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-17 12:58:41,259 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
+2022-11-17 12:58:44,288 :INFO :Test_ExamDetail2 :Board field not present
+2022-11-17 12:58:50,322 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-11-17 12:58:57,494 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f5139a23b38>
+2022-11-17 12:59:00,549 :INFO :Test_ExamDetail2 :[915802, '9157173068']
+2022-11-17 12:59:10,842 :INFO :Test_ExamDetail2 :Otp added successfully
+2022-11-17 13:16:30,812 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 13:16:35,793 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 13:16:35,801 :INFO :Test_deskhomepage :CollegeDekho.com - Study Abroad LMS
+2022-11-17 13:16:37,735 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-17 13:16:38,702 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-17 13:16:38,711 :INFO :Test_ExamDetail2 :Page not found at /exam/jee-main/registration-eligibility
+2022-11-17 13:16:40,729 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-17 13:16:41,859 :INFO :Test_ExamDetail2 :Response : 404
+2022-11-17 13:18:20,372 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 13:18:35,634 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 13:18:35,675 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-17 13:18:37,706 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
+2022-11-17 13:18:48,009 :INFO :Test_deskhomepage :Response : 200
+2022-11-17 13:18:52,164 :INFO :Test_deskhomepage :CTA : Talk to our Experts
+2022-11-17 13:18:54,424 :INFO :Test_deskhomepage :Name : wyynhu
+2022-11-17 13:18:57,581 :INFO :Test_deskhomepage :Email : SSKjhSs@gmail.com
+2022-11-17 13:18:59,734 :INFO :Test_deskhomepage :Phone No : 6887650343
+2022-11-17 13:18:59,944 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-11-17 13:19:04,175 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-17 13:19:07,414 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-11-17 13:19:10,444 :INFO :Test_deskhomepage :Budget field not present
+2022-11-17 13:19:13,473 :INFO :Test_deskhomepage :Board field not present
+2022-11-17 13:19:19,516 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-11-17 13:19:27,052 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7ff55540ee48>
+2022-11-17 13:19:29,823 :INFO :Test_deskhomepage :OTP not required,user already login
+2022-11-17 13:19:37,021 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-17 13:19:38,172 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-17 13:19:38,179 :INFO :Test_ExamDetail2 :Page not found at /exam/jee-main/registration-eligibility
+2022-11-17 13:19:40,187 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-17 13:19:41,191 :INFO :Test_ExamDetail2 :Response : 404
+2022-11-17 13:20:14,510 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 13:20:18,123 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 13:20:18,129 :INFO :Test_deskhomepage :CollegeDekho.com - Study Abroad LMS
+2022-11-17 13:20:20,002 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-17 13:20:21,014 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-17 13:20:21,020 :INFO :Test_ExamDetail2 :Page not found at /exam/jee-main/registration-eligibility
+2022-11-17 13:20:23,035 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-17 13:20:24,052 :INFO :Test_ExamDetail2 :Response : 404
+2022-11-17 18:37:30,492 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 18:37:35,437 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 18:37:35,442 :INFO :Test_deskhomepage :CollegeDekho.com - Study Abroad LMS
+2022-11-17 19:05:45,065 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-17 19:05:49,853 :INFO :Test_deskhomepage :-------------------------
+2022-11-17 19:05:49,863 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-17 19:05:51,884 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-17 19:05:53,663 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 14:23:39,790 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 14:23:41,772 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 14:34:06,373 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 14:34:10,010 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 14:34:10,020 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 14:34:12,031 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 14:34:13,220 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 14:34:17,165 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-18 14:34:25,383 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-18 14:34:25,390 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-11-18 14:34:27,411 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-18 14:34:33,041 :INFO :Test_ExamDetail2 :Response : 200
+2022-11-18 14:34:37,122 :INFO :Test_ExamDetail2 :CTA : Set Exam Alert
+2022-11-18 14:34:41,343 :INFO :Test_ExamDetail2 :Name : vtmpcu
+2022-11-18 14:34:44,471 :INFO :Test_ExamDetail2 :Email : yXTvqri@gmail.com
+2022-11-18 14:34:46,594 :INFO :Test_ExamDetail2 :Phone No : 8126962184
+2022-11-18 14:34:46,651 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-18 14:34:50,699 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-18 14:34:53,886 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-18 14:34:57,057 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
+2022-11-18 14:35:38,105 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 14:35:41,155 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 14:35:41,166 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 14:35:43,175 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 14:35:44,675 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 14:35:48,615 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-18 14:36:06,978 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 14:36:10,510 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 14:36:10,520 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 14:36:12,556 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 14:36:13,920 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 14:36:18,109 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-18 15:10:11,624 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 15:10:17,406 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 15:10:17,413 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 15:10:19,424 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 15:10:21,405 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 15:11:49,445 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 15:11:58,230 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 15:11:58,241 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 15:12:00,252 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 15:12:01,928 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 15:15:29,532 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 15:15:34,598 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 15:15:34,615 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 15:15:36,633 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 15:15:38,943 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 15:19:29,835 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-18 15:19:35,549 :INFO :Test_deskhomepage :-------------------------
+2022-11-18 15:19:35,566 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-18 15:19:37,589 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-18 15:19:39,368 :INFO :Test_deskhomepage :Response : 200
+2022-11-18 15:19:43,533 :INFO :Test_deskhomepage :CTA : Talk to our Experts
+2022-11-18 15:19:45,819 :INFO :Test_deskhomepage :Name : nakxas
+2022-11-18 15:19:49,011 :INFO :Test_deskhomepage :Email : fbYczrV@gmail.com
