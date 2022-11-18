@@ -13,7 +13,7 @@ from utilities.customLogger import LogGen
 
 
 
-class Test_deskhomepage(unittest.TestCase,Cta):
+class Test_deskhomepage(Cta):
     
     baseURL = ReadConfig.getHomepageURL()
     logger = LogGen.loggen()  # Logger
