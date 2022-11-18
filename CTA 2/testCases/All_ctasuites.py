@@ -9,10 +9,9 @@ class Test_allsuites:
 
 
 
-#Get All Tests from Signup,Login,LOgin OTP 
+
         TC1_HomePage = pytest.TestLoader().loadTestsFromTestCase(Test_deskhomepage)
         TC2_ExamDetail = pytest.TestLoader().loadTestsFromTestCase(Test_ExamDetail2)
-        # TC3_LoginOtp = pytest.TestLoader().loadTestsFromTestCase(checkloginotp)
 
         #Creating Test Suites acc to Sanity,Masters,Functionality
 
