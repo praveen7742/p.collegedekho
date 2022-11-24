@@ -108,10 +108,11 @@ class Cta():
         self.driver.find_element(By.CSS_SELECTOR,"button[type='submit']").click()
         time.sleep(2)
 
-#STAGING DATABASE CONNECTION
+#OTP CONNECTION
+
         try:
-            # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
-            conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
+            conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+            #conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
         
             self.logger.info(conn)
             time.sleep(2)
@@ -294,11 +295,12 @@ class Cta():
         random_str =  'Test -' + "".join(random.choice(string.ascii_letters) for _ in range(7))
         return random_str+"@gmail.com"
 
+    #DATABASE CONNECTION
     
     def database(self):
         
-        conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
-        # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+        #conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
+        conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
         self.logger.info(conn)
         time.sleep(2)
         query = ("""select *from users_userprofile where phone_no = {} order by id desc""").format(self.random_generated_number)

@@ -39,17 +39,20 @@ class Test_deskhomepage(Cta):
         
         time.sleep(2)
 
-  
-        Talk_experts = self.driver.find_element(By.XPATH,("(//button[normalize-space()='Talk to our Experts'])[1]"))
-        Talk_experts.location_once_scrolled_into_view
-        time.sleep(2)
+        self.xp = Xpath(self.driver)
+        self.xp.Hp_tlk_exprt()
 
-        Talk_experts.send_keys(Keys.PAGE_UP)
-        self.logger.info("CTA : " + Talk_experts.text)
-        Talk_experts.click()
+  
+        # Talk_experts = self.driver.find_element(By.XPATH, self.Talk_to_experts)
+        # self.Talk_experts.location_once_scrolled_into_view
+        # time.sleep(2)
+
+        # Talk_experts.send_keys(Keys.PAGE_UP)
+        # self.logger.info("CTA : " + Talk_experts.text)
+        # Talk_experts.click()
 
         self.cta_detail()
-        time.sleep(5)
+        time.sleep(3)
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
@@ -62,13 +65,13 @@ class Test_deskhomepage(Cta):
 
         #FOOTER FORM
 
-        footerform = self.driver.find_element(By.XPATH,"//div[@class = 'expertGraphic setExpertBlock']/div")
-        footerform.location_once_scrolled_into_view
-        time.sleep(2)
-        self.logger.info("Scrolled into footer form")
-        time.sleep(4)
+        # footerform = self.driver.find_element(By.XPATH,"//div[@class = 'expertGraphic setExpertBlock']/div")
+        # footerform.location_once_scrolled_into_view
+        # time.sleep(2)
+        # self.logger.info("Scrolled into footer form")
+        # time.sleep(4)
 
-       
+        self.xp.Hp_foot_frm()
         self.footer_form()
         time.sleep(3)
         
