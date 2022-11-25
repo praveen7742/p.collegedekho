@@ -19,10 +19,30 @@ class ReadConfig:
 
         
     @staticmethod
-    def getExamURL():
+    def getExamDetailURL():
         ExamDetail_Url=config.get('common info','ExmDtlUrl')
     
         return ExamDetail_Url
+
+    @staticmethod
+    def getEXamListingURL():
+        ExamLstng_Url=config.get('common info','ExmLstngUrl')
+    
+        return ExamLstng_Url
+    
+    @staticmethod
+    def getCareerDtlURL():
+        CareerDetail_Url=config.get('common info','Career_Url')
+    
+        return CareerDetail_Url
+
+    @staticmethod
+    def getCollegeDtlURL():
+        CollegeDetail_Url=config.get('common info','ColDtl_Url')
+    
+        return CollegeDetail_Url
+
+    
 
     # @staticmethod
     # def getUseremail():

@@ -19,7 +19,7 @@ class ColDetail(Cta,logs,Baseclass):
         self.logger.info("Current_Url : " + current_url)
         response = requests.get(current_url)
         self.logger.info("Response : " + str(response.status_code))
-        
+        self.driver.refresh()
         time.sleep(2)
 
 #Download brochure

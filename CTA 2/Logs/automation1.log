@@ -1,20 +1,154 @@
-2022-11-23 12:29:36,971 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
-2022-11-23 12:29:43,972 :INFO :Test_ExamDetail2 :-------------------------
-2022-11-23 12:29:43,977 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
-2022-11-23 12:29:45,997 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
-2022-11-23 12:29:50,637 :INFO :Test_ExamDetail2 :Response : 200
-2022-11-23 12:29:54,714 :INFO :Xpath :CTA : Set Exam Alert
-2022-11-23 12:30:00,929 :INFO :Test_ExamDetail2 :Name : Testtlztyl
-2022-11-23 12:30:04,068 :INFO :Test_ExamDetail2 :Email : Test -YFvBceV@gmail.com
-2022-11-23 12:30:06,185 :INFO :Test_ExamDetail2 :Phone No : 8454371131
-2022-11-23 12:30:06,232 :INFO :Test_ExamDetail2 :Preferred Stream field not present
-2022-11-23 12:30:10,268 :INFO :Test_ExamDetail2 :Preferred level field not present
-2022-11-23 12:30:13,442 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
-2022-11-23 12:30:16,605 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
-2022-11-23 12:30:19,631 :INFO :Test_ExamDetail2 :Board field not present
-2022-11-23 12:30:25,659 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
-2022-11-23 12:30:32,611 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f8281bd6080>
-2022-11-23 12:30:35,125 :INFO :Test_ExamDetail2 :[586199, '8454371131']
-2022-11-23 12:30:45,409 :INFO :Test_ExamDetail2 :Otp added successfully
-2022-11-23 12:31:01,903 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f8281bc4780>
-2022-11-23 12:31:20,861 :INFO :Test_ExamDetail2 :[8886613, '', datetime.datetime(2022, 11, 23, 12, 30, 48), 'test-yfvbcev@gmail.com', 'test-yfvbcev@gmail.com', 'testtlztyl', '', 0, 1, 0, datetime.datetime(2022, 11, 23, 12, 30, 30), None, '8454371131', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 23, 12, 30, 30, 302951), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 23, 12, 30, 30, 52382), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 23, 12, 30, 30, 61204), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1F7EB773B', 0, None]
+2022-11-25 10:37:41,208 :INFO :Test_Career :******* Starting Career Detail CTA*********
+2022-11-25 10:37:57,556 :INFO :Test_Career :-------------------------
+2022-11-25 10:37:57,574 :INFO :Test_Career :Career as Pilot - How to Become, Courses, Job Profile, Salary & Scope
+2022-11-25 10:37:59,592 :INFO :Test_Career :Current_Url : https://user:pass@staging-hz.collegedekho.com/careers/pilot?magicflag=1
+2022-11-25 10:38:04,987 :INFO :Test_Career :Response : 200
+2022-11-25 10:38:11,079 :INFO :Xpath :CTA : Follow
+2022-11-25 10:38:13,442 :INFO :Test_Career :Name : Testcbrjpw
+2022-11-25 10:38:16,571 :INFO :Test_Career :Email : Test -IQMoEct@gmail.com
+2022-11-25 10:38:18,725 :INFO :Test_Career :Phone No : 6991124829
+2022-11-25 10:38:18,943 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-25 10:38:23,219 :INFO :Test_Career :Pref Level : UG
+2022-11-25 10:38:26,375 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-25 10:38:29,391 :INFO :Test_Career :Budget field not present
+2022-11-25 10:38:32,415 :INFO :Test_Career :Board field not present
+2022-11-25 10:38:38,461 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-25 10:38:45,571 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe23471f28>
+2022-11-25 10:38:48,098 :INFO :Test_Career :[961111, '6991124829']
+2022-11-25 10:38:58,388 :INFO :Test_Career :Otp added successfully
+2022-11-25 10:39:22,504 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe23471748>
+2022-11-25 10:39:30,527 :INFO :Test_Career :[8886680, '', datetime.datetime(2022, 11, 25, 10, 39, 1), 'test-iqmoect@gmail.com', 'test-iqmoect@gmail.com', 'testcbrjpw', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 38, 43), None, '6991124829', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 38, 43, 100369), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 38, 42, 916784), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 38, 42, 922016), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1A0B4195D', 0, None]
+2022-11-25 10:39:38,658 :INFO :Xpath :CTA : Get Expert Help
+2022-11-25 10:39:40,804 :INFO :Xpath :Clicked on Get expert help cta
+2022-11-25 10:39:47,170 :INFO :Test_Career :Name : Testszeumz
+2022-11-25 10:39:50,352 :INFO :Test_Career :Email : Test -IAglGLD@gmail.com
+2022-11-25 10:39:52,480 :INFO :Test_Career :Phone No : 9466131522
+2022-11-25 10:39:52,697 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-25 10:39:56,880 :INFO :Test_Career :Pref Level : UG
+2022-11-25 10:40:00,060 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-25 10:40:03,090 :INFO :Test_Career :Budget field not present
+2022-11-25 10:40:06,137 :INFO :Test_Career :Board field not present
+2022-11-25 10:40:12,185 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-25 10:40:19,277 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe2347e9b0>
+2022-11-25 10:40:21,985 :INFO :Test_Career :OTP not required,user already login
+2022-11-25 10:40:31,934 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe2347ef60>
+2022-11-25 10:40:53,467 :INFO :Test_Career :[8886681, '', None, 'test-iaglgld@gmail.com', 'test-iaglgld@gmail.com', 'testszeumz', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 40, 17), None, '9466131522', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 40, 16, 824472), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 40, 16, 677013), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 40, 16, 685936), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '23439B442', 0, None]
+2022-11-25 10:40:59,562 :INFO :Xpath :CTA : Get Expert Help
+2022-11-25 10:41:01,806 :INFO :Xpath :Clicked on Talk to Experts Footer sticky
+2022-11-25 10:41:08,111 :INFO :Test_Career :Name : Testgsciod
+2022-11-25 10:41:11,207 :INFO :Test_Career :Email : Test -hFOdCxQ@gmail.com
+2022-11-25 10:41:13,316 :INFO :Test_Career :Phone No : 9457064526
+2022-11-25 10:41:13,523 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-25 10:41:17,755 :INFO :Test_Career :Pref Level : UG
+2022-11-25 10:41:20,951 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-25 10:41:23,993 :INFO :Test_Career :Budget field not present
+2022-11-25 10:41:27,035 :INFO :Test_Career :Board field not present
+2022-11-25 10:41:33,079 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-25 10:41:40,070 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe2353a8d0>
+2022-11-25 10:41:42,663 :INFO :Test_Career :OTP not required,user already login
+2022-11-25 10:41:59,832 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7efe23471780>
+2022-11-25 10:42:08,189 :INFO :Test_Career :[8886682, '', None, 'test-hfodcxq@gmail.com', 'test-hfodcxq@gmail.com', 'testgsciod', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 41, 38), None, '9457064526', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 41, 37, 648674), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 41, 37, 519280), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 41, 37, 524352), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '233AF5A4E', 0, None]
+2022-11-25 10:42:12,051 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-25 10:42:19,685 :INFO :Test_deskhomepage :-------------------------
+2022-11-25 10:42:19,691 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-25 10:42:21,709 :INFO :Test_deskhomepage :Current_Url : https://user:pass@staging-hz.collegedekho.com/?magicflag=1
+2022-11-25 10:42:26,848 :INFO :Test_deskhomepage :Response : 200
+2022-11-25 10:42:30,986 :INFO :Xpath :CTA : Talk to our Experts
+2022-11-25 10:42:36,264 :INFO :Test_deskhomepage :Name : Testmsdyig
+2022-11-25 10:42:39,430 :INFO :Test_deskhomepage :Email : Test -qklErKt@gmail.com
+2022-11-25 10:42:41,611 :INFO :Test_deskhomepage :Phone No : 8383338665
+2022-11-25 10:42:41,933 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-11-25 10:42:46,149 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-25 10:42:49,352 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-11-25 10:42:52,399 :INFO :Test_deskhomepage :Budget field not present
+2022-11-25 10:42:55,445 :INFO :Test_deskhomepage :Board field not present
+2022-11-25 10:43:01,489 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-11-25 10:43:08,608 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7efe23471d30>
+2022-11-25 10:43:11,127 :INFO :Test_deskhomepage :[355146, '8383338665']
+2022-11-25 10:43:21,464 :INFO :Test_deskhomepage :Otp added successfully
+2022-11-25 10:43:37,724 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7efe23471198>
+2022-11-25 10:43:45,809 :INFO :Test_deskhomepage :[8886683, '', datetime.datetime(2022, 11, 25, 10, 43, 24), 'test-qklerkt@gmail.com', 'test-qklerkt@gmail.com', 'testmsdyig', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 43, 6), None, '8383338665', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 43, 6, 154266), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 43, 5, 951569), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 43, 5, 958784), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1F3AF98A9', 0, None]
+2022-11-25 10:43:49,847 :INFO :Xpath :Scrolled into footer form
+2022-11-25 10:43:55,980 :INFO :Test_deskhomepage :Name : Testkahkke
+2022-11-25 10:43:57,112 :INFO :Test_deskhomepage :Phone : 6582370114
+2022-11-25 10:43:57,358 :INFO :Test_deskhomepage :Email : Test -JLtaqaw@gmail.com
+2022-11-25 10:43:59,640 :INFO :Test_deskhomepage :Pref State : Andaman and Nicobar
+2022-11-25 10:44:02,822 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-25 10:44:06,019 :INFO :Test_deskhomepage :Pref Stream : Engineering
+2022-11-25 10:44:10,067 :INFO :Test_deskhomepage :Pref Board field not present
+2022-11-25 10:44:16,258 :INFO :Test_deskhomepage :Footer Lead form submitted
+2022-11-25 10:44:24,321 :INFO :Test_deskhomepage :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-11-25 10:44:31,303 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7efe2353a8d0>
+2022-11-25 10:44:39,192 :INFO :Test_deskhomepage :[8886684, '', None, 'test-jltaqaw@gmail.com', 'test-jltaqaw@gmail.com', 'testkahkke', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 44, 17), None, '6582370114', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 44, 16, 683679), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 44, 16, 578959), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 44, 16, 582298), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '18856FF42', 0, None]
+2022-11-25 10:44:43,163 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-25 10:44:50,041 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-25 10:44:50,052 :INFO :Test_ExamDetail2 :JEE Main 2022 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-11-25 10:44:52,058 :INFO :Test_ExamDetail2 :Current_Url : https://user:pass@staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-25 10:44:56,571 :INFO :Test_ExamDetail2 :Response : 200
+2022-11-25 10:45:00,673 :INFO :Xpath :CTA : Set Exam Alert
+2022-11-25 10:45:06,919 :INFO :Test_ExamDetail2 :Name : Testdpjwav
+2022-11-25 10:45:10,104 :INFO :Test_ExamDetail2 :Email : Test -wOrhMlk@gmail.com
+2022-11-25 10:45:12,220 :INFO :Test_ExamDetail2 :Phone No : 8053869461
+2022-11-25 10:45:12,266 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-25 10:45:16,335 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-25 10:45:19,531 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-25 10:45:22,761 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
+2022-11-25 10:45:25,807 :INFO :Test_ExamDetail2 :Board field not present
+2022-11-25 10:45:31,856 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-11-25 10:45:38,846 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe2347e5f8>
+2022-11-25 10:45:41,334 :INFO :Test_ExamDetail2 :[673237, '8053869461']
+2022-11-25 10:45:51,662 :INFO :Test_ExamDetail2 :Otp added successfully
+2022-11-25 10:46:19,506 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe23790dd8>
+2022-11-25 10:46:43,292 :INFO :Test_ExamDetail2 :[8886685, '', datetime.datetime(2022, 11, 25, 10, 45, 54), 'test-worhmlk@gmail.com', 'test-worhmlk@gmail.com', 'testdpjwav', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 45, 36), None, '8053869461', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 45, 36, 538282), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 45, 36, 355023), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 45, 36, 360804), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1E00C4B95', 0, None]
+2022-11-25 10:46:47,346 :INFO :Xpath :CTA : Download
+2022-11-25 10:46:53,748 :INFO :Test_ExamDetail2 :Name : Testxoqwyw
+2022-11-25 10:46:56,907 :INFO :Test_ExamDetail2 :Email : Test -jBJSTJT@gmail.com
+2022-11-25 10:46:59,032 :INFO :Test_ExamDetail2 :Phone No : 8350327549
+2022-11-25 10:46:59,066 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-25 10:47:03,126 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-25 10:47:06,320 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-25 10:47:09,534 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
+2022-11-25 10:47:12,557 :INFO :Test_ExamDetail2 :Board field not present
+2022-11-25 10:47:18,571 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-11-25 10:47:25,594 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe23494438>
+2022-11-25 10:47:29,173 :INFO :Test_ExamDetail2 :OTP not required,user already login
+2022-11-25 10:47:40,631 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe23494048>
+2022-11-25 10:47:48,617 :INFO :Test_ExamDetail2 :[8886686, '', None, 'test-jbjstjt@gmail.com', 'test-jbjstjt@gmail.com', 'testxoqwyw', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 47, 23), None, '8350327549', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 47, 23, 152321), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 47, 23, 24355), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 47, 23, 27439), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1F1B7E2FD', 0, None]
+2022-11-25 10:47:52,651 :INFO :Xpath :CTA : Subscribe Now
+2022-11-25 10:47:59,072 :INFO :Test_ExamDetail2 :Name : Testpbqwlx
+2022-11-25 10:48:02,384 :INFO :Test_ExamDetail2 :Email : Test -MZcMYFg@gmail.com
+2022-11-25 10:48:04,520 :INFO :Test_ExamDetail2 :Phone No : 8091245201
+2022-11-25 10:48:04,546 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-25 10:48:08,580 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-25 10:48:11,782 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-25 10:48:15,023 :INFO :Test_ExamDetail2 :Budget : < INR 50K per annum
+2022-11-25 10:48:18,065 :INFO :Test_ExamDetail2 :Board field not present
+2022-11-25 10:48:24,114 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-11-25 10:48:31,350 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe234949e8>
+2022-11-25 10:48:33,870 :INFO :Test_ExamDetail2 :OTP not required,user already login
+2022-11-25 10:48:49,783 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe2347e048>
+2022-11-25 10:48:57,636 :INFO :Test_ExamDetail2 :[8886687, '', None, 'test-mzcmyfg@gmail.com', 'test-mzcmyfg@gmail.com', 'testpbqwlx', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 48, 29), None, '8091245201', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 48, 28, 820611), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 48, 28, 644275), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 48, 28, 648703), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '1E2469A91', 0, None]
+2022-11-25 10:49:01,696 :INFO :Xpath :Scrolled into footer form
+2022-11-25 10:49:07,802 :INFO :Test_ExamDetail2 :Name : Testydddgv
+2022-11-25 10:49:08,966 :INFO :Test_ExamDetail2 :Phone : 6281033181
+2022-11-25 10:49:09,103 :INFO :Test_ExamDetail2 :Email : Test -hgScxWI@gmail.com
+2022-11-25 10:49:11,251 :INFO :Test_ExamDetail2 :Pref State : Andaman and Nicobar
+2022-11-25 10:49:14,294 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-25 10:49:17,365 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-25 10:49:21,387 :INFO :Test_ExamDetail2 :Pref Board field not present
+2022-11-25 10:49:27,576 :INFO :Test_ExamDetail2 :Footer Lead form submitted
+2022-11-25 10:49:40,178 :INFO :Test_ExamDetail2 :
+2022-11-25 10:49:47,115 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7efe23494ac8>
+2022-11-25 10:49:54,975 :INFO :Test_ExamDetail2 :[8886688, '', None, 'test-hgscxwi@gmail.com', 'test-hgscxwi@gmail.com', 'testydddgv', '', 0, 1, 0, datetime.datetime(2022, 11, 25, 10, 49, 28), None, '6281033181', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, None, 0, None, None, None, 1, 0, None, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 25, 10, 49, 28, 29471), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://staging-hz.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '20.0063', '77.006', 1, None, datetime.datetime(2022, 11, 25, 10, 49, 27, 919404), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 25, 10, 49, 27, 923195), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '49.43.42.42', None, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, None, 1, '17660F5DD', 0, None]
+2022-11-25 10:50:01,036 :INFO :Test_examlisting :******* Starting Exam Listing CTA*********
+2022-11-25 10:50:09,320 :INFO :Test_examlisting :-------------------------
+2022-11-25 10:50:09,340 :INFO :Test_examlisting :List of Engineering Entrance Exams 2022-Check Exam Dates & Notification
+2022-11-25 10:50:11,361 :INFO :Test_examlisting :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-11-25 10:50:17,836 :INFO :Test_examlisting :Response : 200
+2022-11-25 10:50:21,905 :INFO :Xpath :CTA : Set Exam Alert
+2022-11-25 10:57:20,425 :INFO :Test_examlisting :******* Starting Exam Listing CTA*********
+2022-11-25 10:57:35,619 :INFO :Test_examlisting :-------------------------
+2022-11-25 10:57:35,631 :INFO :Test_examlisting :List of Engineering Entrance Exams 2022-Check Exam Dates & Notification
+2022-11-25 10:57:37,651 :INFO :Test_examlisting :Current_Url : https://user:pass@staging-hz.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-11-25 10:57:44,163 :INFO :Test_examlisting :Response : 200
+2022-11-25 10:57:50,262 :INFO :Xpath :CTA : Set Exam Alert

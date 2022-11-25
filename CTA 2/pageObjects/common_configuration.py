@@ -267,8 +267,8 @@ class Cta():
         thankyou = self.driver.find_element(By.ID,"common_moda_success_message")
         self.logger.info(thankyou.text)
         time.sleep(2)
-        closebutton = self.driver.find_element(By.XPATH,"//button[@type='button']")
-        closebutton.click()
+        closebutton = self.driver.find_element(By.XPATH,"(//button[@type='button'])[1]")
+        #closebutton.click()
         time.sleep(2)
 
     def random_phonenumber(self):

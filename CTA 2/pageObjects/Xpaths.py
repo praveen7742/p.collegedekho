@@ -15,6 +15,19 @@ class Xpath():
     ExmDtl_Dwnld_Btn = "//div[@class='ctaBox']//button[@class='button change-alert-text gtm-lead-click alert-button apply_now_det_cd gtm-lead-click django-button-config']"
     ExmDtl_Subscribe_Btn = "//div[@class='box']/button"
     ExmDtl_footer_cta = "//div[@class = 'expertGraphic setExpertBlock']/div"
+    ExmLstng_ExmAlrt_btn = "(//span[@class='button gtm-lead-click apply_now_det_cd ex_list change-alert-text'][normalize-space()='Set Exam Alert'])[1]"
+    CareerDtl_follow_Btn= "(//button[normalize-space()='Follow'])[1]"
+    CareerDtl_ExmAlrt_Btn = "//div[@class='block latestUpdates']//button[@class='btn button django-form-submit gtm-lead-click apply_now_det_cd'][normalize-space()='Get Expert Help']"
+    CareerDtl_Footersticky = "//div[@class='ctaBlock footerSticky footerfixed']//button[@class='btn button django-form-submit gtm-lead-click apply_now_det_cd'][normalize-space()='Get Expert Help']"
+    CollegeDtl_Dwnl_btn =   "//div[@class='CollegedekhoShareBtn_btnDownload__yOJ5w']//button[1]"
+    CollegeDtl_ApplyNow_Btn = ""
+    CollegeDtl_SubscribeNow_Btn =""
+    CollegeDtl_footer_sticky=""
+
+
+
+
+
 
     def __init__(self, driver):
         self.driver = driver
@@ -71,3 +84,42 @@ class Xpath():
         time.sleep(2)
         self.logger.info("Scrolled into footer form")
         time.sleep(4)
+
+    def ExmListing_EXmAlrt(self):
+        time.sleep(2)
+        exam_Alert = self.driver.find_element(By.XPATH,self.ExmLstng_ExmAlrt_btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + exam_Alert.text)
+        time.sleep(2)
+        exam_Alert.click()
+
+    def Carrer_Follow(self):
+
+        time.sleep(2)
+        Follow_career = self.driver.find_element(By.XPATH,self.CareerDtl_follow_Btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + Follow_career.text)
+        Follow_career.click()
+
+    def Career_ExmAlrt(self):
+
+        self.driver.execute_script("window.scrollTo(0,2800)")
+        time.sleep(4)
+        Get_expert_help_cta = self.driver.find_element(By.XPATH,self.CareerDtl_ExmAlrt_Btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + Get_expert_help_cta.text)
+        time.sleep(2)
+        Get_expert_help_cta.click()
+        self.logger.info("Clicked on Get expert help cta")
+        time.sleep(2)
+
+    def Career_sticky(self):
+
+        self.driver.execute_script("window.scrollTo(0,1000)")
+        Get_expert_help_2 = self.driver.find_element(By.XPATH,self.CareerDtl_Footersticky)
+        time.sleep(2)
+        self.logger.info("CTA : " + Get_expert_help_2.text)
+        time.sleep(2)
+        Get_expert_help_2.click()
+        self.logger.info("Clicked on Talk to Experts Footer sticky")
+        time.sleep(2)
