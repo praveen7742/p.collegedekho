@@ -44,7 +44,7 @@ class Test_ExamDetail2(Cta):
         self.xp.ExmDtl_Alert()
         self.cta_detail()
         time.sleep(7)
-        if "https://user:pass@staging-hz.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             time.sleep(2)
             self.driver.back()
             time.sleep(2)
@@ -72,7 +72,7 @@ class Test_ExamDetail2(Cta):
 
         self.cta_detail()
         time.sleep(3)
-        if "https://user:pass@staging-hz.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
             self.driver.refresh()
@@ -99,7 +99,7 @@ class Test_ExamDetail2(Cta):
 
         self.cta_detail()
         time.sleep(5)
-        if "https://user:pass@staging-hz.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
             self.driver.refresh()
@@ -122,7 +122,7 @@ class Test_ExamDetail2(Cta):
         self.footer_form()
         time.sleep(2)
         time.sleep(3)
-        if "https://user:pass@staging-hz.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
             self.driver.refresh()

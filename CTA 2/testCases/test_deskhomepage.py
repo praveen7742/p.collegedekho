@@ -52,7 +52,7 @@ class Test_deskhomepage(Cta):
 
         self.cta_detail()
         time.sleep(3)
-        if "https://user:pass@staging-hz.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+        if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
             self.driver.refresh()

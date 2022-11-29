@@ -20,9 +20,10 @@ class Xpath():
     CareerDtl_ExmAlrt_Btn = "//div[@class='block latestUpdates']//button[@class='btn button django-form-submit gtm-lead-click apply_now_det_cd'][normalize-space()='Get Expert Help']"
     CareerDtl_Footersticky = "//div[@class='ctaBlock footerSticky footerfixed']//button[@class='btn button django-form-submit gtm-lead-click apply_now_det_cd'][normalize-space()='Get Expert Help']"
     CollegeDtl_Dwnl_btn =   "//div[@class='CollegedekhoShareBtn_btnDownload__yOJ5w']//button[1]"
-    CollegeDtl_ApplyNow_Btn = ""
-    CollegeDtl_SubscribeNow_Btn =""
-    CollegeDtl_footer_sticky=""
+    CollegeDtl_dwnld_brchre_Btn = "//div[@class='CollegedekhoShareBtn_btnDownload__yOJ5w']//button[1]"
+    CollegeDtl_apply_now_Btn = "//div[@class='ctaBox']/button"
+    CollegeDtl_SubscribeNow_Btn = "//div[@class='box']/button"
+    CollegeDtl_footer_sticky= "//div[@class = 'expertGraphic setExpertBlock']/div"
 
 
 
@@ -123,3 +124,36 @@ class Xpath():
         Get_expert_help_2.click()
         self.logger.info("Clicked on Talk to Experts Footer sticky")
         time.sleep(2)
+
+    def Collegedtl_DwnldBchre(self):
+        download_brochure = self.driver.find_element(By.XPATH,self.CollegeDtl_dwnld_brchre_Btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + download_brochure.text)
+        time.sleep(2)
+        download_brochure.click()
+
+    def Collegedtl_applynow(self):
+        download = self.driver.find_element(By.XPATH,self.CollegeDtl_apply_now_Btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + download.text)
+        time.sleep(2)
+        
+        download.click()
+        time.sleep(2)
+
+    def Collegedtl_subscribenow(self):
+        Subscribe_now = self.driver.find_element(By.XPATH,self.CollegeDtl_SubscribeNow_Btn)
+        time.sleep(2)
+        self.logger.info("CTA : " + Subscribe_now.text)
+        time.sleep(2)
+        Subscribe_now.click()
+        time.sleep(2)
+
+    def Collegedtl_foterform(self):
+
+        footerform = self.driver.find_element(By.XPATH,self.CollegeDtl_footer_sticky)
+        footerform.location_once_scrolled_into_view
+        time.sleep(2)
+        self.logger.info("Scrolled into footer form")
+        time.sleep(4)
+
