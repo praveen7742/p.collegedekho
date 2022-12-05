@@ -115,7 +115,10 @@ class Cta():
 #OTP CONNECTION
 
         try:
+
             # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+
+
             conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
         
             self.logger.info(conn)
@@ -271,8 +274,8 @@ class Cta():
         thankyou = self.driver.find_element(By.ID,"common_moda_success_message")
         self.logger.info(thankyou.text)
         time.sleep(2)
-        closebutton = self.driver.find_element(By.XPATH,"//button[@type='button']")
-        closebutton.click()
+        closebutton = self.driver.find_element(By.XPATH,"(//button[@type='button'])[1]")
+        #closebutton.click()
         time.sleep(2)
 
     def random_phonenumber(self):
@@ -304,7 +307,9 @@ class Cta():
     def database(self):
         
         conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
-        # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+
+        #conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
+
         self.logger.info(conn)
         time.sleep(2)
         userprofile_query = ("""select *from users_userprofile where phone_no = {} order by id desc""").format(self.random_generated_number)

@@ -12,7 +12,6 @@ from utilities.customLogger import LogGen
 
 
 
-
 class Test_deskhomepage(Cta):
     
     baseURL = ReadConfig.getHomepageURL()
@@ -56,6 +55,7 @@ class Test_deskhomepage(Cta):
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
+            self.driver.refresh()
         else:
             self.driver.refresh()
             time.sleep(2)
@@ -80,6 +80,7 @@ class Test_deskhomepage(Cta):
 
         self.database()
         time.sleep(2)
+        self.driver.close()
         
         
 

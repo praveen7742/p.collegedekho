@@ -11,7 +11,7 @@ from utilities.customLogger import LogGen
 
 class Test_ExamDetail2(Cta):
 
-    baseURL1 = ReadConfig.getExamURL()
+    baseURL1 = ReadConfig.getExamDetailURL()
     logger = LogGen.loggen()  # Logger
    
     @pytest.mark.sanity
@@ -43,10 +43,12 @@ class Test_ExamDetail2(Cta):
         self.xp = Xpath(self.driver)
         self.xp.ExmDtl_Alert()
         self.cta_detail()
-        time.sleep(3)
+        time.sleep(7)
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
+            time.sleep(2)
             self.driver.back()
             time.sleep(2)
+            self.driver.refresh()
         else:
             self.driver.refresh()
             time.sleep(2)
@@ -73,6 +75,7 @@ class Test_ExamDetail2(Cta):
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
+            self.driver.refresh()
         else:
             self.driver.refresh()
             time.sleep(2)
@@ -95,10 +98,11 @@ class Test_ExamDetail2(Cta):
         self.driver.find_element(By.ID,"id_phone_cta").clear()
 
         self.cta_detail()
-        time.sleep(3)
+        time.sleep(5)
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
+            self.driver.refresh()
         else:
             self.driver.refresh()
             time.sleep(2)
@@ -121,6 +125,7 @@ class Test_ExamDetail2(Cta):
         if "https://www.collegedekho.com/my-dashboard/colleges" in self.driver.current_url:
             self.driver.back()
             time.sleep(2)
+            self.driver.refresh()
         else:
             self.driver.refresh()
             time.sleep(2)
@@ -129,6 +134,7 @@ class Test_ExamDetail2(Cta):
         time.sleep(2)
         self.database()
         time.sleep(2)
+        self.driver.close()
 
 
 
