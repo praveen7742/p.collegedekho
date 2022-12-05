@@ -51,13 +51,20 @@ class Test_newslisting(Cta):
         time.sleep(2)
         new_url=self.driver.current_url
 
-        if new_url == "https://staging-hz.collegedekho.com/news/?magicflag=1":
-            self.driver.refresh()
-        else:
+        # if new_url == "https://staging-hz.collegedekho.com/news/?magicflag=1":
+        #     self.driver.refresh()
+        # else:
+        #     self.driver.back()
+        #     time.sleep(2)
+        #     self.driver.refresh()
+        #     time.sleep(4)
+
+        if new_url == "https://www.collegedekho.com/my-dashboard/colleges":
             self.driver.back()
-            time.sleep(2)
+            time.sleep(5)
+        else:
             self.driver.refresh()
-            time.sleep(4)
+            time.sleep(5)
 
         self.database()
         time.sleep(2)
