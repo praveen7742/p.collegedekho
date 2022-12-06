@@ -1,7 +1,7 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
+config.read("/home/yashdhamija/p.collegedekho-1/CTA 2/Configurations/config.ini")
 
 class ReadConfig:
     @staticmethod
@@ -9,6 +9,12 @@ class ReadConfig:
         homepage_url=config.get('common info','HomePageUrl')
         
         return homepage_url
+    
+    @staticmethod
+    def getNewslistingUrl():
+        NewslistingUrl=config.get('common info','NewslistUrl')
+    
+        return NewslistingUrl
 
     # def getHomepageXpath():
     #     homepage_xpath = config.get('HomePageXpath','Talk-to-experts')
@@ -42,7 +48,11 @@ class ReadConfig:
     
         return CollegeDetail_Url
 
+    @staticmethod
+    def getCoursedetailURL():
+        CoursedetailURL=config.get('common info','CoursedetaillUrl')
     
+        return CoursedetailURL
 
     # @staticmethod
     # def getUseremail():

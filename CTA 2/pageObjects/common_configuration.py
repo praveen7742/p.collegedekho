@@ -109,16 +109,18 @@ class Cta():
             self.driver.find_element(By.XPATH,"//button[@type='submit'][normalize-space()='Subscribe Now']").click()
             time.sleep(2)
         except:
-            self.driver.find_element(By.XPATH,"//button[@type='submit'][normalize-space()='Register Now']").click()
-            time.sleep(2)
+            try:
+                self.driver.find_element(By.XPATH,"//button[@type='submit'][normalize-space()='Register Now']").click()
+                time.sleep(2)
+            except:
+                self.driver.find_element(By.XPATH,"//button[normalize-space()='Next']").click()
+                time.sleep(2)
 
 #OTP CONNECTION
 
         try:
 
             # conn = mysql.connector.connect(host='95.217.156.247',database = 'collegedekho_17may22',user = 'ro', password = 'readonly@5456555')
-
-
             conn = mysql.connector.connect(host='172.31.35.54',database = 'collegedekho',user = 'cld_ro', password = 'cld9^%67&G')
         
             self.logger.info(conn)
@@ -151,10 +153,18 @@ class Cta():
             time.sleep(2)
 
             #Clicking on verify button
-
-            verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
-            verify_button.click()
-            time.sleep(5)
+            try:
+                verify_button = self.driver.find_element(By.XPATH,"//input[@id='gtm_loginVerify']")
+                verify_button.click()
+                time.sleep(5)
+            except:
+                    verify_proceed_button=self.driver.find_element(By.XPATH,"//button[@id='gtm_loginVerify']")
+                    verify_proceed_button.click()
+                    time.sleep(5)
+                # except:
+                #     self.logger.info("OTP not submitted")
+                #     raise Exception
+            
 
         except :
             self.logger.info("OTP not required,user already login")
@@ -299,7 +309,7 @@ class Cta():
         return 'Test' + "".join(random.choices(string.ascii_lowercase, k=6))
 
     def random_email(self):
-        random_str =  'Test -' + "".join(random.choice(string.ascii_letters) for _ in range(7))
+        random_str =  'Test-' + "".join(random.choice(string.ascii_letters) for _ in range(7))
         return random_str+"@gmail.com"
 
     #DATABASE CONNECTION
