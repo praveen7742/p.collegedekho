@@ -31,6 +31,7 @@ class Xpath():
     CollegeDtl_apply_now_Btn = "//div[@class='ctaBox']/button"
     CollegeDtl_SubscribeNow_Btn = "//div[@class='box']/button"
     CollegeDtl_footer_sticky= "//div[@class = 'expertGraphic setExpertBlock']/div"
+    CourseDtl_Chk_Eligibility_btn= "(//button[normalize-space()='Check Eligibility'])[1]"
 
     def __init__(self, driver):
         self.driver = driver
@@ -202,3 +203,11 @@ class Xpath():
         time.sleep(2)
         self.logger.info("Scrolled into footer form")
         time.sleep(4)
+
+    def CourseDtl_Chk_Eligibility(self):
+
+        course_eligib = self.driver.find_element(By.XPATH,self.CourseDtl_Chk_Eligibility_btn)
+        course_eligib.click()
+        time.sleep(2)
+    
+    
