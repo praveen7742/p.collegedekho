@@ -23,8 +23,15 @@ class Xpath():
     CollegeDtl_dwnld_brchre_Btn = "//div[@class='CollegedekhoShareBtn_btnDownload__yOJ5w']//button[1]"
     CollegeDtl_apply_now_Btn = "//div[@class='ctaBox']/button"
     CollegeDtl_SubscribeNow_Btn = "//div[@class='box']/button"
-    CollegeDtl_footer_sticky= "//div[@class = 'expertGraphic setExpertBlock']/div"
-
+    CollegeDtl_footer_sticky = "//div[@class = 'expertGraphic setExpertBlock']/div"
+    NewsDtl_exam_alrt = "//button[@id='gtm-board-set-exam-alert']"
+    NewsDtl_Getsampleppr = "(//button[contains(text(),'Get Sample Papers')])[1]"
+    NewsDtl_subscribenow = "(//button[@id='btn-cta21'])[1]"
+    NewsDtl_registernow = "(//button[@id='btn-cta3'])[1]"
+    Board_smplppr = "(//button[@id='gtm-board-download-sample-paper'])[1]"
+    Board_Dwnldguide = "(//button[@id='gtm-board-download-guide'])[1]"
+    Board_Dwnldguide2 = "(//button[@id='gtm-board-download-guide'])[2]"
+    Board_Footerformcta = "(//div[normalize-space()='Want to learn more about college options and to secure an admission now!'])[1]"
 
 
 
@@ -149,7 +156,7 @@ class Xpath():
         Subscribe_now.click()
         time.sleep(2)
 
-    def Collegedtl_foterform(self):
+    def Collegedtl_footerform(self):
 
         footerform = self.driver.find_element(By.XPATH,self.CollegeDtl_footer_sticky)
         footerform.location_once_scrolled_into_view
@@ -157,3 +164,47 @@ class Xpath():
         self.logger.info("Scrolled into footer form")
         time.sleep(4)
 
+    def Newsdtl_setexamalert11(self):
+        Exam_Alert = self.driver.find_element(By.XPATH,self.NewsDtl_exam_alrt)
+        time.sleep(2)
+        self.logger.info("CTA : " + Exam_Alert.text)
+        time.sleep(2)
+        Exam_Alert.click()
+
+    def Newsdtl_getsmplppr(self):
+        Sample_ppr = self.driver.find_element(By.XPATH,self.NewsDtl_Getsampleppr)
+        time.sleep(2)
+        self.logger.info("CTA : " + Sample_ppr.text)
+        time.sleep(2)
+        Sample_ppr.click()
+
+    def board_dwnldsmplpprcta(self):
+        Sample_ppr = self.driver.find_element(By.XPATH,self.Board_smplppr)
+        time.sleep(2)
+        self.logger.info("CTA : " + Sample_ppr.text)
+        time.sleep(2)
+        Sample_ppr.click()
+
+    def board_dwnldguidecta1(self):
+        Dwnld_guide= self.driver.find_element(By.XPATH,self.Board_Dwnldguide)
+        time.sleep(2)
+        self.logger.info("CTA : " + Dwnld_guide.text)
+        time.sleep(2)
+        Dwnld_guide.click()
+
+    def board_dwnldguidecta2(self):
+        Dwnld_guide2 = self.driver.find_element(By.XPATH,self.Board_Dwnldguide2)
+        time.sleep(2)
+        self.logger.info("CTA : " + Dwnld_guide2.text)
+        time.sleep(2)
+        Dwnld_guide2.click()
+
+    def board_footerform(self):
+        self.driver.execute_script("window.scrollBy(0,4500)")
+        time.sleep(2)
+        Board_Footer = self.driver.find_element(By.XPATH,self.Board_Footerformcta)
+        time.sleep(2)
+        self.logger.info("CTA : " + Board_Footer.text)
+        time.sleep(2)
+        Board_Footer.click()
+        

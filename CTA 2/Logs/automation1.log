@@ -1350,3 +1350,746 @@
 2022-11-29 11:15:31,410 :INFO :Test_examlisting :Otp added successfully
 2022-11-29 11:15:47,925 :INFO :Test_examlisting :<mysql.connector.connection.MySQLConnection object at 0x7facf73706a0>
 2022-11-29 11:16:05,749 :INFO :Test_examlisting :[11304465, '', datetime.datetime(2022, 11, 29, 11, 15, 34), 'test-glbdhns@gmail.com', 'test-glbdhns@gmail.com', 'testkwubxd', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 15, 14), None, '7881214397', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 15, 13, 856814), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/engineering-entrance-exams/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 15, 13, 727013), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 15, 13, 728994), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, None, None, None, None, None, None, None, None, None, None, None, 1, '1D5C1C9BD']
+2022-11-29 11:30:55,665 :INFO :Test_Career :******* Starting Career Detail CTA*********
+2022-11-29 11:30:59,077 :INFO :Test_Career :-------------------------
+2022-11-29 11:30:59,083 :INFO :Test_Career :Career as Pilot - How to Become, Courses, Job Profile, Salary & Scope
+2022-11-29 11:31:01,099 :INFO :Test_Career :Current_Url : https://www.collegedekho.com/careers/pilot?magicflag=1
+2022-11-29 11:31:03,443 :INFO :Test_Career :Response : 200
+2022-11-29 11:31:09,546 :INFO :Xpath :CTA : Follow
+2022-11-29 11:31:11,813 :INFO :Test_Career :Name : Testlelqll
+2022-11-29 11:31:14,956 :INFO :Test_Career :Email : Test -esuMyKI@gmail.com
+2022-11-29 11:31:17,084 :INFO :Test_Career :Phone No : 9768439807
+2022-11-29 11:31:17,318 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-29 11:31:21,543 :INFO :Test_Career :Pref Level : UG
+2022-11-29 11:31:24,752 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-29 11:31:27,798 :INFO :Test_Career :Budget field not present
+2022-11-29 11:31:30,845 :INFO :Test_Career :Board field not present
+2022-11-29 11:31:36,894 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-29 11:31:44,906 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b79978>
+2022-11-29 11:31:48,249 :INFO :Test_Career :[238031, '9768439807']
+2022-11-29 11:31:58,601 :INFO :Test_Career :Otp added successfully
+2022-11-29 11:32:16,195 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b79908>
+2022-11-29 11:32:33,246 :INFO :Test_Career :[11304518, '', datetime.datetime(2022, 11, 29, 11, 32, 1), 'test-esumyki@gmail.com', 'test-esumyki@gmail.com', 'testlelqll', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 31, 41), None, '9768439807', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 31, 41, 472757), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 31, 41, 344827), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 31, 41, 354413), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, 1, '2463E8FFF']
+2022-11-29 11:32:41,396 :INFO :Xpath :CTA : Get Expert Help
+2022-11-29 11:32:43,554 :INFO :Xpath :Clicked on Get expert help cta
+2022-11-29 11:32:49,948 :INFO :Test_Career :Name : Testmrymhi
+2022-11-29 11:32:53,092 :INFO :Test_Career :Email : Test -WzueOTg@gmail.com
+2022-11-29 11:32:55,213 :INFO :Test_Career :Phone No : 8078090872
+2022-11-29 11:32:55,410 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-29 11:32:59,615 :INFO :Test_Career :Pref Level : UG
+2022-11-29 11:33:02,821 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-29 11:33:05,864 :INFO :Test_Career :Budget field not present
+2022-11-29 11:33:08,908 :INFO :Test_Career :Board field not present
+2022-11-29 11:33:14,952 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-29 11:33:23,336 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b88b70>
+2022-11-29 11:33:26,929 :INFO :Test_Career :OTP not required,user already login
+2022-11-29 11:33:40,722 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b798d0>
+2022-11-29 11:33:57,420 :INFO :Test_Career :[11304521, '', None, 'test-wzueotg@gmail.com', 'test-wzueotg@gmail.com', 'testmrymhi', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 33, 19), None, '8078090872', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 33, 19, 388113), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 33, 19, 274394), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 33, 19, 280302), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, 1, '1E17DE278']
+2022-11-29 11:34:03,543 :INFO :Xpath :CTA : Get Expert Help
+2022-11-29 11:34:05,691 :INFO :Xpath :Clicked on Talk to Experts Footer sticky
+2022-11-29 11:34:12,017 :INFO :Test_Career :Name : Testmzendz
+2022-11-29 11:34:15,205 :INFO :Test_Career :Email : Test -PZlpkNo@gmail.com
+2022-11-29 11:34:17,349 :INFO :Test_Career :Phone No : 7559247359
+2022-11-29 11:34:17,560 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-11-29 11:34:21,787 :INFO :Test_Career :Pref Level : UG
+2022-11-29 11:34:24,991 :INFO :Test_Career :State : Andaman and Nicobar
+2022-11-29 11:34:28,044 :INFO :Test_Career :Budget field not present
+2022-11-29 11:34:31,093 :INFO :Test_Career :Board field not present
+2022-11-29 11:34:37,146 :INFO :Test_Career :Whatsapp Enable button is present
+2022-11-29 11:34:45,137 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19ba7ba8>
+2022-11-29 11:34:48,511 :INFO :Test_Career :OTP not required,user already login
+2022-11-29 11:35:02,467 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f8c19ba7c18>
+2022-11-29 11:35:20,280 :INFO :Test_Career :[11304525, '', None, 'test-pzlpkno@gmail.com', 'test-pzlpkno@gmail.com', 'testmzendz', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 34, 41), None, '7559247359', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 34, 41, 556130), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 34, 41, 442512), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 34, 41, 444433), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, 1, '1C290F5FF']
+2022-11-29 11:35:24,221 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-11-29 11:35:30,690 :INFO :Test_deskhomepage :-------------------------
+2022-11-29 11:35:30,694 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-11-29 11:35:32,743 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-11-29 11:35:35,361 :INFO :Test_deskhomepage :Response : 200
+2022-11-29 11:35:39,523 :INFO :Xpath :CTA : Talk to our Experts
+2022-11-29 11:35:44,863 :INFO :Test_deskhomepage :Name : Testwenrnj
+2022-11-29 11:35:48,021 :INFO :Test_deskhomepage :Email : Test -GmYngfG@gmail.com
+2022-11-29 11:35:50,157 :INFO :Test_deskhomepage :Phone No : 7577419295
+2022-11-29 11:35:50,385 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-11-29 11:35:54,593 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-29 11:35:57,828 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-11-29 11:36:00,876 :INFO :Test_deskhomepage :Budget field not present
+2022-11-29 11:36:03,920 :INFO :Test_deskhomepage :Board field not present
+2022-11-29 11:36:10,011 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-11-29 11:36:17,969 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b79898>
+2022-11-29 11:36:21,565 :INFO :Test_deskhomepage :[127352, '7577419295']
+2022-11-29 11:36:31,918 :INFO :Test_deskhomepage :Otp added successfully
+2022-11-29 11:36:53,235 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f8c19d50668>
+2022-11-29 11:37:10,951 :INFO :Test_deskhomepage :[11304529, '', datetime.datetime(2022, 11, 29, 11, 36, 34), 'test-gmyngfg@gmail.com', 'test-gmyngfg@gmail.com', 'testwenrnj', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 36, 14), None, '7577419295', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 36, 14, 556981), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 36, 14, 426365), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 36, 14, 428494), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, 1, '1C3A63E1F']
+2022-11-29 11:37:14,989 :INFO :Xpath :Scrolled into footer form
+2022-11-29 11:37:21,129 :INFO :Test_deskhomepage :Name : Testchhzjy
+2022-11-29 11:37:22,335 :INFO :Test_deskhomepage :Phone : 9161957573
+2022-11-29 11:37:22,551 :INFO :Test_deskhomepage :Email : Test -ECPYImD@gmail.com
+2022-11-29 11:37:24,804 :INFO :Test_deskhomepage :Pref State : Andaman and Nicobar
+2022-11-29 11:37:28,002 :INFO :Test_deskhomepage :Pref Level : UG
+2022-11-29 11:37:31,206 :INFO :Test_deskhomepage :Pref Stream : Engineering
+2022-11-29 11:37:35,240 :INFO :Test_deskhomepage :Pref Board field not present
+2022-11-29 11:37:41,503 :INFO :Test_deskhomepage :Footer Lead form submitted
+2022-11-29 11:37:49,583 :INFO :Test_deskhomepage :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-11-29 11:37:57,096 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b88cc0>
+2022-11-29 11:38:14,936 :INFO :Test_deskhomepage :[11304533, '', None, 'test-ecpyimd@gmail.com', 'test-ecpyimd@gmail.com', 'testchhzjy', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 37, 42), None, '9161957573', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 37, 41, 643236), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 37, 41, 535840), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 37, 41, 541015), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 22.0850341, 82.1387126, None, None, None, None, None, None, None, None, 1, '2221860C5']
+2022-11-29 11:38:19,284 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-11-29 11:38:22,552 :INFO :Test_ExamDetail2 :-------------------------
+2022-11-29 11:38:22,567 :INFO :Test_ExamDetail2 :JEE Main 2023 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-11-29 11:38:24,584 :INFO :Test_ExamDetail2 :Current_Url : https://www.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-11-29 11:38:26,166 :INFO :Test_ExamDetail2 :Response : 200
+2022-11-29 11:38:30,242 :INFO :Xpath :CTA : Set Exam Alert
+2022-11-29 11:38:36,454 :INFO :Test_ExamDetail2 :Name : Testxcqedh
+2022-11-29 11:38:39,648 :INFO :Test_ExamDetail2 :Email : Test -XjvtPfE@gmail.com
+2022-11-29 11:38:41,797 :INFO :Test_ExamDetail2 :Phone No : 7138334152
+2022-11-29 11:38:41,842 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-11-29 11:38:45,894 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-11-29 11:38:49,099 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-11-29 11:38:52,127 :INFO :Test_ExamDetail2 :Budget field not present
+2022-11-29 11:38:55,148 :INFO :Test_ExamDetail2 :Board field not present
+2022-11-29 11:39:01,202 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-11-29 11:39:08,902 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f8c19ba7f98>
+2022-11-29 11:39:12,197 :INFO :Test_ExamDetail2 :[681839, '7138334152']
+2022-11-29 11:39:22,488 :INFO :Test_ExamDetail2 :Otp added successfully
+2022-11-29 11:39:43,938 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b88e10>
+2022-11-29 11:40:05,841 :INFO :Test_examlisting :******* Starting Exam Listing CTA*********
+2022-11-29 11:40:10,424 :INFO :Test_examlisting :-------------------------
+2022-11-29 11:40:10,445 :INFO :Test_examlisting :List of Engineering Entrance Exams 2022-Check Exam Dates & Notification
+2022-11-29 11:40:12,470 :INFO :Test_examlisting :Current_Url : https://www.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-11-29 11:40:17,531 :INFO :Test_examlisting :Response : 200
+2022-11-29 11:40:23,614 :INFO :Xpath :CTA : Set Exam Alert
+2022-11-29 11:40:27,855 :INFO :Test_examlisting :Name : Testlfegpj
+2022-11-29 11:40:31,045 :INFO :Test_examlisting :Email : Test -pMGTKYs@gmail.com
+2022-11-29 11:40:33,173 :INFO :Test_examlisting :Phone No : 6203005227
+2022-11-29 11:40:33,199 :INFO :Test_examlisting :Preferred Stream field not present
+2022-11-29 11:40:37,242 :INFO :Test_examlisting :Preferred level field not present
+2022-11-29 11:40:40,427 :INFO :Test_examlisting :State : Andaman and Nicobar
+2022-11-29 11:40:43,468 :INFO :Test_examlisting :Budget field not present
+2022-11-29 11:40:46,489 :INFO :Test_examlisting :Board field not present
+2022-11-29 11:40:52,530 :INFO :Test_examlisting :Whatsapp Enable button is present
+2022-11-29 11:41:00,411 :INFO :Test_examlisting :<mysql.connector.connection.MySQLConnection object at 0x7f8c19a63828>
+2022-11-29 11:41:03,809 :INFO :Test_examlisting :[401187, '6203005227']
+2022-11-29 11:41:14,121 :INFO :Test_examlisting :Otp added successfully
+2022-11-29 11:41:36,780 :INFO :Test_examlisting :<mysql.connector.connection.MySQLConnection object at 0x7f8c19b79400>
+2022-11-29 11:41:53,626 :INFO :Test_examlisting :[11304551, '', datetime.datetime(2022, 11, 29, 11, 41, 16), 'test-pmgtkys@gmail.com', 'test-pmgtkys@gmail.com', 'testlfegpj', '', 0, 1, 0, datetime.datetime(2022, 11, 29, 11, 40, 57), None, '6203005227', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 11, 29, 11, 40, 56, 991658), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/engineering-entrance-exams/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 11, 29, 11, 40, 56, 827677), 2, None, None, 0, None, None, datetime.datetime(2022, 11, 29, 11, 40, 56, 829824), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, None, None, None, None, None, None, None, None, None, None, None, 1, '171BA592B']
+2022-12-07 11:04:13,165 :INFO :Test_Career :******* Starting Career Detail CTA*********
+2022-12-07 11:04:15,402 :INFO :Test_Career :-------------------------
+2022-12-07 11:04:15,412 :INFO :Test_Career :Career as Pilot - How to Become, Courses, Job Profile, Salary & Scope
+2022-12-07 11:04:17,437 :INFO :Test_Career :Current_Url : https://www.collegedekho.com/careers/pilot?magicflag=1
+2022-12-07 11:04:18,234 :INFO :Test_Career :Response : 200
+2022-12-07 11:04:24,312 :INFO :Xpath :CTA : Follow
+2022-12-07 11:04:26,555 :INFO :Test_Career :Name : Testqjcrfg
+2022-12-07 11:04:29,712 :INFO :Test_Career :Email : Test -unfDGHD@gmail.com
+2022-12-07 11:04:31,859 :INFO :Test_Career :Phone No : 7787950865
+2022-12-07 11:04:32,055 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-12-07 11:04:36,303 :INFO :Test_Career :Pref Level : UG
+2022-12-07 11:04:39,492 :INFO :Test_Career :State : Andaman and Nicobar
+2022-12-07 11:04:42,515 :INFO :Test_Career :Budget field not present
+2022-12-07 11:04:45,552 :INFO :Test_Career :Board field not present
+2022-12-07 11:04:51,583 :INFO :Test_Career :Whatsapp Enable button is present
+2022-12-07 11:05:47,279 :INFO :Test_Career :******* Starting Career Detail CTA*********
+2022-12-07 11:05:49,426 :INFO :Test_Career :-------------------------
+2022-12-07 11:05:49,444 :INFO :Test_Career :Career as Pilot - How to Become, Courses, Job Profile, Salary & Scope
+2022-12-07 11:05:51,582 :INFO :Test_Career :Current_Url : https://www.collegedekho.com/careers/pilot?magicflag=1
+2022-12-07 11:05:53,129 :INFO :Test_Career :Response : 200
+2022-12-07 11:05:59,211 :INFO :Xpath :CTA : Follow
+2022-12-07 11:06:01,573 :INFO :Test_Career :Name : Testsxmzwu
+2022-12-07 11:06:04,711 :INFO :Test_Career :Email : Test -DpoMBWK@gmail.com
+2022-12-07 11:06:06,839 :INFO :Test_Career :Phone No : 8535149647
+2022-12-07 11:06:07,025 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-12-07 11:06:11,218 :INFO :Test_Career :Pref Level : UG
+2022-12-07 11:06:14,411 :INFO :Test_Career :State : Andaman and Nicobar
+2022-12-07 11:06:17,445 :INFO :Test_Career :Budget field not present
+2022-12-07 11:06:20,496 :INFO :Test_Career :Board field not present
+2022-12-07 11:06:26,537 :INFO :Test_Career :Whatsapp Enable button is present
+2022-12-07 11:06:33,500 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc01978>
+2022-12-07 11:06:37,785 :INFO :Test_Career :[824607, '8535149647']
+2022-12-07 11:06:48,043 :INFO :Test_Career :Otp added successfully
+2022-12-07 11:07:05,071 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc01908>
+2022-12-07 11:07:22,695 :INFO :Test_Career :[11322053, '', datetime.datetime(2022, 12, 7, 11, 6, 51), 'test-dpombwk@gmail.com', 'test-dpombwk@gmail.com', 'testsxmzwu', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 6, 31), None, '8535149647', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 6, 31, 123994), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 6, 30, 989193), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 6, 30, 991327), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1FCBC0C4F']
+2022-12-07 11:07:30,837 :INFO :Xpath :CTA : Get Expert Help
+2022-12-07 11:07:33,011 :INFO :Xpath :Clicked on Get expert help cta
+2022-12-07 11:07:39,306 :INFO :Test_Career :Name : Testwjvwpy
+2022-12-07 11:07:42,448 :INFO :Test_Career :Email : Test -kiLXnst@gmail.com
+2022-12-07 11:07:44,566 :INFO :Test_Career :Phone No : 9667829253
+2022-12-07 11:07:44,771 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-12-07 11:07:48,989 :INFO :Test_Career :Pref Level : UG
+2022-12-07 11:07:52,184 :INFO :Test_Career :State : Andaman and Nicobar
+2022-12-07 11:07:55,220 :INFO :Test_Career :Budget field not present
+2022-12-07 11:07:58,255 :INFO :Test_Career :Board field not present
+2022-12-07 11:08:04,301 :INFO :Test_Career :Whatsapp Enable button is present
+2022-12-07 11:08:11,336 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc11b70>
+2022-12-07 11:08:14,309 :INFO :Test_Career :OTP not required,user already login
+2022-12-07 11:08:27,293 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc018d0>
+2022-12-07 11:08:44,452 :INFO :Test_Career :[11322060, '', None, 'test-kilxnst@gmail.com', 'test-kilxnst@gmail.com', 'testwjvwpy', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 8, 9), None, '9667829253', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 8, 9, 6839), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 8, 8, 887756), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 8, 8, 889753), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '2403F5E05']
+2022-12-07 11:08:50,541 :INFO :Xpath :CTA : Get Expert Help
+2022-12-07 11:08:52,690 :INFO :Xpath :Clicked on Talk to Experts Footer sticky
+2022-12-07 11:08:58,995 :INFO :Test_Career :Name : Testviiaah
+2022-12-07 11:09:02,141 :INFO :Test_Career :Email : Test -DZWbXUa@gmail.com
+2022-12-07 11:09:04,259 :INFO :Test_Career :Phone No : 6704545449
+2022-12-07 11:09:04,518 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-12-07 11:09:08,730 :INFO :Test_Career :Pref Level : UG
+2022-12-07 11:09:11,931 :INFO :Test_Career :State : Andaman and Nicobar
+2022-12-07 11:09:14,965 :INFO :Test_Career :Budget field not present
+2022-12-07 11:09:18,006 :INFO :Test_Career :Board field not present
+2022-12-07 11:09:24,041 :INFO :Test_Career :Whatsapp Enable button is present
+2022-12-07 11:09:31,034 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc30cc0>
+2022-12-07 11:09:33,954 :INFO :Test_Career :OTP not required,user already login
+2022-12-07 11:09:46,642 :INFO :Test_Career :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc30ba8>
+2022-12-07 11:10:03,641 :INFO :Test_Career :[11322066, '', None, 'test-dzwbxua@gmail.com', 'test-dzwbxua@gmail.com', 'testviiaah', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 9, 29), None, '6704545449', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 9, 28, 802127), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/careers/pilot?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 9, 28, 597170), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 9, 28, 600094), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '18F9F3EA9']
+2022-12-07 11:10:07,761 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-12-07 11:10:11,551 :INFO :Test_deskhomepage :-------------------------
+2022-12-07 11:10:11,567 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-12-07 11:10:13,610 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-12-07 11:10:15,396 :INFO :Test_deskhomepage :Response : 200
+2022-12-07 11:10:19,699 :INFO :Xpath :CTA : Talk to our Experts
+2022-12-07 11:10:25,125 :INFO :Test_deskhomepage :Name : Testvinmxo
+2022-12-07 11:10:28,458 :INFO :Test_deskhomepage :Email : Test -nFCFnRn@gmail.com
+2022-12-07 11:10:30,707 :INFO :Test_deskhomepage :Phone No : 8052314503
+2022-12-07 11:10:30,996 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-12-07 11:10:35,384 :INFO :Test_deskhomepage :Pref Level : UG
+2022-12-07 11:10:38,742 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-12-07 11:10:41,795 :INFO :Test_deskhomepage :Budget field not present
+2022-12-07 11:10:44,872 :INFO :Test_deskhomepage :Board field not present
+2022-12-07 11:10:50,938 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-12-07 11:10:58,227 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc01898>
+2022-12-07 11:11:00,967 :INFO :Test_deskhomepage :[737761, '8052314503']
+2022-12-07 11:11:11,451 :INFO :Test_deskhomepage :Otp added successfully
+2022-12-07 11:11:29,466 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc11f28>
+2022-12-07 11:11:47,154 :INFO :Test_deskhomepage :[11322078, '', datetime.datetime(2022, 12, 7, 11, 11, 14), 'test-nfcfnrn@gmail.com', 'test-nfcfnrn@gmail.com', 'testvinmxo', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 10, 56), None, '8052314503', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 10, 56, 51784), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 10, 55, 943804), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 10, 55, 946456), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1DFF49187']
+2022-12-07 11:11:51,211 :INFO :Xpath :Scrolled into footer form
+2022-12-07 11:11:57,580 :INFO :Test_deskhomepage :Name : Testputjfc
+2022-12-07 11:11:59,062 :INFO :Test_deskhomepage :Phone : 7324915032
+2022-12-07 11:11:59,431 :INFO :Test_deskhomepage :Email : Test -RtyIvIC@gmail.com
+2022-12-07 11:12:02,009 :INFO :Test_deskhomepage :Pref State : Andaman and Nicobar
+2022-12-07 11:12:05,622 :INFO :Test_deskhomepage :Pref Level : UG
+2022-12-07 11:12:09,112 :INFO :Test_deskhomepage :Pref Stream : Engineering
+2022-12-07 11:12:13,170 :INFO :Test_deskhomepage :Pref Board field not present
+2022-12-07 11:12:19,591 :INFO :Test_deskhomepage :Footer Lead form submitted
+2022-12-07 11:12:27,671 :INFO :Test_deskhomepage :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-12-07 11:12:34,786 :INFO :Test_deskhomepage :<mysql.connector.connection.MySQLConnection object at 0x7f9eadf30668>
+2022-12-07 11:12:51,516 :INFO :Test_deskhomepage :[11322080, '', None, 'test-rtyivic@gmail.com', 'test-rtyivic@gmail.com', 'testputjfc', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 12, 20), None, '7324915032', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 12, 20, 4258), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 12, 19, 900028), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 12, 19, 902667), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1B4995558']
+2022-12-07 11:12:55,887 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-12-07 11:12:58,344 :INFO :Test_ExamDetail2 :-------------------------
+2022-12-07 11:12:58,363 :INFO :Test_ExamDetail2 :JEE Main 2023 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-12-07 11:13:00,377 :INFO :Test_ExamDetail2 :Current_Url : https://www.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-12-07 11:13:02,088 :INFO :Test_ExamDetail2 :Response : 200
+2022-12-07 11:13:06,140 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 11:13:12,345 :INFO :Test_ExamDetail2 :Name : Testunsxwl
+2022-12-07 11:13:15,472 :INFO :Test_ExamDetail2 :Email : Test -cnJmEIB@gmail.com
+2022-12-07 11:13:17,626 :INFO :Test_ExamDetail2 :Phone No : 6809533235
+2022-12-07 11:13:17,670 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-12-07 11:13:21,704 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-12-07 11:13:24,884 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-12-07 11:13:27,917 :INFO :Test_ExamDetail2 :Budget field not present
+2022-12-07 11:13:30,960 :INFO :Test_ExamDetail2 :Board field not present
+2022-12-07 11:13:37,004 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-12-07 11:13:44,090 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc11358>
+2022-12-07 11:13:47,317 :INFO :Test_ExamDetail2 :[324002, '6809533235']
+2022-12-07 11:13:57,630 :INFO :Test_ExamDetail2 :Otp added successfully
+2022-12-07 11:14:18,320 :INFO :Test_ExamDetail2 :<mysql.connector.connection.MySQLConnection object at 0x7f9eadc11cf8>
+2022-12-07 11:14:35,429 :INFO :Test_ExamDetail2 :[11322087, '', datetime.datetime(2022, 12, 7, 11, 14), 'test-cnjmeib@gmail.com', 'test-cnjmeib@gmail.com', 'testunsxwl', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 11, 13, 41), None, '6809533235', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 11, 13, 41, 422914), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 11, 13, 41, 282176), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 11, 13, 41, 284902), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '195E13B33']
+2022-12-07 11:14:45,434 :INFO :Test_examlisting :******* Starting Exam Listing CTA*********
+2022-12-07 11:14:52,242 :INFO :Test_examlisting :-------------------------
+2022-12-07 11:14:52,251 :INFO :Test_examlisting :List of Engineering Entrance Exams 2022-Check Exam Dates & Notification
+2022-12-07 11:14:54,265 :INFO :Test_examlisting :Current_Url : https://www.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-12-07 11:14:57,905 :INFO :Test_examlisting :Response : 200
+2022-12-07 11:15:03,958 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 12:51:24,958 :INFO :Test_Career :******* Starting Career Detail CTA*********
+2022-12-07 12:51:31,387 :INFO :Test_Career :-------------------------
+2022-12-07 12:51:31,394 :INFO :Test_Career :Career as Pilot - How to Become, Courses, Job Profile, Salary & Scope
+2022-12-07 12:51:33,421 :INFO :Test_Career :Current_Url : https://www.collegedekho.com/careers/pilot?magicflag=1
+2022-12-07 12:51:34,824 :INFO :Test_Career :Response : 200
+2022-12-07 12:51:40,880 :INFO :Xpath :CTA : Follow
+2022-12-07 12:51:43,137 :INFO :Test_Career :Name : Testwhywqe
+2022-12-07 12:51:46,288 :INFO :Test_Career :Email : Test -yWFNLIg@gmail.com
+2022-12-07 12:51:48,463 :INFO :Test_Career :Phone No : 9429355144
+2022-12-07 12:51:48,646 :INFO :Test_Career :Pref Stream : Commerce and Banking
+2022-12-07 12:51:52,816 :INFO :Test_Career :Pref Level : UG
+2022-12-07 12:51:55,970 :INFO :Test_Career :State : Andaman and Nicobar
+2022-12-07 12:51:59,015 :INFO :Test_Career :Budget field not present
+2022-12-07 12:52:02,064 :INFO :Test_Career :Board field not present
+2022-12-07 12:52:08,112 :INFO :Test_Career :Whatsapp Enable button is present
+2022-12-07 12:54:24,565 :INFO :Test_Career :OTP not required,user already login
+2022-12-07 12:56:46,099 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-12-07 12:56:50,153 :INFO :Test_deskhomepage :-------------------------
+2022-12-07 12:56:50,170 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-12-07 12:56:52,186 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-12-07 12:56:53,504 :INFO :Test_deskhomepage :Response : 200
+2022-12-07 12:56:57,780 :INFO :Xpath :CTA : Talk to our Experts
+2022-12-07 12:57:03,227 :INFO :Test_deskhomepage :Name : Testsawlkv
+2022-12-07 12:57:06,447 :INFO :Test_deskhomepage :Email : Test -uhZqBSw@gmail.com
+2022-12-07 12:57:08,639 :INFO :Test_deskhomepage :Phone No : 9887544262
+2022-12-07 12:57:08,894 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-12-07 12:57:13,139 :INFO :Test_deskhomepage :Pref Level : UG
+2022-12-07 12:57:16,385 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-12-07 12:57:19,419 :INFO :Test_deskhomepage :Budget field not present
+2022-12-07 12:57:22,453 :INFO :Test_deskhomepage :Board field not present
+2022-12-07 12:57:28,489 :INFO :Test_deskhomepage :Whatsapp Enable button is present
+2022-12-07 12:59:44,043 :INFO :Test_deskhomepage :OTP not required,user already login
+2022-12-07 13:02:04,333 :INFO :Test_ExamDetail2 :******* Starting CTA Exam Detail*********
+2022-12-07 13:02:06,384 :INFO :Test_ExamDetail2 :-------------------------
+2022-12-07 13:02:06,402 :INFO :Test_ExamDetail2 :JEE Main 2023 Eligibility Criteria: Check Age Limit, Qualification, Attempts, FAQs
+2022-12-07 13:02:08,409 :INFO :Test_ExamDetail2 :Current_Url : https://www.collegedekho.com/exam/jee-main/registration-eligibility?magicflag=1
+2022-12-07 13:02:09,145 :INFO :Test_ExamDetail2 :Response : 200
+2022-12-07 13:02:13,308 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 13:02:19,501 :INFO :Test_ExamDetail2 :Name : Testctpwbw
+2022-12-07 13:02:22,710 :INFO :Test_ExamDetail2 :Email : Test -mrYkuuP@gmail.com
+2022-12-07 13:02:24,967 :INFO :Test_ExamDetail2 :Phone No : 6337600315
+2022-12-07 13:02:25,004 :INFO :Test_ExamDetail2 :Preferred Stream field not present
+2022-12-07 13:02:29,044 :INFO :Test_ExamDetail2 :Preferred level field not present
+2022-12-07 13:02:32,210 :INFO :Test_ExamDetail2 :State : Andaman and Nicobar
+2022-12-07 13:02:35,244 :INFO :Test_ExamDetail2 :Budget field not present
+2022-12-07 13:02:38,270 :INFO :Test_ExamDetail2 :Board field not present
+2022-12-07 13:02:44,304 :INFO :Test_ExamDetail2 :Whatsapp Enable button is present
+2022-12-07 13:05:01,483 :INFO :Test_ExamDetail2 :OTP not required,user already login
+2022-12-07 13:07:27,279 :INFO :Test_examlisting :******* Starting Exam Listing CTA*********
+2022-12-07 13:07:30,819 :INFO :Test_examlisting :-------------------------
+2022-12-07 13:07:30,828 :INFO :Test_examlisting :List of Engineering Entrance Exams 2022-Check Exam Dates & Notification
+2022-12-07 13:07:32,851 :INFO :Test_examlisting :Current_Url : https://www.collegedekho.com/engineering-entrance-exams/?magicflag=1
+2022-12-07 13:07:36,870 :INFO :Test_examlisting :Response : 200
+2022-12-07 13:07:42,934 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 13:07:47,227 :INFO :Test_examlisting :Name : Testlehpli
+2022-12-07 13:07:50,404 :INFO :Test_examlisting :Email : Test -BokSrfE@gmail.com
+2022-12-07 13:07:52,529 :INFO :Test_examlisting :Phone No : 9982697812
+2022-12-07 13:07:52,571 :INFO :Test_examlisting :Preferred Stream field not present
+2022-12-07 13:07:56,597 :INFO :Test_examlisting :Preferred level field not present
+2022-12-07 13:07:59,775 :INFO :Test_examlisting :State : Andaman and Nicobar
+2022-12-07 13:08:02,805 :INFO :Test_examlisting :Budget field not present
+2022-12-07 13:08:05,835 :INFO :Test_examlisting :Board field not present
+2022-12-07 13:08:11,857 :INFO :Test_examlisting :Whatsapp Enable button is present
+2022-12-07 13:10:29,163 :INFO :Test_examlisting :OTP not required,user already login
+2022-12-07 15:17:19,657 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:17:22,980 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:17:23,030 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:17:25,146 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:17:26,234 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:17:30,321 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:19:13,454 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:19:17,068 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:19:17,080 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:19:19,101 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:19:20,101 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:19:24,188 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:19:30,497 :INFO :Test_newsdetail :Name : Testmfqisn
+2022-12-07 15:19:33,674 :INFO :Test_newsdetail :Email : Test -eHdcwzQ@gmail.com
+2022-12-07 15:19:35,820 :INFO :Test_newsdetail :Phone No : 6444360495
+2022-12-07 15:19:35,885 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:19:39,952 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:19:43,173 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:19:46,219 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:19:49,268 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:19:55,313 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:20:50,597 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:20:54,187 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:20:54,244 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:20:56,270 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:20:57,410 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:21:01,517 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:21:07,873 :INFO :Test_newsdetail :Name : Testwwfxwb
+2022-12-07 15:21:11,136 :INFO :Test_newsdetail :Email : Test -LyMiLAv@gmail.com
+2022-12-07 15:21:13,354 :INFO :Test_newsdetail :Phone No : 6806628100
+2022-12-07 15:21:13,424 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:21:17,503 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:21:20,686 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:21:23,737 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:21:26,786 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:21:32,822 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:27:47,156 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:27:51,998 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:27:52,041 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:27:54,056 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:27:55,762 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:27:59,861 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:28:35,287 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:28:41,054 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:28:41,145 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:28:43,190 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:28:44,946 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:28:49,035 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:30:36,168 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:30:40,560 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:30:40,631 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:30:42,646 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:30:44,047 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:30:48,118 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:30:55,506 :INFO :Test_newsdetail :Name : Testydlvys
+2022-12-07 15:30:58,704 :INFO :Test_newsdetail :Email : Test -OWcloxU@gmail.com
+2022-12-07 15:31:00,857 :INFO :Test_newsdetail :Phone No : 8611029502
+2022-12-07 15:31:00,920 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:31:04,978 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:31:08,181 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:31:11,223 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:31:14,273 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:31:20,321 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:33:57,654 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:34:05,778 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:34:05,806 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:34:07,822 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:34:09,836 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:34:16,331 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:34:23,650 :INFO :Test_newsdetail :Name : Testocoexa
+2022-12-07 15:34:26,868 :INFO :Test_newsdetail :Email : Test -ggGmrem@gmail.com
+2022-12-07 15:34:29,046 :INFO :Test_newsdetail :Phone No : 7039766263
+2022-12-07 15:34:29,097 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:34:33,153 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:34:36,386 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:34:39,432 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:34:42,481 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:34:48,527 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:35:55,190 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:36:00,008 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:36:00,115 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:36:02,122 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:36:03,968 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:36:09,900 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:36:17,259 :INFO :Test_newsdetail :Name : Testmgdiwi
+2022-12-07 15:36:20,464 :INFO :Test_newsdetail :Email : Test -OQJWzQu@gmail.com
+2022-12-07 15:36:22,622 :INFO :Test_newsdetail :Phone No : 7194968015
+2022-12-07 15:36:22,681 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:36:26,732 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:36:29,937 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:36:32,985 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:36:36,030 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:36:42,075 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:45:07,013 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:45:35,894 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:45:35,914 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:45:37,936 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 15:45:39,629 :INFO :Test_newsdetail :Response : 200
+2022-12-07 15:45:46,507 :INFO :Xpath :CTA : Set Exam Alert
+2022-12-07 15:45:53,891 :INFO :Test_newsdetail :Name : Testulidva
+2022-12-07 15:45:57,094 :INFO :Test_newsdetail :Email : Test -TOUOXyS@gmail.com
+2022-12-07 15:45:59,244 :INFO :Test_newsdetail :Phone No : 9905042647
+2022-12-07 15:45:59,309 :INFO :Test_newsdetail :Preferred Stream field not present
+2022-12-07 15:46:03,376 :INFO :Test_newsdetail :Preferred level field not present
+2022-12-07 15:46:06,561 :INFO :Test_newsdetail :State : Andaman and Nicobar
+2022-12-07 15:46:09,609 :INFO :Test_newsdetail :Budget field not present
+2022-12-07 15:46:12,657 :INFO :Test_newsdetail :Board field not present
+2022-12-07 15:46:18,686 :INFO :Test_newsdetail :Whatsapp Enable button is present
+2022-12-07 15:46:25,711 :INFO :Test_newsdetail :<mysql.connector.connection.MySQLConnection object at 0x7fde74d68668>
+2022-12-07 15:46:28,841 :INFO :Test_newsdetail :[517406, '9905042647']
+2022-12-07 15:46:39,266 :INFO :Test_newsdetail :Otp added successfully
+2022-12-07 15:47:01,444 :INFO :Test_newsdetail :<mysql.connector.connection.MySQLConnection object at 0x7fde74d68b70>
+2022-12-07 15:47:16,019 :INFO :Test_newsdetail :[11322933, '', datetime.datetime(2022, 12, 7, 15, 46, 42), 'test-touoxys@gmail.com', 'test-touoxys@gmail.com', 'testulidva', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 15, 46, 23), None, '9905042647', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 15, 46, 23, 234214), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 15, 46, 23, 73500), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 15, 46, 23, 81699), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '24E62F4D7']
+2022-12-07 15:52:02,704 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 15:54:50,464 :INFO :Test_newsdetail :-------------------------
+2022-12-07 15:54:50,475 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 15:54:52,493 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 16:17:07,552 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:17:13,879 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:17:13,890 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:17:15,969 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:17:16,913 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:19:03,298 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:19:06,480 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:19:06,566 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:19:08,577 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:19:09,481 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:19:34,717 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:19:37,848 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:19:37,856 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:19:39,876 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:19:40,881 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:20:46,499 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:20:49,781 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:20:49,825 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:20:51,893 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:20:53,005 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:20:58,968 :INFO :Xpath :CTA : Download Sample Paper
+2022-12-07 16:21:06,360 :INFO :Test_newsBoard :Name : Testkmfvhr
+2022-12-07 16:21:09,580 :INFO :Test_newsBoard :Email : Test -WcfSncQ@gmail.com
+2022-12-07 16:21:11,755 :INFO :Test_newsBoard :Phone No : 9296592504
+2022-12-07 16:21:11,812 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:21:15,860 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:21:19,042 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:21:22,086 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:21:25,132 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:21:31,182 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:21:38,108 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7feb73963e10>
+2022-12-07 16:21:40,903 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 16:21:51,708 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7feb739631d0>
+2022-12-07 16:22:07,490 :INFO :Test_newsBoard :[11323017, '', None, 'test-wcfsncq@gmail.com', 'test-wcfsncq@gmail.com', 'testkmfvhr', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 21, 36), None, '9296592504', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 21, 36, 182677), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 21, 36, 62894), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 21, 36, 68437), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '22A1EBE78']
+2022-12-07 16:22:11,586 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:23:31,345 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:23:36,655 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:23:36,761 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:23:38,844 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:23:40,483 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:23:46,611 :INFO :Xpath :CTA : Download Sample Paper
+2022-12-07 16:23:53,964 :INFO :Test_newsBoard :Name : Testjzuoln
+2022-12-07 16:23:57,169 :INFO :Test_newsBoard :Email : Test -hhzZpwn@gmail.com
+2022-12-07 16:23:59,338 :INFO :Test_newsBoard :Phone No : 7395407791
+2022-12-07 16:23:59,405 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:24:03,464 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:24:06,692 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:24:09,739 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:24:12,788 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:24:18,839 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:24:25,798 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fb4915c4048>
+2022-12-07 16:24:28,699 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 16:24:31,702 :INFO :Test_newsBoard :Sample paper is downloaded
+2022-12-07 16:24:38,386 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fb4915c49b0>
+2022-12-07 16:24:55,138 :INFO :Test_newsBoard :[11323024, '', None, 'test-hhzzpwn@gmail.com', 'test-hhzzpwn@gmail.com', 'testjzuoln', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 24, 23), None, '7395407791', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 24, 23, 603850), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 24, 23, 270363), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 24, 23, 298016), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1B8CCF7AF']
+2022-12-07 16:24:59,230 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:28:15,062 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:28:20,305 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:28:20,396 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:28:22,416 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:28:23,885 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:28:30,618 :INFO :Xpath :CTA : Download Sample Paper
+2022-12-07 16:28:38,230 :INFO :Test_newsBoard :Name : Testahixso
+2022-12-07 16:28:41,668 :INFO :Test_newsBoard :Email : Test -GbEGzut@gmail.com
+2022-12-07 16:28:43,914 :INFO :Test_newsBoard :Phone No : 8964610420
+2022-12-07 16:28:43,991 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:28:48,047 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:28:51,302 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:28:54,359 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:28:57,436 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:29:03,501 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:29:10,612 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f42a991fda0>
+2022-12-07 16:29:13,760 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 16:29:16,762 :INFO :Test_newsBoard :Sample paper is downloaded
+2022-12-07 16:29:23,426 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f42a991f0f0>
+2022-12-07 16:37:20,882 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:37:25,528 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:37:25,634 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:37:27,705 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:37:29,427 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:37:36,009 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:37:43,409 :INFO :Test_newsBoard :Name : Testtlhsjg
+2022-12-07 16:37:46,661 :INFO :Test_newsBoard :Email : Test -vTMwDcI@gmail.com
+2022-12-07 16:37:48,958 :INFO :Test_newsBoard :Phone No : 7305423657
+2022-12-07 16:37:49,008 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:37:53,070 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:37:56,307 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:37:59,352 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:38:02,400 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:38:08,450 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:38:15,522 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f56457b3b38>
+2022-12-07 16:38:18,670 :INFO :Test_newsBoard :[371155, '7305423657']
+2022-12-07 16:38:29,202 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 16:38:51,333 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f56457b3550>
+2022-12-07 16:39:08,902 :INFO :Test_newsBoard :[11323071, '', datetime.datetime(2022, 12, 7, 16, 38, 32), 'test-vtmwdci@gmail.com', 'test-vtmwdci@gmail.com', 'testtlhsjg', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 38, 13), None, '7305423657', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 38, 13, 3195), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 38, 12, 891739), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 38, 12, 897102), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1B36FEB29']
+2022-12-07 16:39:12,999 :INFO :Xpath :CTA : Want to learn more about college options and to secure an admission now!
+2022-12-07 16:39:17,407 :INFO :Test_newsBoard :Name : Testykaihm
+2022-12-07 16:39:18,564 :INFO :Test_newsBoard :Phone : 8890474746
+2022-12-07 16:39:18,987 :INFO :Test_newsBoard :Email : Test -mfffNEx@gmail.com
+2022-12-07 16:39:21,382 :INFO :Test_newsBoard :Pref State : Andaman and Nicobar
+2022-12-07 16:39:24,426 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:39:27,471 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:39:31,558 :INFO :Test_newsBoard :Pref Board field not present
+2022-12-07 16:39:37,917 :INFO :Test_newsBoard :Footer Lead form submitted
+2022-12-07 16:39:46,064 :INFO :Test_newsBoard :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-12-07 16:44:17,562 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:44:22,991 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:44:23,078 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:44:25,112 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:44:26,589 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:46:44,001 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:46:48,357 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:46:48,520 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:46:50,618 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:46:52,166 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:50:23,319 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:50:27,532 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:50:27,682 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:50:29,750 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:50:31,517 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:50:37,936 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:50:45,479 :INFO :Test_newsBoard :Name : Testmohuwi
+2022-12-07 16:50:48,730 :INFO :Test_newsBoard :Email : Test -QiOGTTt@gmail.com
+2022-12-07 16:50:51,031 :INFO :Test_newsBoard :Phone No : 9547153538
+2022-12-07 16:50:51,081 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:50:55,142 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:50:58,549 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:51:01,593 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:51:04,641 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:51:10,689 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:51:17,755 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f07905b0dd8>
+2022-12-07 16:51:20,982 :INFO :Test_newsBoard :[361376, '9547153538']
+2022-12-07 16:51:31,579 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 16:51:48,174 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f07905b07f0>
+2022-12-07 16:52:03,837 :INFO :Test_newsBoard :[11323101, '', datetime.datetime(2022, 12, 7, 16, 51, 34), 'test-qiogttt@gmail.com', 'test-qiogttt@gmail.com', 'testmohuwi', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 51, 15), None, '9547153538', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 51, 15, 226194), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 51, 15, 116894), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 51, 15, 118858), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '2390E0082']
+2022-12-07 16:52:12,540 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:52:20,128 :INFO :Test_newsBoard :Name : Testzjtbzg
+2022-12-07 16:52:23,660 :INFO :Test_newsBoard :Email : Test -TMLFUvl@gmail.com
+2022-12-07 16:52:25,853 :INFO :Test_newsBoard :Phone No : 8826306721
+2022-12-07 16:52:25,940 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:52:29,996 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:52:33,495 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:52:36,562 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:52:39,632 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:52:45,679 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:52:52,773 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f0790510c88>
+2022-12-07 16:52:55,804 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 16:53:05,610 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f0790510d68>
+2022-12-07 16:53:15,352 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 16:53:19,281 :INFO :Test_newsBoard :-------------------------
+2022-12-07 16:53:19,417 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 16:53:21,430 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 16:53:23,099 :INFO :Test_newsBoard :Response : 200
+2022-12-07 16:53:29,468 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:53:37,224 :INFO :Test_newsBoard :Name : Testwbehey
+2022-12-07 16:53:40,552 :INFO :Test_newsBoard :Email : Test -SKYasqO@gmail.com
+2022-12-07 16:53:42,902 :INFO :Test_newsBoard :Phone No : 8870298942
+2022-12-07 16:53:42,968 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:53:47,037 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:53:50,300 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:53:53,344 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:53:56,394 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:54:02,449 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:54:09,751 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f368068cdd8>
+2022-12-07 16:54:12,805 :INFO :Test_newsBoard :[307181, '8870298942']
+2022-12-07 16:54:23,274 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 16:54:39,469 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f368068c7f0>
+2022-12-07 16:54:56,294 :INFO :Test_newsBoard :[11323106, '', datetime.datetime(2022, 12, 7, 16, 54, 26), 'test-skyasqo@gmail.com', 'test-skyasqo@gmail.com', 'testwbehey', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 54, 7), None, '8870298942', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 54, 7, 18852), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 54, 6, 882839), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 54, 6, 889925), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '210B6053E']
+2022-12-07 16:55:04,537 :INFO :Xpath :CTA : Download Guide
+2022-12-07 16:55:17,262 :INFO :Test_newsBoard :Name : Testebfiqz
+2022-12-07 16:55:21,723 :INFO :Test_newsBoard :Email : Test -kirnnpD@gmail.com
+2022-12-07 16:55:24,947 :INFO :Test_newsBoard :Phone No : 8705965959
+2022-12-07 16:55:25,012 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 16:55:29,107 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 16:55:32,543 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 16:55:36,082 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 16:55:44,460 :INFO :Test_newsBoard :Board field not present
+2022-12-07 16:55:50,755 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 16:55:58,191 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f36805ebe80>
+2022-12-07 16:56:02,837 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 16:56:17,633 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f36805ebc88>
+2022-12-07 16:56:35,213 :INFO :Test_newsBoard :[11323113, '', None, 'test-kirnnpd@gmail.com', 'test-kirnnpd@gmail.com', 'testebfiqz', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 16, 55, 55), None, '8705965959', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 16, 55, 55, 548588), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 16, 55, 55, 403028), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 16, 55, 55, 409943), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '206EA7F87']
+2022-12-07 16:56:39,323 :INFO :Xpath :CTA : Want to learn more about college options and to secure an admission now!
+2022-12-07 17:01:14,533 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 17:01:19,224 :INFO :Test_newsBoard :-------------------------
+2022-12-07 17:01:19,307 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 17:01:21,325 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 17:01:23,079 :INFO :Test_newsBoard :Response : 200
+2022-12-07 17:01:29,605 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:01:37,075 :INFO :Test_newsBoard :Name : Testfbmvuo
+2022-12-07 17:01:40,339 :INFO :Test_newsBoard :Email : Test -FDEooux@gmail.com
+2022-12-07 17:01:42,533 :INFO :Test_newsBoard :Phone No : 7314326713
+2022-12-07 17:01:42,606 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:01:46,672 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:01:49,910 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:01:52,962 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:01:56,016 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:02:02,072 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:02:09,181 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fc6968d6048>
+2022-12-07 17:02:12,042 :INFO :Test_newsBoard :[115432, '7314326713']
+2022-12-07 17:02:22,586 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 17:02:46,670 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fc6969ae128>
+2022-12-07 17:03:03,960 :INFO :Test_newsBoard :[11323132, '', datetime.datetime(2022, 12, 7, 17, 2, 25), 'test-fdeooux@gmail.com', 'test-fdeooux@gmail.com', 'testfbmvuo', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 17, 2, 7), None, '7314326713', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 17, 2, 6, 646889), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 17, 2, 6, 514947), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 17, 2, 6, 521756), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1B3F7C4B9']
+2022-12-07 17:03:12,431 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:03:19,980 :INFO :Test_newsBoard :Name : Testvybssm
+2022-12-07 17:03:23,329 :INFO :Test_newsBoard :Email : Test -QmMjsWA@gmail.com
+2022-12-07 17:03:25,662 :INFO :Test_newsBoard :Phone No : 9232201162
+2022-12-07 17:03:25,806 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:03:29,882 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:03:33,112 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:03:36,148 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:03:39,227 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:03:45,286 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:03:52,306 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fc6968d69e8>
+2022-12-07 17:03:55,290 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 17:04:04,501 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7fc696972908>
+2022-12-07 17:04:33,545 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 17:04:38,308 :INFO :Test_newsBoard :-------------------------
+2022-12-07 17:04:38,379 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 17:04:40,399 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 17:04:42,260 :INFO :Test_newsBoard :Response : 200
+2022-12-07 17:04:48,602 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:04:56,246 :INFO :Test_newsBoard :Name : Testgjegrj
+2022-12-07 17:04:59,580 :INFO :Test_newsBoard :Email : Test -qvlvYdL@gmail.com
+2022-12-07 17:05:01,801 :INFO :Test_newsBoard :Phone No : 6228963291
+2022-12-07 17:05:01,875 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:05:05,942 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:05:09,200 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:05:12,252 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:05:15,304 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:05:21,360 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:05:28,733 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f7633c25860>
+2022-12-07 17:05:31,490 :INFO :Test_newsBoard :[386061, '6228963291']
+2022-12-07 17:05:41,942 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 17:06:00,137 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f7633c25b38>
+2022-12-07 17:06:17,723 :INFO :Test_newsBoard :[11323138, '', datetime.datetime(2022, 12, 7, 17, 5, 44), 'test-qvlvydl@gmail.com', 'test-qvlvydl@gmail.com', 'testgjegrj', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 17, 5, 26), None, '6228963291', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 17, 5, 25, 913973), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 17, 5, 25, 779898), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 17, 5, 25, 781976), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '173466FDB']
+2022-12-07 17:08:02,163 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 17:08:10,784 :INFO :Test_newsBoard :-------------------------
+2022-12-07 17:08:10,800 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 17:08:12,817 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 17:08:14,576 :INFO :Test_newsBoard :Response : 200
+2022-12-07 17:08:23,825 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:08:32,065 :INFO :Test_newsBoard :Name : Testvrvilc
+2022-12-07 17:08:35,671 :INFO :Test_newsBoard :Email : Test -PKplcfm@gmail.com
+2022-12-07 17:08:38,806 :INFO :Test_newsBoard :Phone No : 7644255702
+2022-12-07 17:08:38,885 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:08:42,991 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:08:46,295 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:08:49,367 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:08:52,417 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:08:58,516 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:09:05,962 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f4a61d8b8d0>
+2022-12-07 17:09:08,830 :INFO :Test_newsBoard :[732699, '7644255702']
+2022-12-07 17:09:22,535 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 17:09:40,710 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f4a61d8bba8>
+2022-12-07 17:09:57,107 :INFO :Test_newsBoard :[11323146, '', datetime.datetime(2022, 12, 7, 17, 9, 25), 'test-pkplcfm@gmail.com', 'test-pkplcfm@gmail.com', 'testvrvilc', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 17, 9, 3), None, '7644255702', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 17, 9, 3, 313430), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 17, 9, 3, 187323), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 17, 9, 3, 189475), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1C7A215D6']
+2022-12-07 17:10:15,956 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:16:36,929 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 17:16:44,512 :INFO :Test_newsBoard :-------------------------
+2022-12-07 17:16:44,551 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 17:16:46,566 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 17:16:48,515 :INFO :Test_newsBoard :Response : 200
+2022-12-07 17:16:54,977 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:17:02,557 :INFO :Test_newsBoard :Name : Testqlynzk
+2022-12-07 17:17:05,818 :INFO :Test_newsBoard :Email : Test -QHURkOG@gmail.com
+2022-12-07 17:17:07,952 :INFO :Test_newsBoard :Phone No : 7631014655
+2022-12-07 17:17:08,015 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:17:12,066 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:17:15,305 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:17:18,349 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:17:21,396 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:17:27,440 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:19:44,731 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 17:19:56,560 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f957222ab00>
+2022-12-07 17:31:57,915 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 17:32:06,513 :INFO :Test_newsBoard :-------------------------
+2022-12-07 17:32:06,523 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 17:32:08,541 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 17:32:11,056 :INFO :Test_newsBoard :Response : 200
+2022-12-07 17:32:17,816 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:32:25,355 :INFO :Test_newsBoard :Name : Testeownou
+2022-12-07 17:32:28,620 :INFO :Test_newsBoard :Email : Test -tbuaoCq@gmail.com
+2022-12-07 17:32:30,816 :INFO :Test_newsBoard :Phone No : 7476997079
+2022-12-07 17:32:30,881 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:32:34,956 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:32:38,188 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:32:41,233 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:32:44,280 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:32:50,333 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:32:57,451 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f20de0c5908>
+2022-12-07 17:33:00,435 :INFO :Test_newsBoard :[422758, '7476997079']
+2022-12-07 17:33:10,884 :INFO :Test_newsBoard :Otp added successfully
+2022-12-07 17:33:32,931 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f20de0c5b70>
+2022-12-07 17:33:49,015 :INFO :Test_newsBoard :[11323202, '', datetime.datetime(2022, 12, 7, 17, 33, 14), 'test-tbuaocq@gmail.com', 'test-tbuaocq@gmail.com', 'testeownou', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 17, 32, 55), None, '7476997079', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, None, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 17, 32, 55, 616462), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 17, 32, 55, 466505), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 17, 32, 55, 473192), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1BDA9EBD7']
+2022-12-07 17:33:58,935 :INFO :Xpath :CTA : Download Guide
+2022-12-07 17:34:05,908 :INFO :Test_newsBoard :Name : Testovotki
+2022-12-07 17:34:09,182 :INFO :Test_newsBoard :Email : Test -ltqNZpl@gmail.com
+2022-12-07 17:34:11,368 :INFO :Test_newsBoard :Phone No : 8125784962
+2022-12-07 17:34:11,435 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:34:15,501 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:34:18,815 :INFO :Test_newsBoard :State : Andaman and Nicobar
+2022-12-07 17:34:21,862 :INFO :Test_newsBoard :Budget field not present
+2022-12-07 17:34:24,908 :INFO :Test_newsBoard :Board field not present
+2022-12-07 17:34:30,956 :INFO :Test_newsBoard :Whatsapp Enable button is present
+2022-12-07 17:34:38,086 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f20de024ef0>
+2022-12-07 17:34:41,023 :INFO :Test_newsBoard :OTP not required,user already login
+2022-12-07 17:34:55,944 :INFO :Test_newsBoard :<mysql.connector.connection.MySQLConnection object at 0x7f20de0245c0>
+2022-12-07 17:35:10,502 :INFO :Test_newsBoard :[11323205, '', None, 'test-ltqnzpl@gmail.com', 'test-ltqnzpl@gmail.com', 'testovotki', '', 0, 1, 0, datetime.datetime(2022, 12, 7, 17, 34, 36), None, '8125784962', None, 0, 0, 0, None, None, None, None, None, 1, None, None, 1, None, 0, None, None, None, None, None, 1, None, None, 6, None, 400070, 0, None, None, None, 1, 0, None, 0, None, 7, None, 0, None, 0, None, datetime.datetime(2022, 12, 7, 17, 34, 36, 140933), 1, None, None, None, 0, 0, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, 'https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1', None, None, 1, '19.0748', '72.8856', 1, None, datetime.datetime(2022, 12, 7, 17, 34, 36, 12325), 2, None, None, 0, None, None, datetime.datetime(2022, 12, 7, 17, 34, 36, 19865), None, -1, 0, 0.0, None, 1, 1, None, 0, 10, None, None, None, None, None, None, 1, None, '13.234.208.43', 201, 105, 0, None, None, 10, 28.6326784, 77.2210688, None, None, None, None, None, None, None, None, 1, '1E455A382']
+2022-12-07 17:35:20,823 :INFO :Xpath :CTA : Want to learn more about college options and to secure an admission now!
+2022-12-07 17:35:25,282 :INFO :Test_newsBoard :Name : Testxofkgz
+2022-12-07 17:35:26,455 :INFO :Test_newsBoard :Phone : 7075717325
+2022-12-07 17:35:26,794 :INFO :Test_newsBoard :Email : Test -uEXkasu@gmail.com
+2022-12-07 17:35:29,211 :INFO :Test_newsBoard :Pref State : Andaman and Nicobar
+2022-12-07 17:35:32,276 :INFO :Test_newsBoard :Preferred level field not present
+2022-12-07 17:35:35,365 :INFO :Test_newsBoard :Preferred Stream field not present
+2022-12-07 17:35:39,416 :INFO :Test_newsBoard :Pref Board field not present
+2022-12-07 17:35:45,719 :INFO :Test_newsBoard :Footer Lead form submitted
+2022-12-07 17:35:53,805 :INFO :Test_newsBoard :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !

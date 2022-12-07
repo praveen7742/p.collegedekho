@@ -105,7 +105,8 @@ class Cta():
         time.sleep(4)
         
        #submit button 
-        self.driver.find_element(By.CSS_SELECTOR,"button[type='submit']").click()
+        #self.driver.find_element(By.CSS_SELECTOR,"button[type='submit']").click()
+        self.driver.find_element(By.CSS_SELECTOR,"button[class='btn btn-danger gtm-submit-btn']").click()
         time.sleep(2)
 
 #OTP CONNECTION

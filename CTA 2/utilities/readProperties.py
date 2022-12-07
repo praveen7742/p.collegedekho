@@ -41,6 +41,18 @@ class ReadConfig:
         CollegeDetail_Url=config.get('common info','ColDtl_Url')
     
         return CollegeDetail_Url
+    
+    @staticmethod
+    def getNewsDtlURL():
+        NewsDetail_Url=config.get('common info','NewsDtl_Url')
+    
+        return NewsDetail_Url
+
+    @staticmethod
+    def getBoardDtlURL():
+        BoardDetail_Url=config.get('common info','BoardDtl_Url')
+    
+        return BoardDetail_Url
 
     
 
