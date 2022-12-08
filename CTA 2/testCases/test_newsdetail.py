@@ -13,14 +13,14 @@ from pageObjects.Xpaths import Xpath
 
 class Test_newsdetail(Cta):
     
-    baseURL = ReadConfig.getNewsDtlURL()
+    baseURL7 = ReadConfig.getNewsDtlURL()
     logger = LogGen.loggen()  # Logger
 
   
     def test_newsdetail(self,setup):
         self.logger.info("******* Starting CTA test for NewsDetail**********")
         self.driver = setup
-        self.driver.get(self.baseURL)
+        self.driver.get(self.baseURL7)
         self.logger.info("-------------------------")
         actual_title = self.driver.title
         self.logger.info(actual_title)

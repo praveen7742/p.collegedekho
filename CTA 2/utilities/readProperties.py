@@ -1,7 +1,7 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read("/home/yashdhamija/p.collegedekho-1/CTA 2/Configurations/config.ini")
+config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
 
 class ReadConfig:
     @staticmethod

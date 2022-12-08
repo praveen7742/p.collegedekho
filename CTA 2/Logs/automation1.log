@@ -2093,3 +2093,49 @@
 2022-12-07 17:35:39,416 :INFO :Test_newsBoard :Pref Board field not present
 2022-12-07 17:35:45,719 :INFO :Test_newsBoard :Footer Lead form submitted
 2022-12-07 17:35:53,805 :INFO :Test_newsBoard :Thank you ! Our counsellor will soon be in touch with you to guide you through your admissions journey !
+2022-12-07 18:10:22,301 :INFO :Test_newsBoard :******* Starting CTA test for New Board**********
+2022-12-07 18:10:29,836 :INFO :Test_newsBoard :-------------------------
+2022-12-07 18:10:29,960 :INFO :Test_newsBoard :CBSE 12th Sample Paper 2023 - Download CBSE Class 12 Sample Paper with Solutions | CollegeDekho
+2022-12-07 18:10:31,983 :INFO :Test_newsBoard :Current_Url : https://www.collegedekho.com/cbse-sample-question-paper-for-class-12-brd?magicflag=1
+2022-12-07 18:10:33,645 :INFO :Test_newsBoard :Response : 200
+2022-12-07 18:13:15,900 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-12-07 18:13:20,072 :INFO :Test_deskhomepage :-------------------------
+2022-12-07 18:13:20,088 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-12-07 18:59:07,522 :INFO :Test_newsdetail :******* Starting CTA test for NewsDetail**********
+2022-12-07 18:59:23,178 :INFO :Test_newsdetail :-------------------------
+2022-12-07 18:59:23,186 :INFO :Test_newsdetail :WBJEE Application From 2023 Date: Know when registration is scheduled to begin | CollegeDekho
+2022-12-07 18:59:25,205 :INFO :Test_newsdetail :Current_Url : https://www.collegedekho.com/news/wbjee-application-from-2023-date-know-when-registration-is-scheduled-to-begin-33877/?magicflag=1
+2022-12-07 18:59:31,933 :INFO :Test_newsdetail :Response : 200
+2022-12-07 22:16:43,585 :INFO :Test_ColDetail :******* Starting College CTA*********
+2022-12-07 22:17:00,759 :INFO :Test_ColDetail :-------------------------
+2022-12-07 22:17:00,768 :INFO :Test_ColDetail :LPU (Lovely Professional University) - Admission 2022, Courses, Fees
+2022-12-07 22:17:02,784 :INFO :Test_ColDetail :Current_Url : https://www.collegedekho.com/colleges/lpu
+2022-12-07 22:17:05,749 :INFO :Test_ColDetail :Response : 200
+2022-12-07 22:17:09,823 :INFO :Xpath :CTA : Get Free Counselling
+2022-12-07 22:17:14,329 :INFO :Test_ColDetail :Name : Testpteqlg
+2022-12-07 22:17:17,710 :INFO :Test_ColDetail :Email : Test-UkpVdXE@gmail.com
+2022-12-07 22:17:19,960 :INFO :Test_ColDetail :Phone No : 6602411365
+2022-12-07 22:17:20,318 :INFO :Test_ColDetail :Pref Stream : Commerce and Banking
+2022-12-07 22:17:24,544 :INFO :Test_ColDetail :Pref Level : UG
+2022-12-07 22:17:27,569 :INFO :Test_ColDetail :State field not present
+2022-12-07 22:17:30,590 :INFO :Test_ColDetail :Budget field not present
+2022-12-07 22:17:33,642 :INFO :Test_ColDetail :Board field not present
+2022-12-07 22:17:39,694 :INFO :Test_ColDetail :Whatsapp Enable button is present
+2022-12-08 12:30:10,217 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-12-08 12:30:14,103 :INFO :Test_deskhomepage :-------------------------
+2022-12-08 12:30:14,108 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-12-08 12:30:16,130 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-12-08 12:30:18,043 :INFO :Test_deskhomepage :Response : 200
+2022-12-08 12:30:22,207 :INFO :Xpath :CTA : Talk to our Experts
+2022-12-08 12:30:27,531 :INFO :Test_deskhomepage :Name : Testnyjhcn
+2022-12-08 12:30:30,746 :INFO :Test_deskhomepage :Email : Test-hVCRGhR@gmail.com
+2022-12-08 12:30:32,918 :INFO :Test_deskhomepage :Phone No : 6103238690
+2022-12-08 12:30:33,155 :INFO :Test_deskhomepage :Pref Stream : Commerce and Banking
+2022-12-08 12:30:37,400 :INFO :Test_deskhomepage :Pref Level : UG
+2022-12-08 12:30:40,568 :INFO :Test_deskhomepage :State : Andaman and Nicobar
+2022-12-08 12:30:43,600 :INFO :Test_deskhomepage :Budget field not present
+2022-12-08 12:34:14,613 :INFO :Test_deskhomepage :******* Starting CTA TEST HOMEPAGE**********
+2022-12-08 12:34:19,061 :INFO :Test_deskhomepage :-------------------------
+2022-12-08 12:34:19,070 :INFO :Test_deskhomepage :Find Top Colleges & Universities in India | Explore Courses, Exams, Admissions & Latest News
+2022-12-08 12:34:21,079 :INFO :Test_deskhomepage :Current_Url : https://www.collegedekho.com/?magicflag=1
+2022-12-08 12:34:23,366 :INFO :Test_deskhomepage :Response : 200

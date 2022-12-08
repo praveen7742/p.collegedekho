@@ -1,10 +1,11 @@
 import time
 import requests
 import pytest
+import sys
 import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-#sys.path.append("/home/collegedekho/p.collegedekho/CTA 2")
+sys.path.append("/home/collegedekho/p.collegedekho/CTA 2")
 from pageObjects.common_configuration import Cta
 from pageObjects.Xpaths import Xpath
 from utilities.readProperties import ReadConfig
