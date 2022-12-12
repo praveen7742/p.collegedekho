@@ -1,5 +1,8 @@
 import logging
+import os
+from pathlib import Path
 import inspect
+
 
 class LogGen:
     @staticmethod
@@ -7,6 +10,11 @@ class LogGen:
         # getLogger() method takes the test case name as input
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
+        # os.chdir("..")
+        # read_path = os.getcwd()
+        # log_path = str(read_path)+"/Logs/automation1.log"
+
+        #fileHandler = logging.FileHandler(log_path)
 
         # FileHandler() method takes location and path of log file
         fileHandler = logging.FileHandler('/home/collegedekho/p.collegedekho/CTA 2/Logs/automation1.log')

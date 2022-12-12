@@ -1,7 +1,15 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
+import os
+from pathlib import Path
+os.chdir("..")
+read_file = os.getcwd()
+config_path = str(read_file)+"/Configurations/config.ini"
+print(config_path)
+
+config.read(config_path)
+#config.read("/home/collegedekho/p.collegedekho/CTA 2/Configurations/config.ini")
 
 class ReadConfig:
     @staticmethod
